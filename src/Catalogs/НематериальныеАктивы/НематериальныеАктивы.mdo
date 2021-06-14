@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c3d7c58f-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="5541c51c-c85a-4716-80c8-486bf0daab47">
+  <producedTypes>
+    <objectType typeId="c3d7c57e-652e-11ea-b484-441ea1d3e78c" valueTypeId="c3d7c57f-652e-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="c3d7c580-652e-11ea-b484-441ea1d3e78c" valueTypeId="c3d7c588-652e-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="c3d7c589-652e-11ea-b484-441ea1d3e78c" valueTypeId="c3d7c58a-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="c3d7c58b-652e-11ea-b484-441ea1d3e78c" valueTypeId="c3d7c58c-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="c3d7c58d-652e-11ea-b484-441ea1d3e78c" valueTypeId="c3d7c58e-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>НематериальныеАктивы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

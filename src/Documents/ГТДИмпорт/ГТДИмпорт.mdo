@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ed528e8-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="7ff1a77b-071b-49fc-9c6c-00db9135c2c1">
+  <producedTypes>
+    <objectType typeId="0ed528de-652d-11ea-b484-441ea1d3e78c" valueTypeId="0ed528df-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="0ed528e0-652d-11ea-b484-441ea1d3e78c" valueTypeId="0ed528e1-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="0ed528e2-652d-11ea-b484-441ea1d3e78c" valueTypeId="0ed528e3-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="0ed528e4-652d-11ea-b484-441ea1d3e78c" valueTypeId="0ed528e5-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="0ed528e6-652d-11ea-b484-441ea1d3e78c" valueTypeId="0ed528e7-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ГТДИмпорт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

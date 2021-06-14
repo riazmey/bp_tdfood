@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e020b8c8-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="4ff08eef-0159-4825-9470-7cb8fa67a561">
+  <producedTypes>
+    <objectType typeId="e020b8b8-652d-11ea-b484-441ea1d3e78c" valueTypeId="e020b8b9-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="e020b8ba-652d-11ea-b484-441ea1d3e78c" valueTypeId="e020b8bb-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="e020b8c2-652d-11ea-b484-441ea1d3e78c" valueTypeId="e020b8c3-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="e020b8c4-652d-11ea-b484-441ea1d3e78c" valueTypeId="e020b8c5-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="e020b8c6-652d-11ea-b484-441ea1d3e78c" valueTypeId="e020b8c7-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>РасходыПредпринимателя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

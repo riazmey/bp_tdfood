@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f8e8f22f-6827-413b-be53-ae5ff05579b8">
+  <producedTypes>
+    <objectType typeId="a249f5f8-698f-47f8-925c-3fb15a5f503d" valueTypeId="892489e0-33ff-4ef2-9254-11a195c356e8"/>
+    <refType typeId="98cd277f-1ab4-4cb9-8b1f-79f977aacca4" valueTypeId="08fda052-a216-4926-814c-f6c494add089"/>
+    <selectionType typeId="2e9aa55a-941d-4a48-82bf-5bda8041bb67" valueTypeId="7149aac2-3274-486e-9d08-6aaaa7961318"/>
+    <listType typeId="1d0a1a53-d571-4d19-b394-5029bac51335" valueTypeId="2667bcaa-fb07-4c07-8f85-189102dd766f"/>
+    <managerType typeId="19334e20-8342-4034-8117-f5e56922b53d" valueTypeId="f459a10b-a5be-489e-bb82-0c59ec18a24c"/>
+  </producedTypes>
+  <name>Должности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

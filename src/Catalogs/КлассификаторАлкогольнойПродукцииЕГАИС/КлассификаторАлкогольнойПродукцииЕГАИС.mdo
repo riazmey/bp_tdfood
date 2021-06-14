@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b42cf511-c474-11ea-e195-e0d55e604065" extendedConfigurationObject="695fc06c-eed2-452a-934a-0870f5d2084a">
+  <producedTypes>
+    <objectType typeId="b42cf504-c474-11ea-e195-e0d55e604065" valueTypeId="b42cf505-c474-11ea-e195-e0d55e604065"/>
+    <refType typeId="b42cf506-c474-11ea-e195-e0d55e604065" valueTypeId="b42cf507-c474-11ea-e195-e0d55e604065"/>
+    <selectionType typeId="b42cf508-c474-11ea-e195-e0d55e604065" valueTypeId="b42cf509-c474-11ea-e195-e0d55e604065"/>
+    <listType typeId="b42cf50a-c474-11ea-e195-e0d55e604065" valueTypeId="b42cf50e-c474-11ea-e195-e0d55e604065"/>
+    <managerType typeId="b42cf50f-c474-11ea-e195-e0d55e604065" valueTypeId="b42cf510-c474-11ea-e195-e0d55e604065"/>
+  </producedTypes>
+  <name>КлассификаторАлкогольнойПродукцииЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="699c267d-e24a-4306-94a0-0c3c28ba62a9">
+  <producedTypes>
+    <objectType typeId="9814fb5a-a6e9-4407-abf4-7d680cd14b7c" valueTypeId="1a0b6190-ece4-4e6a-868e-1849371f2612"/>
+    <refType typeId="da1b4315-f465-42ee-8ad6-2711d1c03d3a" valueTypeId="942d9847-03be-49cf-932c-94eb1b115d1b"/>
+    <selectionType typeId="f12025a8-d3bd-402f-ad95-3bb482224be7" valueTypeId="17a35183-4d01-4022-8f60-a939df678cc0"/>
+    <listType typeId="3704dca7-c53f-4803-8577-b6db8faa4c5f" valueTypeId="0a41e0d8-422e-405a-be81-6f9986b186f4"/>
+    <managerType typeId="2522ea26-629f-4c7a-bc22-e698beec78e6" valueTypeId="c25ec8c6-0757-4a53-84b3-f24968f3614b"/>
+    <extDimensionTypes typeId="0940a553-a21e-4694-9764-5c64fb14ed30" valueTypeId="2dfc5058-a08d-444a-8798-3ef5418b106c"/>
+    <extDimensionTypesRow typeId="2378cc57-5762-4a1a-b17b-b04b0a0d43d2" valueTypeId="2494b17d-b2e8-4a8f-be46-f2671997b90c"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <extDimensionTypes>Checked</extDimensionTypes>
+    <maxExtDimensionCount>Checked</maxExtDimensionCount>
+  </extension>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</extDimensionTypes>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
+  <codeLength>8</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <orderLength>8</orderLength>
+  <attributes uuid="a8d623c2-ffa5-11e9-e694-e03f49179ada">
+    <name>ЗапретитьИспользоватьВПроводках</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a8e37cac-ffa5-11e9-e694-e03f49179ada">
+    <name>КодБыстрогоВыбора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>8</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <accountingFlags uuid="a8d34ee0-ffa5-11e9-e694-e03f49179ada">
+    <name>Количественный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </accountingFlags>
+  <accountingFlags uuid="a8d8aef8-ffa5-11e9-e694-e03f49179ada">
+    <name>НалоговыйУчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </accountingFlags>
+  <accountingFlags uuid="a8de5650-ffa5-11e9-e694-e03f49179ada">
+    <name>УчетПоПодразделениям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </accountingFlags>
+  <accountingFlags uuid="a8e0fa90-ffa5-11e9-e694-e03f49179ada">
+    <name>Валютный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="84a14148-006e-11ea-6987-e03f49179ada">
+    <name>Суммовой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="86c382d8-006e-11ea-6987-e03f49179ada">
+    <name>Валютный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="88b38fb6-006e-11ea-6987-e03f49179ada">
+    <name>Количественный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </extDimensionAccountingFlags>
+  <forms uuid="a8db8704-ffa5-11e9-e694-e03f49179ada">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="423a0f7c-ffcb-11e9-e694-e03f49179ada">
+    <name>УчетЗапасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:ChartOfAccounts>

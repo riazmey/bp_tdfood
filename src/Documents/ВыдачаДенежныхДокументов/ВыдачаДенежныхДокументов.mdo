@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="05ff9d98-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="e8bdfa7e-054d-4793-bced-f893cfa3c198">
+  <producedTypes>
+    <objectType typeId="05ff9d8e-652d-11ea-b484-441ea1d3e78c" valueTypeId="05ff9d8f-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="05ff9d90-652d-11ea-b484-441ea1d3e78c" valueTypeId="05ff9d91-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="05ff9d92-652d-11ea-b484-441ea1d3e78c" valueTypeId="05ff9d93-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="05ff9d94-652d-11ea-b484-441ea1d3e78c" valueTypeId="05ff9d95-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="05ff9d96-652d-11ea-b484-441ea1d3e78c" valueTypeId="05ff9d97-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВыдачаДенежныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

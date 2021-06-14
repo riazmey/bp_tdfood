@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d978e5ac-f940-11e9-9287-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="d978e573-f940-11e9-9287-e03f49179ada" valueTypeId="d978e574-f940-11e9-9287-e03f49179ada"/>
+    <listType typeId="d978e575-f940-11e9-9287-e03f49179ada" valueTypeId="d978e57a-f940-11e9-9287-e03f49179ada"/>
+    <managerType typeId="d978e571-f940-11e9-9287-e03f49179ada" valueTypeId="d978e572-f940-11e9-9287-e03f49179ada"/>
+    <recordSetType typeId="d978e57b-f940-11e9-9287-e03f49179ada" valueTypeId="d978e57c-f940-11e9-9287-e03f49179ada"/>
+    <recordKeyType typeId="d978e57d-f940-11e9-9287-e03f49179ada" valueTypeId="d978e57e-f940-11e9-9287-e03f49179ada"/>
+    <recordType typeId="d978e566-f940-11e9-9287-e03f49179ada" valueTypeId="d978e570-f940-11e9-9287-e03f49179ada"/>
+    <recordManagerType typeId="d978e57f-f940-11e9-9287-e03f49179ada" valueTypeId="d978e580-f940-11e9-9287-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ПредопределенныеЭлементыРасширения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные элементы расширения (Базар)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Базар_ПредопределенныеЭлементыРасширения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Базар_ПредопределенныеЭлементыРасширения.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ac043e70-679d-11ea-6b89-441ea1d3e78c">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fef7ae30-f940-11e9-9287-e03f49179ada">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="078ca8a2-f941-11e9-9287-e03f49179ada">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВзаиморасчетов</types>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1a07b530-f941-11e9-9287-e03f49179ada">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85a7d6f8-67a0-11ea-6b89-441ea1d3e78c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

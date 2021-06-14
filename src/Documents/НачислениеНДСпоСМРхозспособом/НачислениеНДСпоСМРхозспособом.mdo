@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c343c10-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="fd47488a-51ad-443b-99ef-51895334cc73">
+  <producedTypes>
+    <objectType typeId="4c343c06-652d-11ea-b484-441ea1d3e78c" valueTypeId="4c343c07-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="4c343c08-652d-11ea-b484-441ea1d3e78c" valueTypeId="4c343c09-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="4c343c0a-652d-11ea-b484-441ea1d3e78c" valueTypeId="4c343c0b-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="4c343c0c-652d-11ea-b484-441ea1d3e78c" valueTypeId="4c343c0d-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="4c343c0e-652d-11ea-b484-441ea1d3e78c" valueTypeId="4c343c0f-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>НачислениеНДСпоСМРхозспособом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

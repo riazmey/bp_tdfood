@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b5019e04-0c81-11ea-0e8d-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="b5019de9-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019dea-0c81-11ea-0e8d-e03f49179ada"/>
+    <listType typeId="b5019df0-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019df1-0c81-11ea-0e8d-e03f49179ada"/>
+    <managerType typeId="b5019de7-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019de8-0c81-11ea-0e8d-e03f49179ada"/>
+    <recordSetType typeId="b5019df2-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019df3-0c81-11ea-0e8d-e03f49179ada"/>
+    <recordKeyType typeId="b5019df4-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019df5-0c81-11ea-0e8d-e03f49179ada"/>
+    <recordType typeId="b5019ddc-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019de6-0c81-11ea-0e8d-e03f49179ada"/>
+    <recordManagerType typeId="b5019dfa-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b5019dfb-0c81-11ea-0e8d-e03f49179ada"/>
+  </producedTypes>
+  <name>НастройкиОбменаСКлиентомБанка</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

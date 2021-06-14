@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b133ee1c-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b133ee12-0c36-11ea-5d92-e03f49179ada" valueTypeId="b133ee13-0c36-11ea-5d92-e03f49179ada"/>
+    <refType typeId="b133ee14-0c36-11ea-5d92-e03f49179ada" valueTypeId="b133ee15-0c36-11ea-5d92-e03f49179ada"/>
+    <selectionType typeId="b133ee16-0c36-11ea-5d92-e03f49179ada" valueTypeId="b133ee17-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b133ee18-0c36-11ea-5d92-e03f49179ada" valueTypeId="b133ee19-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b133ee1a-0c36-11ea-5d92-e03f49179ada" valueTypeId="b133ee1b-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>ПлатежноеТребование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

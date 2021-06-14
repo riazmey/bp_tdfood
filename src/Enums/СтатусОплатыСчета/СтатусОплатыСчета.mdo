@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87d65b01-a587-46e3-be76-50cf283a28f6">
+  <producedTypes>
+    <refType typeId="450f1c76-60fc-4eec-b175-99d8e57fd753" valueTypeId="4feaa273-bb9f-4bbd-bd95-8104a3df5777"/>
+    <listType typeId="594c8bdf-388c-450a-950e-3ee9e067acde" valueTypeId="0f596776-a4d9-4432-9d03-042d1de296b8"/>
+    <managerType typeId="4ef1c202-b8fb-45c9-814d-7a4db28d9f0a" valueTypeId="7b995706-868a-44b4-8577-aa8ffa3261ce"/>
+  </producedTypes>
+  <name>СтатусОплатыСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="287d222c-6f60-11ea-9e96-441ea1d3e78c" extendedConfigurationObject="9950b04e-60a9-4511-836c-b81d2da45a18">
+    <name>ОплаченЧастично</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2895fe28-6f60-11ea-9e96-441ea1d3e78c" extendedConfigurationObject="20cf82a8-4c93-4b8c-9fd5-c4d9c70c6c18">
+    <name>НеОплачен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="28a37350-6f60-11ea-9e96-441ea1d3e78c" extendedConfigurationObject="74ec58f0-42e0-4c6c-a511-b13d534e9e02">
+    <name>Оплачен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

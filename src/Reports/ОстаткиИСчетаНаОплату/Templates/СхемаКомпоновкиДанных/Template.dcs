@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИнформационнаяБаза</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Склады</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонОстаток</dataPath>
+			<field>КонОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кон остаток</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
+			</role>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Номенклатура</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказано</dataPath>
+			<field>Заказано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказано</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Грузополучатель</dataPath>
+			<field>Грузополучатель</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Контрагенты</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Контрагенты</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачОстаток</dataPath>
+			<field>НачОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нач остаток</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
+				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
+			</role>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументДвижения</dataPath>
+			<field>ДокументДвижения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ движения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef</v8:TypeSet>
+			</valueType>
+		</field>
+		<dataSource>ИнформационнаяБаза</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗаказыКлиентовОбороты.Организация КАК Организация,
+	ЗаказыКлиентовОбороты.ПодразделениеОрганизации КАК Подразделение,
+	ЗаказыКлиентовОбороты.Склад КАК Склад,
+	ЗаказыКлиентовОбороты.Регистратор КАК ДокументДвижения,
+	ЗаказыКлиентовОбороты.Контрагент КАК Контрагент,
+	ЗаказыКлиентовОбороты.Грузополучатель КАК Грузополучатель,
+	ЗаказыКлиентовОбороты.Номенклатура КАК Номенклатура,
+	СУММА(ЗаказыКлиентовОбороты.КоличествоОборот) КАК Заказано
+ПОМЕСТИТЬ ВТ_СчетаНаОплату
+ИЗ
+	РегистрНакопления.ЗаказыКлиентов.Обороты(
+			НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ),
+			КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ),
+			Регистратор,
+			Организация = &amp;Организация
+				И ВЫБОР
+					КОГДА &amp;КонтрагентПрименитьОтбор
+						ТОГДА Контрагент В (&amp;Контрагент)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;КонтрагентВИерерхииПрименитьОтбор
+						ТОГДА Контрагент В ИЕРАРХИИ (&amp;КонтрагентВИерерхии)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ГрузополучательПрименитьОтбор
+						ТОГДА Грузополучатель В (&amp;Грузополучатель)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ГрузополучательВИерерхииПрименитьОтбор
+						ТОГДА Грузополучатель В ИЕРАРХИИ (&amp;ГрузополучательВИерерхии)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ИсключениеКонтрагентПрименитьОтбор
+						ТОГДА НЕ Контрагент В (&amp;ИсключениеКонтрагент)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ИсключениеКонтрагентВИерерхииПрименитьОтбор
+						ТОГДА НЕ Контрагент В ИЕРАРХИИ (&amp;ИсключениеКонтрагентВИерерхии)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ИсключениеГрузополучательПрименитьОтбор
+						ТОГДА НЕ Грузополучатель В (&amp;ИсключениеГрузополучатель)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВЫБОР
+					КОГДА &amp;ИсключениеГрузополучательВИерерхииПрименитьОтбор
+						ТОГДА НЕ Грузополучатель В ИЕРАРХИИ (&amp;ИсключениеГрузополучательВИерерхии)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ) КАК ЗаказыКлиентовОбороты
+ГДЕ
+	ЗаказыКлиентовОбороты.КоличествоОборот &gt; 0
+
+СГРУППИРОВАТЬ ПО
+	ЗаказыКлиентовОбороты.Организация,
+	ЗаказыКлиентовОбороты.ПодразделениеОрганизации,
+	ЗаказыКлиентовОбороты.Склад,
+	ЗаказыКлиентовОбороты.Контрагент,
+	ЗаказыКлиентовОбороты.Грузополучатель,
+	ЗаказыКлиентовОбороты.Регистратор,
+	ЗаказыКлиентовОбороты.Номенклатура
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Подразделение,
+	Склад,
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ХозрасчетныйОстаткиИОбороты.Организация КАК Организация,
+	ХозрасчетныйОстаткиИОбороты.Подразделение КАК Подразделение,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто2 КАК Справочник.Склады) КАК Склад,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Номенклатура) КАК Номенклатура,
+	СУММА(ХозрасчетныйОстаткиИОбороты.КоличествоНачальныйОстаток) КАК НачОстаток,
+	СУММА(ХозрасчетныйОстаткиИОбороты.КоличествоКонечныйОстаток) КАК КонОстаток
+ПОМЕСТИТЬ ВТ_ОстаткиИОбороты
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(
+			&amp;НачалоПериода {(&amp;НачалоПериода)},
+			&amp;КонецПериода {(&amp;КонецПериода)},
+			Авто,
+			ДвиженияИГраницыПериода,
+			Счет В (&amp;СчетаУчетаСкладИНоменклатура) {(Счет).*},
+			&amp;СубконтоНоменклатураИСклад,
+			Организация = &amp;Организация
+				И ВЫБОР
+					КОГДА &amp;ОтборГдеЗаказаноЗаполнено
+						ТОГДА Субконто1 В
+								(ВЫБРАТЬ
+									ВТ_СчетаНаОплату.Номенклатура КАК Номенклатура
+								ИЗ
+									ВТ_СчетаНаОплату КАК ВТ_СчетаНаОплату)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ {(Организация).*, (Подразделение).*, (Субконто1).* КАК Номенклатура, (Субконто2).* КАК Склад}) КАК ХозрасчетныйОстаткиИОбороты
+
+СГРУППИРОВАТЬ ПО
+	ХозрасчетныйОстаткиИОбороты.Организация,
+	ХозрасчетныйОстаткиИОбороты.Подразделение,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Номенклатура),
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто2 КАК Справочник.Склады)
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Подразделение,
+	Склад,
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ОстаткиИОбороты.Организация КАК Организация,
+	ВТ_ОстаткиИОбороты.Подразделение КАК Подразделение,
+	ВТ_ОстаткиИОбороты.Склад КАК Склад,
+	ВТ_ОстаткиИОбороты.Номенклатура КАК Номенклатура,
+	ВТ_ОстаткиИОбороты.НачОстаток КАК НачОстаток,
+	ВТ_ОстаткиИОбороты.КонОстаток КАК КонОстаток,
+	ЗНАЧЕНИЕ(Документ.СчетНаОплатуПокупателю.ПустаяСсылка) КАК ДокументДвижения,
+	ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка) КАК Контрагент,
+	ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка) КАК Грузополучатель,
+	0 КАК Заказано
+ПОМЕСТИТЬ ВТ_Итоговая
+ИЗ
+	ВТ_ОстаткиИОбороты КАК ВТ_ОстаткиИОбороты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_СчетаНаОплату.Организация,
+	ВТ_СчетаНаОплату.Подразделение,
+	ВТ_СчетаНаОплату.Склад,
+	ВТ_СчетаНаОплату.Номенклатура,
+	0,
+	0,
+	ВТ_СчетаНаОплату.ДокументДвижения,
+	ВТ_СчетаНаОплату.Контрагент,
+	ВТ_СчетаНаОплату.Грузополучатель,
+	ВТ_СчетаНаОплату.Заказано
+ИЗ
+	ВТ_СчетаНаОплату КАК ВТ_СчетаНаОплату
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТ_СчетаНаОплату
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТ_ОстаткиИОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Итоговая.Организация КАК Организация,
+	ВТ_Итоговая.Подразделение КАК Подразделение,
+	ВТ_Итоговая.Склад КАК Склад,
+	ВТ_Итоговая.Номенклатура КАК Номенклатура,
+	МАКСИМУМ(ВТ_Итоговая.НачОстаток) КАК НачОстаток,
+	МАКСИМУМ(ВТ_Итоговая.КонОстаток) КАК КонОстаток,
+	ВТ_Итоговая.ДокументДвижения КАК ДокументДвижения,
+	ВТ_Итоговая.Контрагент КАК Контрагент,
+	ВТ_Итоговая.Грузополучатель КАК Грузополучатель,
+	СУММА(ВТ_Итоговая.Заказано) КАК Заказано
+{ВЫБРАТЬ
+	Организация.*,
+	Подразделение.*,
+	Склад.*,
+	Номенклатура.*,
+	НачОстаток,
+	КонОстаток,
+	ДокументДвижения.*,
+	Контрагент.*,
+	Грузополучатель.*,
+	Заказано}
+ИЗ
+	ВТ_Итоговая КАК ВТ_Итоговая
+{ГДЕ
+	ВТ_Итоговая.Организация.*,
+	ВТ_Итоговая.Подразделение.*,
+	ВТ_Итоговая.Склад.*,
+	ВТ_Итоговая.Номенклатура.*,
+	ВТ_Итоговая.НачОстаток,
+	ВТ_Итоговая.КонОстаток,
+	ВТ_Итоговая.ДокументДвижения.*,
+	ВТ_Итоговая.Контрагент.*,
+	ВТ_Итоговая.Грузополучатель.*,
+	ВТ_Итоговая.Заказано}
+
+СГРУППИРОВАТЬ ПО
+	ВТ_Итоговая.Организация,
+	ВТ_Итоговая.Подразделение,
+	ВТ_Итоговая.Склад,
+	ВТ_Итоговая.Номенклатура,
+	ВТ_Итоговая.ДокументДвижения,
+	ВТ_Итоговая.Контрагент,
+	ВТ_Итоговая.Грузополучатель</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<totalField>
+		<dataPath>НачОстаток</dataPath>
+		<expression>Сумма(НачОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Заказано</dataPath>
+		<expression>Сумма(Заказано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КонОстаток</dataPath>
+		<expression>Сумма(ЕстьNull(НачОстаток,0)) - Сумма(ЕстьNull(Заказано,0))</expression>
+	</totalField>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СубконтоНоменклатураИСклад</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Субконто номенклатура и склад</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетные</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Номенклатура</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Склады</value>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>СчетаУчетаСкладИНоменклатура</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Счета учета склад и номенклатура</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ТараПодТоваромИПорожняя</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ПокупныеИзделия</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ГотоваяПродукция</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.СырьеИМатериалы</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ПокупныеПолуфабрикатыИКомплектующие</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.Топливо</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.Тара</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ЗапасныеЧасти</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ПрочиеМатериалы</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.СтроительныеМатериалы</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ИнвентарьИХозяйственныеПринадлежности</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.СпецоснасткаИСпецодеждаНаСкладе</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ТоварыВРозничнойТорговле</value>
+		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.ТоварыНаСкладах</value>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОтборГдеЗаказаноЗаполнено</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отбор где заказано заполнено</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Грузополучатель</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Грузополучатель</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ГрузополучательВИерерхии</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Грузополучатель в иерерхии</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Контрагент</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контрагент</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонтрагентВИерерхии</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контрагент в иерерхии</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ГрузополучательВИерерхииПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Грузополучатель в иерерхии применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ГрузополучательПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Грузополучатель применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонтрагентВИерерхииПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контрагент в иерерхии применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонтрагентПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контрагент применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИсключениеГрузополучатель</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение грузополучатель</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ИсключениеГрузополучательВИерерхии</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение грузополучатель в иерерхии</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ИсключениеГрузополучательВИерерхииПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение грузополучатель в иерерхии применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИсключениеГрузополучательПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение грузополучатель применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИсключениеКонтрагент</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение контрагент</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ИсключениеКонтрагентВИерерхии</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение контрагент в иерерхии</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ИсключениеКонтрагентВИерерхииПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение контрагент в иерерхии применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИсключениеКонтрагентПрименитьОтбор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключение контрагент применить отбор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">КонОстаток</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧДЦ=3</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>КонОстаток</dcsat:name>
+			<dcsat:expression>КонОстаток</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет2</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">НачОстаток</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧДЦ=3</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>НачОстаток</dcsat:name>
+			<dcsat:expression>НачОстаток</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет3</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">Заказано</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧДЦ=3</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Заказано</dcsat:name>
+			<dcsat:expression>Заказано</dcsat:expression>
+		</parameter>
+	</template>
+	<fieldTemplate>
+		<field>КонОстаток</field>
+		<template>Макет1</template>
+	</fieldTemplate>
+	<fieldTemplate>
+		<field>НачОстаток</field>
+		<template>Макет2</template>
+	</fieldTemplate>
+	<fieldTemplate>
+		<field>Заказано</field>
+		<template>Макет3</template>
+	</fieldTemplate>
+	<settingsVariant>
+		<dcsset:name>ОстаткиИСчетаНаОплату</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Остатки и счета на оплату</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Склад</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СчетаУчетаСкладИНоменклатура</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Грузополучатель</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГрузополучательВИерерхии</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Контрагент</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонтрагентВИерерхии</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ВыделятьОтрицательные</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выделять отрицательные</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>АвтоОтступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">1</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уменьшенный автоотступ</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ОформлениеОтчетовЗеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контроль отрицательных остатков</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

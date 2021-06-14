@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="832c63f1-dd62-4746-84c2-5d4c26d789d0">
+  <producedTypes>
+    <refType typeId="f3618e67-2393-4824-b6c2-22a6c6586872" valueTypeId="1e36b057-5a2f-43fc-9c66-755c6b8d8257"/>
+    <listType typeId="662d0b0b-04c0-4e96-a89b-a9da3cfd9fc8" valueTypeId="cd5653df-56a5-4fed-9dca-682f030584e6"/>
+    <managerType typeId="9b68c74c-396d-4ac4-b648-6fb954be3f1e" valueTypeId="10238928-b120-4865-bf50-31d88af6a548"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c1ffb337-e607-44ea-a866-acf374bb0308">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

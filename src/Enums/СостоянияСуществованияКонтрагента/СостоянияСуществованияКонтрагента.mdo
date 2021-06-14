@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="01fbd4c7-b8bd-4416-bed2-ce84b28ebaba">
+  <producedTypes>
+    <refType typeId="71494522-848d-4c6b-8487-0527eebd29d3" valueTypeId="dca0e055-c44b-4c02-9607-bfc11e7a8abf"/>
+    <listType typeId="ca169d20-1788-40bb-96a9-3c99754fab3c" valueTypeId="4768649e-9c1e-48f5-ab61-0e99f8282a59"/>
+    <managerType typeId="7d707a7b-c356-4036-bbff-2ab604f369f9" valueTypeId="4e3860cf-4380-4c76-8424-f906624c3947"/>
+  </producedTypes>
+  <name>СостоянияСуществованияКонтрагента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9334b92c-e702-11ea-e697-e0d55e604065" extendedConfigurationObject="5a982d82-8b6a-4163-acef-06ac397c0777">
+  <producedTypes>
+    <refType typeId="9334b926-e702-11ea-e697-e0d55e604065" valueTypeId="9334b927-e702-11ea-e697-e0d55e604065"/>
+    <listType typeId="9334b928-e702-11ea-e697-e0d55e604065" valueTypeId="9334b929-e702-11ea-e697-e0d55e604065"/>
+    <managerType typeId="9334b92a-e702-11ea-e697-e0d55e604065" valueTypeId="9334b92b-e702-11ea-e697-e0d55e604065"/>
+  </producedTypes>
+  <name>УдалитьВидыОперацийПеремещениеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

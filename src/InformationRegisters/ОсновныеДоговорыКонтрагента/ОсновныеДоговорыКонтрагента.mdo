@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5fbc307-fa4a-11e9-1594-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="a5fbc2fd-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc2fe-fa4a-11e9-1594-e03f49179ada"/>
+    <listType typeId="a5fbc2ff-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc300-fa4a-11e9-1594-e03f49179ada"/>
+    <managerType typeId="a5fbc2f4-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc2fc-fa4a-11e9-1594-e03f49179ada"/>
+    <recordSetType typeId="a5fbc301-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc302-fa4a-11e9-1594-e03f49179ada"/>
+    <recordKeyType typeId="a5fbc303-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc304-fa4a-11e9-1594-e03f49179ada"/>
+    <recordType typeId="a5fbc2f2-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc2f3-fa4a-11e9-1594-e03f49179ada"/>
+    <recordManagerType typeId="a5fbc305-fa4a-11e9-1594-e03f49179ada" valueTypeId="a5fbc306-fa4a-11e9-1594-e03f49179ada"/>
+  </producedTypes>
+  <name>ОсновныеДоговорыКонтрагента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="a61bea82-fa4a-11e9-1594-e03f49179ada">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="a602bc9c-fa4a-11e9-1594-e03f49179ada">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a61727c2-fa4a-11e9-1594-e03f49179ada">
+    <name>ВидДоговора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыДоговоровКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a61984a4-fa4a-11e9-1594-e03f49179ada">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

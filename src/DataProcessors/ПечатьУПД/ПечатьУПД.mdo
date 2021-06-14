@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2e324aa-09d7-11ea-969b-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="f2e324a6-09d7-11ea-969b-e03f49179ada" valueTypeId="f2e324a7-09d7-11ea-969b-e03f49179ada"/>
+    <managerType typeId="f2e324a8-09d7-11ea-969b-e03f49179ada" valueTypeId="f2e324a9-09d7-11ea-969b-e03f49179ada"/>
+  </producedTypes>
+  <name>ПечатьУПД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <templates uuid="abaef034-1043-11ea-039d-e03f49179ada">
+    <name>Базар_ПФ_MXL_УниверсальныйПередаточныйДокумент981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) (Базар23.рф)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

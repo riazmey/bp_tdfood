@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c7b38980-6783-42c5-b190-626693097d5c">
+  <producedTypes>
+    <managerType typeId="ca85ef75-eec9-4bd6-abe2-bcaaf7f22307" valueTypeId="07a7fcd3-05dc-47f8-a923-6ff9c1226df0"/>
+    <valueManagerType typeId="7b9bf990-33dd-4aac-bfe8-9f35a8520290" valueTypeId="3f3c5ef5-ef3c-4a1f-8a47-23a06cb479ac"/>
+    <valueKeyType typeId="54df482b-17e6-5dd9-aa5f-b60fa89f91cb" valueTypeId="944b2e79-1966-5742-ad80-2385d77f9dff"/>
+  </producedTypes>
+  <name>ИспользоватьУведомленияОКонтролируемыхСделках</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

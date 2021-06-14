@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b14ef22e-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b14ef220-0c36-11ea-5d92-e03f49179ada" valueTypeId="b14ef221-0c36-11ea-5d92-e03f49179ada"/>
+    <refType typeId="b14ef222-0c36-11ea-5d92-e03f49179ada" valueTypeId="b14ef223-0c36-11ea-5d92-e03f49179ada"/>
+    <selectionType typeId="b14ef224-0c36-11ea-5d92-e03f49179ada" valueTypeId="b14ef225-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b14ef22a-0c36-11ea-5d92-e03f49179ada" valueTypeId="b14ef22b-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b14ef22c-0c36-11ea-5d92-e03f49179ada" valueTypeId="b14ef22d-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>ПлатежноеПоручение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="d2c53cb8-1e81-11ea-ba89-1c1b0dc48c9e" extendedConfigurationObject="9ff6e12c-1169-4f32-bacf-fefc492cbda7">
+    <name>ДоговорКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

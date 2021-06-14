@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60f1c383-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="1352de94-dc0a-4c63-96a3-dd70738f850e">
+  <producedTypes>
+    <objectType typeId="60f1c370-652d-11ea-b484-441ea1d3e78c" valueTypeId="60f1c37a-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="60f1c37b-652d-11ea-b484-441ea1d3e78c" valueTypeId="60f1c37c-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="60f1c37d-652d-11ea-b484-441ea1d3e78c" valueTypeId="60f1c37e-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="60f1c37f-652d-11ea-b484-441ea1d3e78c" valueTypeId="60f1c380-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="60f1c381-652d-11ea-b484-441ea1d3e78c" valueTypeId="60f1c382-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ОплатаПлатежнойКартой</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

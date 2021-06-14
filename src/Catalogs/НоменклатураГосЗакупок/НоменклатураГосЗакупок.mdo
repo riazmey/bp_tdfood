@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc3e01b8-f9ac-11e9-f681-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="bc3e01ae-f9ac-11e9-f681-e03f49179ada" valueTypeId="bc3e01af-f9ac-11e9-f681-e03f49179ada"/>
+    <refType typeId="bc3e01b0-f9ac-11e9-f681-e03f49179ada" valueTypeId="bc3e01b1-f9ac-11e9-f681-e03f49179ada"/>
+    <selectionType typeId="bc3e01b2-f9ac-11e9-f681-e03f49179ada" valueTypeId="bc3e01b3-f9ac-11e9-f681-e03f49179ada"/>
+    <listType typeId="bc3e01b4-f9ac-11e9-f681-e03f49179ada" valueTypeId="bc3e01b5-f9ac-11e9-f681-e03f49179ada"/>
+    <managerType typeId="bc3e01b6-f9ac-11e9-f681-e03f49179ada" valueTypeId="bc3e01b7-f9ac-11e9-f681-e03f49179ada"/>
+  </producedTypes>
+  <name>НоменклатураГосЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура (гос. закупки)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураГосЗакупок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураГосЗакупок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НоменклатураГосЗакупок.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НоменклатураГосЗакупок.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НоменклатураГосЗакупок.Form.ФормаВыбора</defaultChoiceForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <attributes uuid="d68e9212-f9ac-11e9-f681-e03f49179ada">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e40f5066-f9ac-11e9-f681-e03f49179ada">
+    <name>ЕдиницаИзмеренияГосЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f9487d2-fa51-11e9-1594-e03f49179ada">
+    <name>ВидСтавкиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСтавокНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыСтавокНДС.EnumValue.Общая</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="220eb974-f9ad-11e9-f681-e03f49179ada">
+    <producedTypes>
+      <objectType typeId="220eb96a-f9ad-11e9-f681-e03f49179ada" valueTypeId="220eb96b-f9ad-11e9-f681-e03f49179ada"/>
+      <rowType typeId="220eb96c-f9ad-11e9-f681-e03f49179ada" valueTypeId="220eb96d-f9ad-11e9-f681-e03f49179ada"/>
+    </producedTypes>
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="28b68d56-f9ad-11e9-f681-e03f49179ada">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2d6a7e84-f9ad-11e9-f681-e03f49179ada">
+      <name>КоэффициентГосЗакупок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент гос закупок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>5</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e4fd1dc4-f9b5-11e9-f681-e03f49179ada">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c26e467c-0700-11ea-6589-e03f49179ada">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a69f1b8-228b-11ea-db84-1c1b0dc48c9e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

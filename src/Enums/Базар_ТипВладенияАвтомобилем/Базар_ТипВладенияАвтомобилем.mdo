@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b46328ff-8d63-46a6-926e-24859aea138d">
+  <producedTypes>
+    <refType typeId="d96970b7-3a68-44f2-bf31-050ddd8fe334" valueTypeId="b548b1d3-4420-4235-a124-9d9402ed9f71"/>
+    <listType typeId="1102be77-6184-4efd-a8ff-9cddbb4d5a24" valueTypeId="c41b72ba-05a7-403a-aad9-879c8d632654"/>
+    <managerType typeId="832aa05c-5b6f-458e-a986-af14caff81de" valueTypeId="e5e8b2cb-d8d0-4545-b076-a96c0218fd41"/>
+  </producedTypes>
+  <name>Базар_ТипВладенияАвтомобилем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип владения автомобилем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a42176d8-a965-4e4b-a290-7e3adf43e8fd">
+    <name>Собственность</name>
+    <synonym>
+      <key>ru</key>
+      <value>В собственности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb425638-8b2a-4e41-bad5-e22e81d8fa31">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>В аренде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b6eab47-d290-410f-a5c4-bb65c2bf4c31">
+    <name>Лизинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>В лизинге</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

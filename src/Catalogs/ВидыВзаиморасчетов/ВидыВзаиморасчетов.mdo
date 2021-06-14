@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="416de5f7-0602-4373-87c9-a1364f5b0767">
+  <producedTypes>
+    <objectType typeId="6c017750-82f4-4c84-8ab7-6f867fedebb7" valueTypeId="a511533f-8b3a-4b9c-8072-19bce8fe1e67"/>
+    <refType typeId="3ffdc07c-3c33-47cd-9e6e-f0ad7679c7f5" valueTypeId="b20c7f79-28bb-41d0-8927-d0635f7601a4"/>
+    <selectionType typeId="3f2b4f47-1bd1-4b17-90c8-1d59ed743454" valueTypeId="6e2ab388-5a27-4cf5-addc-0e1baf01cdbc"/>
+    <listType typeId="951cc2d9-c6ca-47a0-92e7-f3c9a7b94eff" valueTypeId="8b7ba1f6-4b0e-476c-a156-5512839f4461"/>
+    <managerType typeId="6529ae47-fad6-4437-8b09-f4dfbf5a1078" valueTypeId="0cd7308b-a51c-47c4-9c1c-d8f4c62d6302"/>
+  </producedTypes>
+  <name>ВидыВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

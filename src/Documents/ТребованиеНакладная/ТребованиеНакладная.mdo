@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8abf9e8a-3854-11ea-c093-1c1b0dc48c9e" extendedConfigurationObject="12674459-d5c3-4804-adc2-a9505cbf0935">
+  <producedTypes>
+    <objectType typeId="8abf9e80-3854-11ea-c093-1c1b0dc48c9e" valueTypeId="8abf9e81-3854-11ea-c093-1c1b0dc48c9e"/>
+    <refType typeId="8abf9e82-3854-11ea-c093-1c1b0dc48c9e" valueTypeId="8abf9e83-3854-11ea-c093-1c1b0dc48c9e"/>
+    <selectionType typeId="8abf9e84-3854-11ea-c093-1c1b0dc48c9e" valueTypeId="8abf9e85-3854-11ea-c093-1c1b0dc48c9e"/>
+    <listType typeId="8abf9e86-3854-11ea-c093-1c1b0dc48c9e" valueTypeId="8abf9e87-3854-11ea-c093-1c1b0dc48c9e"/>
+    <managerType typeId="8abf9e88-3854-11ea-c093-1c1b0dc48c9e" valueTypeId="8abf9e89-3854-11ea-c093-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ТребованиеНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

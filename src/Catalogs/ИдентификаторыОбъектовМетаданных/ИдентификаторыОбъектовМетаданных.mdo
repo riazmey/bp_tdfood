@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b21451c8-0460-11ea-a99c-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b21451ba-0460-11ea-a99c-e03f49179ada" valueTypeId="b21451bb-0460-11ea-a99c-e03f49179ada"/>
+    <refType typeId="b21451bc-0460-11ea-a99c-e03f49179ada" valueTypeId="b21451bd-0460-11ea-a99c-e03f49179ada"/>
+    <selectionType typeId="b21451be-0460-11ea-a99c-e03f49179ada" valueTypeId="b21451bf-0460-11ea-a99c-e03f49179ada"/>
+    <listType typeId="b21451c4-0460-11ea-a99c-e03f49179ada" valueTypeId="b21451c5-0460-11ea-a99c-e03f49179ada"/>
+    <managerType typeId="b21451c6-0460-11ea-a99c-e03f49179ada" valueTypeId="b21451c7-0460-11ea-a99c-e03f49179ada"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовМетаданных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="e9f1eae4-2f1b-11ea-5e82-1c1b0dc48c9e" extendedConfigurationObject="993ce747-cdc9-445f-ad7d-daf53cd5f7e9">
+    <name>ПолноеИмя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>430</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

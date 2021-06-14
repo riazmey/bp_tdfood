@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="234a0a96-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="fac34803-1f1c-472a-9092-fd09dc7a959a">
+  <producedTypes>
+    <objectType typeId="234a0a8c-652d-11ea-b484-441ea1d3e78c" valueTypeId="234a0a8d-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="234a0a8e-652d-11ea-b484-441ea1d3e78c" valueTypeId="234a0a8f-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="234a0a90-652d-11ea-b484-441ea1d3e78c" valueTypeId="234a0a91-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="234a0a92-652d-11ea-b484-441ea1d3e78c" valueTypeId="234a0a93-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="234a0a94-652d-11ea-b484-441ea1d3e78c" valueTypeId="234a0a95-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ЗаявлениеОВвозеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

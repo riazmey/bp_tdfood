@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b96aaeab-24f0-404a-b0e8-cb3f95aafb52">
+  <producedTypes>
+    <managerType typeId="efc08c8d-90cf-46ef-a138-8f96410e6fec" valueTypeId="7d773b8a-8da1-4926-8e99-df4830ff2851"/>
+    <valueManagerType typeId="0884f1ca-1252-4b63-8bfe-79f7cc68c69b" valueTypeId="9e5a562d-7ea2-489e-9267-78dbc725d6a5"/>
+    <valueKeyType typeId="184e47b5-eafe-5a70-b29b-7af0d8b61e05" valueTypeId="407a8ca9-1c34-521a-b92f-a34a7305bcb4"/>
+  </producedTypes>
+  <name>ИспользуетсяГособоронзаказ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

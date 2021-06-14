@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c2d8c66-ce98-4b7d-a838-53bc8804c8e9">
+  <name>ТранспортнаяЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортная логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Водители</content>
+  <content>Catalog.Автомобили</content>
+  <content>Catalog.Маршруты</content>
+  <content>CommonModule.ТранспортнаяЛогистикаСервер</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.МаршрутныйЛист</content>
+  <content>Document.СчетНаОплатуПокупателю</content>
+  <content>AccumulationRegister.ТранспортнаяЛогистикаЗаказы</content>
+  <content>AccumulationRegister.ТранспортнаяЛогистикаДоставка</content>
+  <content>75f677ba-bed0-4ada-8174-f9b91f7ed016</content>
+  <content>Document.Доверенность</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.ТранспортнаяЛогистика</content>
+  <content>InformationRegister.Базар_Настройки</content>
+  <content>6601ba6c-ee5e-11e9-2289-e03f49179ada</content>
+</mdclass:Subsystem>

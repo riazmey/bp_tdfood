@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="654680e4-cf90-4a8a-9d7b-df2f3a382d31">
+  <producedTypes>
+    <managerType typeId="75cc54df-c1ea-4965-9430-5c4099df4786" valueTypeId="d59d4b73-0179-45c6-ac55-bd11f527d0d8"/>
+    <valueManagerType typeId="0c2c0a32-c8bf-49ea-ba91-0ca4f2b08bfd" valueTypeId="fd47a5b1-e845-40d4-81ba-7fe9d1cda569"/>
+    <valueKeyType typeId="0321538c-f003-4988-9de3-6679e78105b0" valueTypeId="b70419dc-49be-4a3a-8b44-2c6c6007ee81"/>
+  </producedTypes>
+  <name>ВедетсяУчетВозвратнойТары</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5887f90-7d43-4668-89a0-00d39adf8abe" extendedConfigurationObject="1a4991f8-7832-4ca9-8809-88a97de88749">
+  <producedTypes>
+    <selectionType typeId="e282716d-4833-401a-8fe6-7c219401becb" valueTypeId="8b0874c0-7ca9-42cb-82ee-7bf72133b0b8"/>
+    <listType typeId="fda31f01-5ada-42d7-92fd-8861ae9967e8" valueTypeId="cc264930-8ecc-45ed-bb19-080a9ed3c1a8"/>
+    <managerType typeId="98294c61-73e7-469e-bfcd-95984167bdeb" valueTypeId="3ee3b235-6eb6-4048-a65b-9c3f2171768f"/>
+    <recordSetType typeId="ee8c3c67-a6a3-4290-af89-c7b23120a13b" valueTypeId="77b4660c-a100-4601-bc05-9e747e4c2a3b"/>
+    <recordKeyType typeId="843becb6-0b1a-47d6-bd64-24ffa47886a5" valueTypeId="68e1c012-d39f-4d35-97ed-0f90363b6311"/>
+    <recordType typeId="03ff1373-c914-47e5-958f-61335258e909" valueTypeId="181f232b-0c73-4773-b069-0294f442e7ea"/>
+    <recordManagerType typeId="677d342c-4e6d-441a-bbc0-d4fa48f1cee5" valueTypeId="45e2d476-30cf-42a6-9cc4-a7882d09455c"/>
+  </producedTypes>
+  <name>ДокументыФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

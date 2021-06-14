@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa5ef511-c26c-4280-937c-695bf48d8b7b">
+  <producedTypes>
+    <managerType typeId="4920550a-65c5-4823-98f2-ff366c73af14" valueTypeId="067eb285-1ec2-40e6-b2cf-0a12d3ceec86"/>
+    <valueManagerType typeId="65177288-26f5-45c5-9110-c02dc41dbdb5" valueTypeId="370b8e65-e2a3-4cfc-98ee-d6d249387c6a"/>
+    <valueKeyType typeId="dd917729-149b-564c-97d8-9cfde35d18eb" valueTypeId="6e241805-3426-5758-afb4-134181100c4a"/>
+  </producedTypes>
+  <name>УчетОбеспеченийОбязательствИПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

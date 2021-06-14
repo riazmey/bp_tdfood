@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="989698b1-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="ad37ffbc-857c-49c3-924c-208a07547664">
+  <producedTypes>
+    <objectType typeId="989698a4-652e-11ea-b484-441ea1d3e78c" valueTypeId="989698a5-652e-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="989698a6-652e-11ea-b484-441ea1d3e78c" valueTypeId="989698a7-652e-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="989698a8-652e-11ea-b484-441ea1d3e78c" valueTypeId="989698a9-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="989698aa-652e-11ea-b484-441ea1d3e78c" valueTypeId="989698ae-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="989698af-652e-11ea-b484-441ea1d3e78c" valueTypeId="989698b0-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>БланкиСтрогойОтчетности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

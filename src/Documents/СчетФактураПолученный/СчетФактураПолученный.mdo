@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="536073ec-0d0e-11ea-2181-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="536073e0-0d0e-11ea-2181-e03f49179ada" valueTypeId="536073e1-0d0e-11ea-2181-e03f49179ada"/>
+    <refType typeId="536073e2-0d0e-11ea-2181-e03f49179ada" valueTypeId="536073e3-0d0e-11ea-2181-e03f49179ada"/>
+    <selectionType typeId="536073e4-0d0e-11ea-2181-e03f49179ada" valueTypeId="536073e5-0d0e-11ea-2181-e03f49179ada"/>
+    <listType typeId="536073e6-0d0e-11ea-2181-e03f49179ada" valueTypeId="536073e7-0d0e-11ea-2181-e03f49179ada"/>
+    <managerType typeId="536073ea-0d0e-11ea-2181-e03f49179ada" valueTypeId="536073eb-0d0e-11ea-2181-e03f49179ada"/>
+  </producedTypes>
+  <name>СчетФактураПолученный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="5360e118-0d0e-11ea-2181-e03f49179ada">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="579db68e-0d0e-11ea-2181-e03f49179ada">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="59f64f36-0d0e-11ea-2181-e03f49179ada">
+    <name>ДоговорКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

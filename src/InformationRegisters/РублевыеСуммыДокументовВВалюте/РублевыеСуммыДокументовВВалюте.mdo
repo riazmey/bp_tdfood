@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="782b1e51-3192-4509-a432-149d6c007ac2" extendedConfigurationObject="894982f5-74d2-4361-93d9-9dde2dcc8118">
+  <producedTypes>
+    <selectionType typeId="8ea4986d-66d5-4086-82c4-792fa000617f" valueTypeId="8eb2bef2-bac6-4d83-9a69-5f8206b8caab"/>
+    <listType typeId="1e678532-d0ff-4b5e-8f77-04e20a1ede98" valueTypeId="021b23e4-f9b9-42d7-b6b4-0054f40e604b"/>
+    <managerType typeId="eca9ae91-f57e-4f22-a25d-b42a9f66c6cc" valueTypeId="575fe348-d57c-4cf7-b875-454b99058166"/>
+    <recordSetType typeId="4c480890-5ef9-423e-8809-0fe24e775345" valueTypeId="06f0c9cd-f9fc-4543-ba6e-7173c0e71d25"/>
+    <recordKeyType typeId="9cca57b4-a0ba-4c13-8274-319e1e1d0a74" valueTypeId="80c423ca-2411-4d76-85cb-c103016326c3"/>
+    <recordType typeId="2dfef184-e92e-470c-b919-3c177402e9e7" valueTypeId="4a5415b9-ae0f-4d6c-a1df-9f8a16e98915"/>
+    <recordManagerType typeId="d2c17cde-0e7e-4852-9532-88e419141ec2" valueTypeId="a5ea646f-f07b-4bf1-9197-d93904a40ed7"/>
+  </producedTypes>
+  <name>РублевыеСуммыДокументовВВалюте</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="40b13877-15bb-4340-b5ee-6e074c468721" extendedConfigurationObject="a4055f39-06fc-468d-b5ce-82ff71b2d8bc">
+    <name>Всего</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="0c5d02c4-fe2c-419c-ad0f-20cbd78a7bdf" extendedConfigurationObject="d0eaf72f-def6-414e-b33c-d8967142710d">
+    <name>НДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="7b415e66-d991-4405-a987-21db37a60d6c" extendedConfigurationObject="2ef4dadc-2dcc-41a5-b744-5ef0a47a36b3">
+    <name>НалоговаяБазаНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="414badac-8b1e-4a70-b663-c580259ca73b" extendedConfigurationObject="161e8553-97c1-4e4c-9e20-43277776f272">
+    <name>ТабличнаяЧастьДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТабличныеЧастиДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="f2e13c76-10c2-4b34-86b6-97dc4de157fc" extendedConfigurationObject="31bcb79c-1cc0-47af-a021-d1e118b1da4e">
+    <name>НомерСтрокиДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

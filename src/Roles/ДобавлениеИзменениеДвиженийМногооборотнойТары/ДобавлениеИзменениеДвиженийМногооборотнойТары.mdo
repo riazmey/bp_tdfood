@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ff2544c-1c3c-11ea-f892-1c1b0dc48c9e">
+  <name>ДобавлениеИзменениеДвиженийМногооборотнойТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение документов &quot;Движения многооборотной тары&quot;</value>
+  </synonym>
+</mdclass:Role>

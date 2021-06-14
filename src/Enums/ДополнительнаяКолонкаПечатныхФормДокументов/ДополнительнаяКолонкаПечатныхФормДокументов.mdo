@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="440c3dc8-49bc-11ea-2c87-1c1b0dc48c9e" extendedConfigurationObject="67ba1d47-aefa-4f8b-8636-95f672cb9039">
+  <producedTypes>
+    <refType typeId="440c3dbc-49bc-11ea-2c87-1c1b0dc48c9e" valueTypeId="440c3dbd-49bc-11ea-2c87-1c1b0dc48c9e"/>
+    <listType typeId="440c3dbe-49bc-11ea-2c87-1c1b0dc48c9e" valueTypeId="440c3dbf-49bc-11ea-2c87-1c1b0dc48c9e"/>
+    <managerType typeId="440c3dc6-49bc-11ea-2c87-1c1b0dc48c9e" valueTypeId="440c3dc7-49bc-11ea-2c87-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ДополнительнаяКолонкаПечатныхФормДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="449019ca-49bc-11ea-2c87-1c1b0dc48c9e" extendedConfigurationObject="bba16cb4-a27a-4fb8-89dd-a4f55f8efe26">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cbe8a5a0-5884-11ea-cb87-441ea1d3e78c" extendedConfigurationObject="5b72b633-0f01-41ba-bd0d-02667cf9e9d4">
+    <name>Код</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a6638d9-faa9-48e2-95a9-586cac77e0ba">
+  <producedTypes>
+    <refType typeId="8ffa951c-97ae-4288-83ea-ec7f09778705" valueTypeId="3528dfa7-f0d8-43d9-8efc-ecbe89e8d306"/>
+    <listType typeId="9f83009b-0595-436a-a86e-976d6cdb9493" valueTypeId="25adc1ae-3f9b-4c99-a0df-585b7b7c4cde"/>
+    <managerType typeId="b1d9bbb7-a0c0-4846-8faf-6294e656a3f1" valueTypeId="39770941-da23-42c1-931c-0adc80b6ccb3"/>
+  </producedTypes>
+  <name>СпособыРасчетаКомиссионногоВознаграждения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

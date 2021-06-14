@@ -1,0 +1,5 @@
+<div id='map'></div>
+		<input type="hidden" id="CoordX" name="CoordX" value="0"></input>
+		<input type="hidden" id="CoordY" name="CoordY" value="0"></input>
+		<input type="hidden" id="WebClientOperation" name="WebClientOperation" value="0"></input>
+		<input type="hidden" id="WebClient" name="WebClient" onclick="WebClientEnable();"></input>

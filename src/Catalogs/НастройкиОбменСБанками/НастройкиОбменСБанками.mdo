@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b50bf32d-0c81-11ea-0e8d-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b50bf318-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b50bf319-0c81-11ea-0e8d-e03f49179ada"/>
+    <refType typeId="b50bf322-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b50bf323-0c81-11ea-0e8d-e03f49179ada"/>
+    <selectionType typeId="b50bf324-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b50bf325-0c81-11ea-0e8d-e03f49179ada"/>
+    <listType typeId="b50bf326-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b50bf327-0c81-11ea-0e8d-e03f49179ada"/>
+    <managerType typeId="b50bf328-0c81-11ea-0e8d-e03f49179ada" valueTypeId="b50bf32c-0c81-11ea-0e8d-e03f49179ada"/>
+  </producedTypes>
+  <name>НастройкиОбменСБанками</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.СтандартыНаВыбработкуПродукции.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>7d46689c-d454-11e9-d597-e03f49179ada</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ЧтениеСопроводительногоДокумента</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ДобавлениеИзменениеСопроводительныйДокумент</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

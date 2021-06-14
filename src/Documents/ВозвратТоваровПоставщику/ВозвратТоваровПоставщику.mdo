@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bdcdeaba-ee5e-11e9-2289-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="bdcdea9c-ee5e-11e9-2289-e03f49179ada" valueTypeId="bdcdea9d-ee5e-11e9-2289-e03f49179ada"/>
+    <refType typeId="bdcdea9e-ee5e-11e9-2289-e03f49179ada" valueTypeId="bdcdeaa6-ee5e-11e9-2289-e03f49179ada"/>
+    <selectionType typeId="bdcdeaa7-ee5e-11e9-2289-e03f49179ada" valueTypeId="bdcdeaa8-ee5e-11e9-2289-e03f49179ada"/>
+    <listType typeId="bdcdeaa9-ee5e-11e9-2289-e03f49179ada" valueTypeId="bdcdeab0-ee5e-11e9-2289-e03f49179ada"/>
+    <managerType typeId="bdcdeab1-ee5e-11e9-2289-e03f49179ada" valueTypeId="bdcdeab2-ee5e-11e9-2289-e03f49179ada"/>
+  </producedTypes>
+  <name>ВозвратТоваровПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="b5998414-1e81-11ea-ba89-1c1b0dc48c9e" extendedConfigurationObject="23ebc3c6-31f8-4922-815e-e2ac8e69940b">
+    <name>ДоговорКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

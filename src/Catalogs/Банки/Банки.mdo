@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cef96458-f0da-11e9-fe86-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="cef9644e-f0da-11e9-fe86-e03f49179ada" valueTypeId="cef9644f-f0da-11e9-fe86-e03f49179ada"/>
+    <refType typeId="cef96450-f0da-11e9-fe86-e03f49179ada" valueTypeId="cef96451-f0da-11e9-fe86-e03f49179ada"/>
+    <selectionType typeId="cef96452-f0da-11e9-fe86-e03f49179ada" valueTypeId="cef96453-f0da-11e9-fe86-e03f49179ada"/>
+    <listType typeId="cef96454-f0da-11e9-fe86-e03f49179ada" valueTypeId="cef96455-f0da-11e9-fe86-e03f49179ada"/>
+    <managerType typeId="cef96456-f0da-11e9-fe86-e03f49179ada" valueTypeId="cef96457-f0da-11e9-fe86-e03f49179ada"/>
+  </producedTypes>
+  <name>Банки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="24b747fe-5885-11ea-cb87-441ea1d3e78c" extendedConfigurationObject="ea96a4c9-2b48-4bae-8280-8583149d212c">
+    <name>Город</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2a643158-5885-11ea-cb87-441ea1d3e78c" extendedConfigurationObject="c38ad01d-6049-4ff0-a15f-e8e89616971c">
+    <name>КоррСчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

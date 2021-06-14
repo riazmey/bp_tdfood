@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ebf93b51-bc7e-484d-ae2d-257dc7d5c445">
+  <producedTypes>
+    <objectType typeId="1c54cd34-a8d9-49d2-9c10-795605c063e9" valueTypeId="bb7fddbf-b4b1-4f87-84e6-d6e651ee6bb2"/>
+    <refType typeId="17df1e6c-027d-4d97-9709-e98ec049b41b" valueTypeId="b5d0fa54-9c85-4eb5-8e87-d21a07655946"/>
+    <selectionType typeId="2fddf54a-accb-45e3-b9ca-12eb9910e459" valueTypeId="6131f6d0-192b-4c9b-8cec-dd8c731b519d"/>
+    <listType typeId="97c105fb-2cd8-4322-bd7c-3df07d8f82b8" valueTypeId="149f9450-0a27-4f65-a553-2e7584a07f86"/>
+    <managerType typeId="28434e19-13f8-4149-822e-22267d687660" valueTypeId="e664a26e-4204-465a-9f99-4b05f5f98f99"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>3</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="3c960e77-f5a3-456e-80d7-01d02b853010">
+      <name>Россия</name>
+      <description>РОССИЯ</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="15b852b3-64f8-48c5-bf02-4ea873f4a0a2" extendedConfigurationObject="fa4c2ef4-bafa-4c3f-9dd0-84cc360ceb12">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

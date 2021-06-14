@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49060474-7f0a-11ea-0881-441ea1d3e78c" extendedConfigurationObject="c3a74f47-391c-457c-9b21-78def2e852ec">
+  <producedTypes>
+    <refType typeId="4906046e-7f0a-11ea-0881-441ea1d3e78c" valueTypeId="4906046f-7f0a-11ea-0881-441ea1d3e78c"/>
+    <listType typeId="49060470-7f0a-11ea-0881-441ea1d3e78c" valueTypeId="49060471-7f0a-11ea-0881-441ea1d3e78c"/>
+    <managerType typeId="49060472-7f0a-11ea-0881-441ea1d3e78c" valueTypeId="49060473-7f0a-11ea-0881-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВидыОперацийРозничнаяПродажа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="985fc1fc-7f0b-11ea-0881-441ea1d3e78c" extendedConfigurationObject="b2686027-b4fb-4d73-9d2e-6fae9bfa2a19">
+    <name>Продажа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

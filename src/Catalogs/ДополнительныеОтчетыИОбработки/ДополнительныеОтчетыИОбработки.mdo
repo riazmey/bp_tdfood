@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c6f49d86-2ee1-11ea-6e83-1c1b0dc48c9e" extendedConfigurationObject="92707138-5004-4378-8477-f909166d319d">
+  <producedTypes>
+    <objectType typeId="c6f49d78-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c6f49d79-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+    <refType typeId="c6f49d7a-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c6f49d7b-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+    <selectionType typeId="c6f49d7c-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c6f49d7d-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+    <listType typeId="c6f49d82-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c6f49d83-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+    <managerType typeId="c6f49d84-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c6f49d85-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ДополнительныеОтчетыИОбработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="b635a25e-2f1b-11ea-5e82-1c1b0dc48c9e" extendedConfigurationObject="ffd987e3-e8af-4d46-881e-1e312e74dbac">
+    <name>ИмяОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="c7228cc8-2ee1-11ea-6e83-1c1b0dc48c9e" extendedConfigurationObject="7a34f723-cd14-4949-a40f-7ce579bf0449">
+    <producedTypes>
+      <objectType typeId="c7228cc4-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c7228cc5-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+      <rowType typeId="c7228cc6-2ee1-11ea-6e83-1c1b0dc48c9e" valueTypeId="c7228cc7-2ee1-11ea-6e83-1c1b0dc48c9e"/>
+    </producedTypes>
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c75233ac-2ee1-11ea-6e83-1c1b0dc48c9e" extendedConfigurationObject="5cdc9ac7-bba9-4ed1-845a-607976fc4679">
+      <name>ОбъектНазначения</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ИдентификаторыОбъектовМетаданных</type>
+          </types>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ИдентификаторыОбъектовРасширений</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="02a17988-2f35-11ea-5e82-1c1b0dc48c9e" extendedConfigurationObject="0481bc65-6a32-46b9-ae87-993ba52a29a5">
+    <producedTypes>
+      <objectType typeId="02a1797e-2f35-11ea-5e82-1c1b0dc48c9e" valueTypeId="02a1797f-2f35-11ea-5e82-1c1b0dc48c9e"/>
+      <rowType typeId="02a17980-2f35-11ea-5e82-1c1b0dc48c9e" valueTypeId="02a17981-2f35-11ea-5e82-1c1b0dc48c9e"/>
+    </producedTypes>
+    <name>Команды</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="02a4ccf0-2f35-11ea-5e82-1c1b0dc48c9e" extendedConfigurationObject="36ebebbb-dff1-4dbd-870b-58bd4a71fa1f">
+      <name>Идентификатор</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="781ed35c-2a83-11ea-7481-1c1b0dc48c9e" extendedConfigurationObject="47ec37ad-ad41-431b-a1c0-d141c1abac3a">
+  <producedTypes>
+    <refType typeId="781ed356-2a83-11ea-7481-1c1b0dc48c9e" valueTypeId="781ed357-2a83-11ea-7481-1c1b0dc48c9e"/>
+    <listType typeId="781ed358-2a83-11ea-7481-1c1b0dc48c9e" valueTypeId="781ed359-2a83-11ea-7481-1c1b0dc48c9e"/>
+    <managerType typeId="781ed35a-2a83-11ea-7481-1c1b0dc48c9e" valueTypeId="781ed35b-2a83-11ea-7481-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СтатусыОтгрузки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="78498ac4-2a83-11ea-7481-1c1b0dc48c9e" extendedConfigurationObject="7004f61a-4db4-4f0a-8cb1-0ed60875165a">
+    <name>НеОтгружен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7b39a25a-2a83-11ea-7481-1c1b0dc48c9e" extendedConfigurationObject="b317b092-2b5c-44b2-b927-c30dfc7c9c6a">
+    <name>ОтгруженЧастично</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7d2f46b4-2a83-11ea-7481-1c1b0dc48c9e" extendedConfigurationObject="57a7505e-7bb8-4343-b95c-eac8eb2b774c">
+    <name>Отгружен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

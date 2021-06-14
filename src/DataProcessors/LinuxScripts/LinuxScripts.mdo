@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9693b308-0b7c-11ea-6180-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="9693b304-0b7c-11ea-6180-e03f49179ada" valueTypeId="9693b305-0b7c-11ea-6180-e03f49179ada"/>
+    <managerType typeId="9693b306-0b7c-11ea-6180-e03f49179ada" valueTypeId="9693b307-0b7c-11ea-6180-e03f49179ada"/>
+  </producedTypes>
+  <name>LinuxScripts</name>
+  <synonym>
+    <key>ru</key>
+    <value>Linux scripts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="ed86ea0a-0b7c-11ea-6180-e03f49179ada">
+    <name>convert_image</name>
+    <synonym>
+      <key>ru</key>
+      <value>Convert image</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="67bb25bc-2f3a-11ea-5e82-1c1b0dc48c9e">
+    <name>get_default_printer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get default printer</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bc6d56ca-2f3a-11ea-5e82-1c1b0dc48c9e">
+    <name>list_printers</name>
+    <synonym>
+      <key>ru</key>
+      <value>List printers</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a6ef8e3a-2f3f-11ea-5e82-1c1b0dc48c9e">
+    <name>print_file</name>
+    <synonym>
+      <key>ru</key>
+      <value>Print file</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

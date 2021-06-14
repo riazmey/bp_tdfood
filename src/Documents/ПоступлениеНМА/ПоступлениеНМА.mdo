@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cc6e5014-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="bece3346-48cd-424a-ab7f-bf43f997bf8a">
+  <producedTypes>
+    <objectType typeId="cc6e500a-652d-11ea-b484-441ea1d3e78c" valueTypeId="cc6e500b-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="cc6e500c-652d-11ea-b484-441ea1d3e78c" valueTypeId="cc6e500d-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="cc6e500e-652d-11ea-b484-441ea1d3e78c" valueTypeId="cc6e500f-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="cc6e5010-652d-11ea-b484-441ea1d3e78c" valueTypeId="cc6e5011-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="cc6e5012-652d-11ea-b484-441ea1d3e78c" valueTypeId="cc6e5013-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ПоступлениеНМА</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92718fab-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="7b505f30-b704-42be-954f-6ea1382b1828">
+  <producedTypes>
+    <objectType typeId="92718f98-652d-11ea-b484-441ea1d3e78c" valueTypeId="92718fa2-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="92718fa3-652d-11ea-b484-441ea1d3e78c" valueTypeId="92718fa4-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="92718fa5-652d-11ea-b484-441ea1d3e78c" valueTypeId="92718fa6-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="92718fa7-652d-11ea-b484-441ea1d3e78c" valueTypeId="92718fa8-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="92718fa9-652d-11ea-b484-441ea1d3e78c" valueTypeId="92718faa-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ОтчетПроизводстваЗаСмену</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f19becd-6ad4-4396-b534-a808c31e6d20">
+  <producedTypes>
+    <objectType typeId="b177cd4a-d51d-4667-963e-c33f526fb526" valueTypeId="ef82d7d4-945f-40b9-b2e5-8a3aec5b4a04"/>
+    <refType typeId="7774f00b-f4e8-4733-871e-a065e7242f4d" valueTypeId="ecf89481-0c6f-4a40-966e-1c49e2f64aab"/>
+    <selectionType typeId="5a0700dd-8e7e-40f4-858e-c835f084efe1" valueTypeId="165c16dc-ef0e-497e-9df0-19cda69c8127"/>
+    <listType typeId="c6650f0b-f20d-41eb-b43f-bf638ecc4eca" valueTypeId="3b470d14-1613-4fe5-a460-6d871778ba0a"/>
+    <managerType typeId="b535b0d3-5c19-4101-8f83-2bad8737b828" valueTypeId="fb9475e6-a93d-4343-a563-cf942bb20511"/>
+  </producedTypes>
+  <name>КлассификаторЕдиницИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="db40f52d-38ff-4f1a-b9b9-8198ed3b5d99">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="910b5406-4f5a-11ea-a78e-441ea1d3e78c">
+    <name>Дробная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дробная</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5e2b1656-4f5b-11ea-a78e-441ea1d3e78c" extendedConfigurationObject="e054cbcb-4f15-48d4-a66e-903c52ba8135">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

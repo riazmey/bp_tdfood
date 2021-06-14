@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9a1cb60-36e4-11ea-ce99-1c1b0dc48c9e" extendedConfigurationObject="e9f6ad49-d335-4889-bf5f-413eb2cf304a">
+  <producedTypes>
+    <refType typeId="f9a1cb5a-36e4-11ea-ce99-1c1b0dc48c9e" valueTypeId="f9a1cb5b-36e4-11ea-ce99-1c1b0dc48c9e"/>
+    <listType typeId="f9a1cb5c-36e4-11ea-ce99-1c1b0dc48c9e" valueTypeId="f9a1cb5d-36e4-11ea-ce99-1c1b0dc48c9e"/>
+    <managerType typeId="f9a1cb5e-36e4-11ea-ce99-1c1b0dc48c9e" valueTypeId="f9a1cb5f-36e4-11ea-ce99-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ДействиеНДСВСтоимостиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f9bb9dc8-36e4-11ea-ce99-1c1b0dc48c9e" extendedConfigurationObject="9b4586de-fd11-4c88-a5dd-d81e97604ae9">
+    <name>ИсключитьИзСтоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f9db599c-36e4-11ea-ce99-1c1b0dc48c9e" extendedConfigurationObject="b7924af0-fea2-4de9-8ec0-b0594cc03b80">
+    <name>ВключитьВСтоимость</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f9ffb7a6-36e4-11ea-ce99-1c1b0dc48c9e" extendedConfigurationObject="d6ba22fa-ee92-42cc-b484-11537f37ccef">
+    <name>НеИзменять</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

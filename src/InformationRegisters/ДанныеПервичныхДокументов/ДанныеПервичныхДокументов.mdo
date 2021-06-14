@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcb5575c-0550-11ea-9288-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="dcb5574b-0550-11ea-9288-e03f49179ada" valueTypeId="dcb5574c-0550-11ea-9288-e03f49179ada"/>
+    <listType typeId="dcb55752-0550-11ea-9288-e03f49179ada" valueTypeId="dcb55753-0550-11ea-9288-e03f49179ada"/>
+    <managerType typeId="dcb55749-0550-11ea-9288-e03f49179ada" valueTypeId="dcb5574a-0550-11ea-9288-e03f49179ada"/>
+    <recordSetType typeId="dcb55754-0550-11ea-9288-e03f49179ada" valueTypeId="dcb55755-0550-11ea-9288-e03f49179ada"/>
+    <recordKeyType typeId="dcb55756-0550-11ea-9288-e03f49179ada" valueTypeId="dcb55757-0550-11ea-9288-e03f49179ada"/>
+    <recordType typeId="dcb5573e-0550-11ea-9288-e03f49179ada" valueTypeId="dcb55748-0550-11ea-9288-e03f49179ada"/>
+    <recordManagerType typeId="dcb55758-0550-11ea-9288-e03f49179ada" valueTypeId="dcb55759-0550-11ea-9288-e03f49179ada"/>
+  </producedTypes>
+  <name>ДанныеПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="e785d6ac-0550-11ea-9288-e03f49179ada">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="e93a1d32-0550-11ea-9288-e03f49179ada">
+    <name>Дата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="eac18afa-0550-11ea-9288-e03f49179ada">
+    <name>ДатаРегистратора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="ec5162f0-0550-11ea-9288-e03f49179ada">
+    <name>НомерРегистратора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="e1a0b00e-0550-11ea-9288-e03f49179ada">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="e58279c8-0550-11ea-9288-e03f49179ada">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

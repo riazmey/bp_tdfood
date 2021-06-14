@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="735bfb69-afd5-463c-a523-2ee91f16f813">
+  <producedTypes>
+    <refType typeId="fbeeb2a7-4a13-4bc4-aa77-12450c70ecf6" valueTypeId="7d6bc071-24ba-444e-a872-7f08de1aae52"/>
+    <listType typeId="d2a76e8f-61a6-4142-abcf-9b2c740cf7c6" valueTypeId="72e15a44-a857-4ed4-9979-4dedb65ed958"/>
+    <managerType typeId="aa8da157-440d-49a4-b478-f778ec3bfe62" valueTypeId="8daf5238-c07d-433c-a496-8b02a5213a66"/>
+  </producedTypes>
+  <name>ВидыЛицензийАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,403 @@
+<!DOCTYPE html> 
+
+<!--
+	Описание замен для 1С:
+		< #HTMLTitle#>			- Текст заголовока HTML документа
+		< #KeyAPI#>				- Ключ API
+		< #MapWidth#>			- Текст ширины карты (HTML занимает 100% ширины страницы браузера, а карта - то что указано тут)
+        < #MapHeight#>			- Текст высоты карты (HTML занимает 100% высоты страницы браузера, а карта - то что указано тут)
+        < #ArrayRoutes#>		- Массив маршрутов (многомерный)
+			Описание колонок (ArrayRoutes):
+			  0 - Наименование маршрута (Name)
+			  1 - Водитель              (Driver)
+			  2 - Автомобиль            (Car)
+              3 - Цвет                  (Color)
+              4 - Тип иконок            (TypeIcon)
+              5 - Массив точек маршрута (ArrayPoints) - Массив точек маршрутов (многомерный)
+                Описание колонок (ArrayPoints/ArrayPointsCluster):
+				  0 - Наименование контрагента (Name)
+				  1 - Адрес доставки           (Address)
+				  2 - Широта                   (Latitude)
+				  3 - Долгота                  (Longitude)
+				  4 - Номер рейса              (NumCruise)
+				  5 - Номер в рейсе            (NumInCruise)
+				  6 - Вес ТМЦ                  (Weight)
+				  7 - Сумма                    (Ammount)
+				  8 - Наценка                  (Profit)
+        < #ArrayPointsCluster#>	- Массив точек кластера (многомерный)
+            Описание колонок (ArrayPoints/ArrayPointsCluster):
+			  0 - Наименование контрагента (Name)
+			  1 - Адрес доставки           (Address)
+			  2 - Широта                   (Latitude)
+			  3 - Долгота                  (Longitude)
+			  4 - Номер рейса              (NumCruise)
+			  5 - Номер в рейсе            (NumInCruise)
+			  6 - Вес ТМЦ                  (Weight)
+			  7 - Сумма                    (Ammount)
+			  8 - Наценка                  (Profit)
+			  9 - Цвет                     (Color)
+			  10 - Тип bконки              (TypeIcon)
+			  11 - Имя маршрута            (RouteName)
+			  12 - Водитель                (Driver)
+			  13 - Автомобиль              (Car)
+
+		< #function_init#>		- Текст функции init(). Заметка: отступ 4 табуляции
+		< #body#>				- Текст секции <body>Этот текст</body>. Заметка: отступ 2 табуляции
+-->
+
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<html xmlns:vml="urn:schemas-microsoft-com:vml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+		
+		<!--<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<#KeyAPI#>" type="text/javascript"></script>-->
+		<script src="https://api-maps.yandex.ru/2.1.oldie.1/?lang=ru_RU&amp;apikey=<#KeyAPI#>" type="text/javascript"></script>
+		<!--
+		Внимание.
+		Для пользователей, которые работают в браузерах IE8, IE9 и IE10,
+		будет подключаться версия 2.1.oldie.1 (даже если в ссылке подключения
+		указана другая версия API). Версия 2.1.oldie.1 функционально
+		соответствует версии 2.1.59 и не содержит более поздних обновлений.
+		Если необходимо поддерживать браузеры IE8, IE9 и IE10, при написании
+		кода ориентируйтесь на справочник версии 2.1.59 (скачать справочник).
+		Использование функциональности более поздних версий может привести к
+		некорректной работе API в IE8, IE9 и IE10.
+		Ссылка: https://tech.yandex.ru/maps/jsapi/doc/2.1/dg/concepts/load-docpage/
+		-->
+		
+		
+		<title><#HTMLTitle#></title>
+		
+		<style type="text/css">
+			html, body {
+				z-index: 1;
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#map {
+				z-index: 1;
+				width: <#MapWidth#>;
+				height: <#MapHeight#>;
+			}
+			
+			.ballon_header {
+				font-size: 14px;
+				margin-top: 0px;
+				margin-bottom: 5px;
+				color: #708090;
+			}
+			
+			.ballon_body {
+				font-size: 12px;
+				text-align:left;
+				margin-bottom: 5px;
+			}
+			
+			.ballon_footer {
+				font-size: 11px;
+				text-align: left;
+				margin-left: 51px;
+				color: #636563;
+				margin-top: 0px;
+			}
+			
+			p {
+    			line-height: 0.5;
+   			}
+
+			.RouterBox {
+				z-index: 1;
+				position: fixed;
+				width: 30%;
+				min-width:150px;
+				height: auto;
+				min-height: 21px;
+				border: 1px solid #f5f5f5;
+				padding-top: 4px;
+				padding-left: 20px;
+				font-size: 10pt;
+				color: #636563;
+				background: white;
+				top: 10px;
+				left: 10px;
+				box-shadow: 0 2px 5px rgba(0,0,0,0.20), 0 1px 0px rgba(0,0,0,0.05);
+				border-radius: 3px 3px 3px 3px;	
+				text-align: center;
+			}
+			
+			.ColorTextRed{
+				color: red;
+			}
+		</style>
+
+		<script type="text/javascript">
+			
+			var myMap, map;
+			var noclick = true;
+		
+			ymaps.ready(init);
+			
+			function init()
+			{
+				<#function_init#>
+			}
+			
+			
+			function DrawCluster()
+			{
+				var clusterer, customItemContentLayout;
+				var ArrayPointsCluster = <#ArrayPointsCluster#>;
+				
+				var customItemContentLayout = ymaps.templateLayoutFactory.createClass(
+					// Флаг "raw" означает, что данные вставляют "как есть" без экранирования html.
+					'<h2 class=ballon_header>{{ properties.balloonContentHeader|raw }}</h2>' +
+					'<div class=ballon_body>{{ properties.balloonContentBody|raw }}</div>' +
+					'<div class=ballon_footer>{{ properties.balloonContentFooter|raw }}</div>'
+				);
+					
+				var clusterer = new ymaps.Clusterer({
+					clusterIconLayout: 'default#pieChart',
+					clusterIconPieChartRadius: 20,
+					clusterIconPieChartCoreRadius: 10,
+					clusterIconPieChartStrokeWidth: 2,
+					clusterDisableClickZoom: true,
+					clusterOpenBalloonOnClick: true,
+					clusterBalloonContentLayout: 'cluster#balloonCarousel',
+					clusterBalloonItemContentLayout: customItemContentLayout,
+					clusterBalloonPanelMaxMapArea: 360000,
+					clusterBalloonContentLayoutWidth: 320,
+					clusterBalloonContentLayoutHeight: 160,
+					clusterBalloonPagerSize: 10,
+					maxZoom: 12,
+					clusterBalloonCycling: false
+				});
+				
+				var placemarks = [];
+				for (index = 0; index < ArrayPointsCluster.length; ++index) {
+					var ColorHeader  = ArrayPointsCluster[index][9];
+					var HintContent = ArrayPointsCluster[index][0];
+					var IconContent = String(ArrayPointsCluster[index][5]);
+					var ContentHeader = '<span style="color: '+ColorHeader+'">'+HintContent+'</span>';
+					var ContentFooter = '';
+					var ContentBody = '';
+					var ContentFooter = '';
+					var StrAmmount = '';
+					var StrProfit = '';
+					
+					if (ArrayPointsCluster[index][1] == '') {
+						ContentBody = '<b>Адрес:</b> Отсутствует';
+					} else {
+						ContentBody = '<b>Адрес:</b> '+ArrayPointsCluster[index][1];
+					};
+					
+					//if (ArrayPointsCluster[index][6] == '0') {
+					//	StrContentFooter = '<pre>Маршрут:	'+ArrayPointsCluster[index][4] + '<br>Рейс:		№'+ArrayPoints[index][5]+'</pre>';
+					//} else {
+					//	StrContentFooter = '<pre>Маршрут:	'+ArrayPointsCluster[index][4] + '<br>Рейс:		№'+ArrayPoints[index][5] + '<br>Номер в рейсе:	'+ArrayPoints[index][6] + '<br>Вес ТМЦ:	'+ArrayPoints[index][7] + ' кг.' + StrAmmount+StrExtraCharge+' </pre>';
+					//};
+					
+					if (ArrayPointsCluster[index][11] !== '') {
+						ContentFooter += '<pre>Маршрут:	' + ArrayPointsCluster[index][11];
+					};
+					
+					if (ArrayPointsCluster[index][12] !== '') {
+						ContentFooter += '<br>Водитель:	'+ArrayPointsCluster[index][12];
+					};
+					
+					if (ArrayPointsCluster[index][6] !== 0) {
+						ContentFooter += '<br>Вес ТМЦ:	' + numeric_format(ArrayPointsCluster[index][6], ' ', ',') + ' кг.';
+					};
+					
+					if (ArrayPointsCluster[index][7] !== 0) {
+						ContentFooter += '<br>Сумма:		' + numeric_format(ArrayPointsCluster[index][7], ' ', ',') + ' руб.';
+					};
+					
+					if (ArrayPointsCluster[index][8] !== 0) {
+						if (ArrayPointsCluster[index][8] < 0) {
+							ContentFooter += '<br>Наценка:	<span class="ColorTextRed">'+numeric_format(ArrayPointsCluster[index][8], ' ', ',') + ' руб.</span>';
+						} else {
+							ContentFooter += '<br>Наценка:	' + numeric_format(ArrayPointsCluster[index][8], ' ', ',') + ' руб.';
+						};
+					};
+					
+					if (ContentFooter !== '') {
+						ContentFooter += ' </pre>';
+					};
+
+					var placemark = new ymaps.Placemark([ArrayPointsCluster[index][2], ArrayPointsCluster[index][3]], {
+						hintContent: HintContent,
+						iconContent: IconContent,
+						balloonContentHeader: ContentHeader,
+						balloonContentBody: ContentBody,
+						balloonContentFooter: ContentFooter
+					}, {
+						preset: ArrayPointsCluster[index][10],
+						iconColor: ArrayPointsCluster[index][9]
+					});
+					placemarks.push(placemark);
+				};
+				
+				clusterer.add(placemarks);
+				myMap.geoObjects.add(clusterer);
+				
+				// Позиционируем экран так чтобы было видно все точки
+				myMap.setBounds(clusterer.getBounds());
+			}
+			
+			
+			function Route()
+			{
+				var ArrayRoutes = <#ArrayRoutes#>;
+				
+				for (indexRoute = 0; indexRoute < ArrayRoutes.length; ++indexRoute) {
+					var Name         = ArrayRoutes[indexRoute][0];
+					var Driver       = ArrayRoutes[indexRoute][1];
+					var Car          = ArrayRoutes[indexRoute][2];
+					var Color        = ArrayRoutes[indexRoute][3];
+					var TypeIcon     = ArrayRoutes[indexRoute][4];
+					var ArrayPoints  = ArrayRoutes[indexRoute][5];
+					var ArrayRoute   = [];
+
+					for (indexPoint = 0; indexPoint < ArrayPoints.length; ++indexPoint) {
+						ArrayRoute.push([
+							ArrayPoints[indexPoint][2],
+							ArrayPoints[indexPoint][3]
+						]);
+					};
+					
+					var multiRoute = new ymaps.multiRouter.MultiRoute({	
+						referencePoints: ArrayRoute,
+						params: {
+            				// Максимальное количество маршрутов, которое вернет маршрутизатор.
+            				results: 1,
+            				avoidTrafficJams: true
+					}}, {
+						wayPointVisible:false,
+						viaPointDraggable: false,
+						viaPointVisible:false,
+						pinVisible:false,
+						routeStrokeWidth: 2,
+						routeStrokeColor: Color,
+						routeActiveStrokeWidth: 5,
+						routeActiveStrokeColor: Color
+					});
+
+					myMap.geoObjects.add(multiRoute);
+
+				};
+
+				if (ArrayRoutes.length == 1){
+					multiRoute.events.add("update",function ()
+					{
+						multiRoute.getRoutes().each(function (route) {
+							var RouterLength = 0;
+							
+							route.getPaths().each(function (path) {
+								path.getSegments().each(function (segment) {
+									RouterLength = RouterLength + segment.properties.get("distance").value;
+								});
+							});
+							document.getElementById('RouteLength').innerHTML = 'Длина маршрута составила: ' + Math.floor(RouterLength/1000) + ' км.';
+						});
+					});
+				} else {
+					var element = document.getElementById('RouterBox');
+					element.parentNode.removeChild(element);
+				};
+			}
+			
+			
+			function numeric_format(val, thSep, dcSep)
+			{
+				if (!thSep) thSep = ' ';
+				if (!dcSep) dcSep = ',';
+				var res = val.toString();
+				var lZero = (val < 0);
+				
+				var fLen = res.lastIndexOf('.');
+				fLen = (fLen > -1) ? fLen : res.length;
+				
+				var tmpRes = res.substring(fLen);
+				var cnt = -1;
+				for (var ind = fLen; ind > 0; ind--)
+				{
+					cnt++;
+					if (((cnt % 3) === 0) && (ind !== fLen) && (!lZero || (ind > 1)))
+					{
+						tmpRes = thSep + tmpRes;
+					}
+					tmpRes = res.charAt(ind - 1) + tmpRes;
+				};
+				return tmpRes.replace('.', dcSep);
+			}
+			
+			
+			function RemoveAllPlacemark()
+			{
+				// Удаляем все геообъекты на карте
+				myMap.geoObjects.each(function (geoObject) {
+					myMap.geoObjects.remove(geoObject);
+				});
+			}
+			
+			
+			function AddPlacemark(CoordX, CoordY, NamePartner, Address, Color, TypeIcon)
+			{
+				var CoordPosition = [CoordX, CoordY];
+				var placemark = new ymaps.Placemark(CoordPosition, {
+					hintContent: NamePartner,
+					balloonContentHeader: '<span style="color: '+Color+'">'+NamePartner+'</span>',
+					balloonContentBody: '<b>Адрес:</b> '+Address+''
+				}, {
+					preset: TypeIcon,
+					iconColor: Color
+				});
+				myMap.geoObjects.add(placemark);
+				
+				myMap.panTo(
+					// Координаты нового центра карты
+					CoordPosition, {
+						/* Опции перемещения:
+							разрешить уменьшать и затем увеличивать зум
+							карты при перемещении между точками 
+						*/
+						flying: true
+					}
+				);
+			}
+			
+			
+			function SetCoordsToHTMLElements(coordPosition)
+			{
+				document.getElementById('CoordX').value = coordPosition[0].toPrecision(15);
+				document.getElementById('CoordY').value = coordPosition[1].toPrecision(15);
+			}
+			
+			
+			function WebClientEnable()
+			{
+				//очистка перед кликом координат, иначе после клика в упр. формах идет считывание координат
+				document.getElementById('CoordX').value = "0";
+				document.getElementById('CoordY').value = "0";
+				
+				var WebClientOperation = document.getElementById("WebClientOperation").value;
+				switch (WebClientOperation) {
+					case "0":   // ничего не делаем
+						var a = 1; 
+					default:   // запускаем функцию
+						eval(WebClientOperation);
+				}
+				document.getElementById('WebClientOperation').value = "0";
+			}
+			
+		</script>
+	</head>
+
+	<body>
+		<#body#>
+	</body>
+</html>

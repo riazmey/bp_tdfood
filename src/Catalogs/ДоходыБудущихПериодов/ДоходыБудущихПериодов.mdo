@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5f027a7-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="93d1065e-3688-49cd-88d9-eead2e5cb5af">
+  <producedTypes>
+    <objectType typeId="a5f0279a-652e-11ea-b484-441ea1d3e78c" valueTypeId="a5f0279b-652e-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="a5f0279c-652e-11ea-b484-441ea1d3e78c" valueTypeId="a5f0279d-652e-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="a5f0279e-652e-11ea-b484-441ea1d3e78c" valueTypeId="a5f0279f-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="a5f027a0-652e-11ea-b484-441ea1d3e78c" valueTypeId="a5f027a4-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="a5f027a5-652e-11ea-b484-441ea1d3e78c" valueTypeId="a5f027a6-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ДоходыБудущихПериодов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

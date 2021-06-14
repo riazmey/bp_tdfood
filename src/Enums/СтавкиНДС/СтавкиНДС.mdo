@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="12bbc618-45ba-42fd-b809-6e7fba84d6b6">
+  <producedTypes>
+    <refType typeId="979a94d4-5b29-415b-80a7-96e5784b336f" valueTypeId="b14ad442-009a-437d-a435-80d06f2f26c3"/>
+    <listType typeId="74aebb7c-b807-4147-8585-e6045ade4cdf" valueTypeId="ea1a985d-7cd1-4d82-b391-854ee75ecd30"/>
+    <managerType typeId="1639a3e8-e4a8-468b-b3fc-68d1ad5da455" valueTypeId="111eb199-0a6f-4ca2-9346-93a5322cd4c5"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3876338e-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС18</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3a4d575a-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС18_118</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3c0c316a-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС10</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3dc41306-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС10_110</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3f8932b6-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС0</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4129a092-fa5e-11e9-1594-e03f49179ada">
+    <name>БезНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="42eb2c7a-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС20</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="45377d4e-fa5e-11e9-1594-e03f49179ada">
+    <name>НДС20_120</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

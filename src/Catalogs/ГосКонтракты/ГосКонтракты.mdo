@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc4b41c1-3c06-4ec8-940b-0c9e670cf3ae">
+  <producedTypes>
+    <objectType typeId="ffab89e2-70e9-408d-a3ea-f18a1cf8cced" valueTypeId="040d3cbf-824e-4ddc-b1c5-eaf82f719def"/>
+    <refType typeId="fdbae553-03ab-4fe9-8f97-5ca09f0ce78f" valueTypeId="1d43c1d4-3eae-4f69-90c0-97d73522c0fe"/>
+    <selectionType typeId="7aea199f-4b6e-4371-a42e-0b5665460c87" valueTypeId="f8b68c24-e91f-4503-bcb0-a1ef89903d7e"/>
+    <listType typeId="d3d3a0df-bd04-4780-b496-376ea7cd77c7" valueTypeId="80125a33-9891-48bc-af1c-4a81b036d404"/>
+    <managerType typeId="03289fcd-22de-4468-be6f-46130caef90a" valueTypeId="3eaf84df-179d-425c-966a-0b7362afa9f9"/>
+  </producedTypes>
+  <name>ГосКонтракты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

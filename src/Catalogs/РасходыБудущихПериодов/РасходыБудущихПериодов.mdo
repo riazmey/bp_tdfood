@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fd97b36e-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="c91635b4-971c-4d99-a0fc-ef1bedd24d36">
+  <producedTypes>
+    <objectType typeId="fd97b364-652e-11ea-b484-441ea1d3e78c" valueTypeId="fd97b365-652e-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="fd97b366-652e-11ea-b484-441ea1d3e78c" valueTypeId="fd97b367-652e-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="fd97b368-652e-11ea-b484-441ea1d3e78c" valueTypeId="fd97b369-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="fd97b36a-652e-11ea-b484-441ea1d3e78c" valueTypeId="fd97b36b-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="fd97b36c-652e-11ea-b484-441ea1d3e78c" valueTypeId="fd97b36d-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>РасходыБудущихПериодов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

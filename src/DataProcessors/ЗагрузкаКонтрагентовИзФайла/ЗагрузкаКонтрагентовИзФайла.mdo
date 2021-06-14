@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e630e47a-228a-11ea-db84-1c1b0dc48c9e" extendedConfigurationObject="cf6cca9d-cfda-46eb-9032-cb0f05ff9d34">
+  <producedTypes>
+    <objectType typeId="e630e470-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e630e471-228a-11ea-db84-1c1b0dc48c9e"/>
+    <managerType typeId="e630e472-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e630e473-228a-11ea-db84-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ЗагрузкаКонтрагентовИзФайла</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <commands uuid="e64e7d28-228a-11ea-db84-1c1b0dc48c9e" extendedConfigurationObject="a26c06c9-3acb-429b-904b-87317bc56421">
+    <name>ЗагрузитьИзФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="99845681-081c-4625-aa77-042441a86a77">
+  <producedTypes>
+    <objectType typeId="048eb01d-3ebe-4faf-abe4-708af02eab5b" valueTypeId="5241674b-a37f-4fd2-ae6d-208326bae9d4"/>
+    <refType typeId="3001713f-5b86-40b5-9de4-2db76842d4b6" valueTypeId="93765c58-4da5-49f2-9087-26beb228d6a5"/>
+    <selectionType typeId="51d1356b-2108-4058-bd9e-88bf5d93e043" valueTypeId="1299d837-912b-4a18-8673-8712fe539647"/>
+    <listType typeId="33f1a61d-fc92-4dfa-906d-f005102673a8" valueTypeId="aa7e8aea-cb6b-459b-8d27-df07b329e268"/>
+    <managerType typeId="a0254b0a-72c6-4e8f-8956-0e7d31ffc455" valueTypeId="ac43aa97-01b1-4123-8b4d-cb134df78400"/>
+  </producedTypes>
+  <name>КодыОперацийРаздела7ДекларацииПоНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

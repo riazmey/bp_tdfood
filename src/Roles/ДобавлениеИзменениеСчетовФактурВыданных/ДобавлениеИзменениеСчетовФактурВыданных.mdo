@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b584051-55e2-4930-8e85-10feed097be5" extendedConfigurationObject="47b8636e-c3e9-4843-8862-aae1aa701463">
+  <name>ДобавлениеИзменениеСчетовФактурВыданных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:RoleExtension">
+    <rights>Extended</rights>
+  </extension>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a8d282ee-ffa5-11e9-e694-e03f49179ada">
+  <producedTypes>
+    <managerType typeId="a8d282e4-ffa5-11e9-e694-e03f49179ada" valueTypeId="a8d282e5-ffa5-11e9-e694-e03f49179ada"/>
+    <valueManagerType typeId="a8d282e6-ffa5-11e9-e694-e03f49179ada" valueTypeId="a8d282e7-ffa5-11e9-e694-e03f49179ada"/>
+    <valueKeyType typeId="a8d282e8-ffa5-11e9-e694-e03f49179ada" valueTypeId="a8d282e9-ffa5-11e9-e694-e03f49179ada"/>
+  </producedTypes>
+  <name>ИспользоватьВалютныйУчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

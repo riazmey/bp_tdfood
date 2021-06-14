@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d996853e-6dc2-11ea-e08b-441ea1d3e78c">
+  <name>КонтрольРасчетовНаличнымиДеньгамиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль расчетов наличными деньгами сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

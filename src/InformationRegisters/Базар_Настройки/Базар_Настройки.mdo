@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9111f86-0156-4e11-b136-e2d60b5a8c2a">
+  <producedTypes>
+    <selectionType typeId="e7853645-3a3c-4d20-a353-34ca86006cdc" valueTypeId="8a3f81d9-cd8a-478d-aee5-cf4a1a08ac2e"/>
+    <listType typeId="ad1e47ef-50dc-4a9f-9169-61f101b336d7" valueTypeId="ae682fd3-38fd-436a-9237-ffadf061ccff"/>
+    <managerType typeId="7422270e-3259-4ec5-beaf-95708fd482a4" valueTypeId="1fc53dc2-9dbc-4d61-a340-91447ef64f50"/>
+    <recordSetType typeId="c5dde702-a02d-4cd9-ade6-452134460b43" valueTypeId="5169ae7a-b59e-4e22-b31c-660b25403a4d"/>
+    <recordKeyType typeId="0557366e-485f-4664-a1e6-f52b64d134aa" valueTypeId="e953b056-8d2d-49b8-bdc4-0f1946cd2e6a"/>
+    <recordType typeId="b32ca187-1488-4eef-ba84-dce4d73785b1" valueTypeId="0c2624a1-23f6-4ed7-ac40-909cf48b891a"/>
+    <recordManagerType typeId="70b79f62-98e1-44ab-8a18-b2ee07abfb11" valueTypeId="4a48986f-dfd6-4073-8243-d39d6743d404"/>
+  </producedTypes>
+  <name>Базар_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки (расширение)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="621c11f2-1272-4290-8e4e-4ace19c436ea">
+    <name>ТипЦенСебестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен себестоимость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8d5f905e-0092-11ea-6987-e03f49179ada">
+    <name>ТипЦенПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен продажи (по умолчанию)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85fb6136-c481-11ea-3386-e0d55e604065">
+    <name>ТипЦенРозницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен розницы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31c3c472-1e4e-4a80-a335-1d4833ca1e11">
+    <name>СкладОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад отгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="29144a5c-11bf-11ea-4095-e03f49179ada">
+    <name>ДомашнийРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домашний регион</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7e70b4d0-6dc3-11ea-e08b-441ea1d3e78c">
+    <name>МаксимальнаяСуммаРасчетаНаличкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный размер расчетов наличными деньгами</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

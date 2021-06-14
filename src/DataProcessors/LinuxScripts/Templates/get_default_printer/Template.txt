@@ -1,0 +1,4 @@
+#!/bin/sh
+
+printer=$(echo `lpstat -d | sed 's/^.*: //'''`)
+echo $printer > /tmp/printer-default.txt

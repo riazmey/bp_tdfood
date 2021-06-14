@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b145ff09-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b145fef4-0c36-11ea-5d92-e03f49179ada" valueTypeId="b145fef5-0c36-11ea-5d92-e03f49179ada"/>
+    <refType typeId="b145fef6-0c36-11ea-5d92-e03f49179ada" valueTypeId="b145fefe-0c36-11ea-5d92-e03f49179ada"/>
+    <selectionType typeId="b145feff-0c36-11ea-5d92-e03f49179ada" valueTypeId="b145ff00-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b145ff01-0c36-11ea-5d92-e03f49179ada" valueTypeId="b145ff02-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b145ff03-0c36-11ea-5d92-e03f49179ada" valueTypeId="b145ff08-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="38f77254-6dc8-11ea-e08b-441ea1d3e78c">
+      <name>ОплатаОтПокупателя</name>
+      <description>Оплата от покупателей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

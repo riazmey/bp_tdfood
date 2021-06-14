@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6630c9e-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="94cb8fd8-e78e-4367-870e-e56a7e5e245d">
+  <producedTypes>
+    <selectionType typeId="f6630c94-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c95-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <listType typeId="f6630c96-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c97-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <managerType typeId="f6630c92-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c93-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordSetType typeId="f6630c98-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c99-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordKeyType typeId="f6630c9a-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c9b-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordType typeId="f6630c90-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c91-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordManagerType typeId="f6630c9c-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f6630c9d-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СостоянияЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="f6a75b20-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="9eb44008-3db8-4c27-940d-149dfe89ffe0">
+    <name>СостояниеВерсииЭД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияВерсийЭД</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="f9b747a8-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="bb074754-23ca-4d93-98f1-533aec10d349">
+    <name>СсылкаНаОбъект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияЭлектронныхДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

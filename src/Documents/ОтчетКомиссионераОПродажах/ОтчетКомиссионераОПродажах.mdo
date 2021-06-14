@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="834bd2d7-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="cf00de56-2f8f-4328-8058-803afff59319">
+  <producedTypes>
+    <objectType typeId="834bd2c6-652d-11ea-b484-441ea1d3e78c" valueTypeId="834bd2c7-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="834bd2c8-652d-11ea-b484-441ea1d3e78c" valueTypeId="834bd2d0-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="834bd2d1-652d-11ea-b484-441ea1d3e78c" valueTypeId="834bd2d2-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="834bd2d3-652d-11ea-b484-441ea1d3e78c" valueTypeId="834bd2d4-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="834bd2d5-652d-11ea-b484-441ea1d3e78c" valueTypeId="834bd2d6-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ОтчетКомиссионераОПродажах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

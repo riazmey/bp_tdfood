@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ab4ac29-b5db-4d7f-aa7b-0f3a1f6c2fb9">
+  <producedTypes>
+    <managerType typeId="12e4477d-5fd7-42e0-83b8-5560ec340d3d" valueTypeId="c89f965e-b9df-4d74-94f6-f0a697006374"/>
+    <valueManagerType typeId="bce4685f-5093-4eff-9b38-bc313b607e58" valueTypeId="8fb66bfd-e43d-459d-a3c2-3477d33a943b"/>
+    <valueKeyType typeId="ac31f71d-f29c-4499-969e-0e0fa533a6d9" valueTypeId="2f791355-57ab-4c70-8e1b-b168e7d28cb2"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольныеЗнакиГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

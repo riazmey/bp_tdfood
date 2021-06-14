@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa0f6966-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="5c6c224b-d6d1-41e3-aca0-41d6bca4fdaf">
+  <producedTypes>
+    <refType typeId="fa0f6960-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="fa0f6961-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <listType typeId="fa0f6962-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="fa0f6963-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <managerType typeId="fa0f6964-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="fa0f6965-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СтатусыСчетаФактуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

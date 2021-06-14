@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b7bb3b2f-bc20-4631-b187-0ef2aee94d6e">
+  <producedTypes>
+    <objectType typeId="88ecb35a-2e38-4025-aa0f-9067d3431340" valueTypeId="c009d8e5-b3fa-4ce6-aa9a-a5a647b95edd"/>
+    <refType typeId="bc71138f-841a-4bc5-8a70-020b6a1cdf01" valueTypeId="6567bcb4-58ff-4549-92c8-7d76d72b6266"/>
+    <selectionType typeId="ca8a0553-f3ac-4664-9f4f-7fd8c2d4c808" valueTypeId="87cf5bf0-c754-4ce3-8207-3634f34da595"/>
+    <listType typeId="08d9436e-58be-48b7-9495-ec90eb1ea617" valueTypeId="05a3a7a9-8e86-4dd3-b140-2d55338e2b05"/>
+    <managerType typeId="0820dab3-c2c4-45fa-8752-2368d06afc04" valueTypeId="62792cc2-d9f3-4511-9aaf-ab16a970b71d"/>
+  </producedTypes>
+  <name>КонтрольныеЗнакиГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

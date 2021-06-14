@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a084ecc2-5b3f-45a7-ba88-fdde4829ca15">
+  <name>СтатусБумажногоДокумента_Корректный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус бумажного документа корректный</value>
+  </synonym>
+</mdclass:CommonPicture>

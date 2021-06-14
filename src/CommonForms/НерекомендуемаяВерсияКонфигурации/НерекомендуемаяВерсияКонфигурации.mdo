@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09c072c5-e4d4-498d-aee2-29be5cded92c" extendedConfigurationObject="4e1c2c65-dcad-4494-b6a6-f6642f30b3da">
+  <name>НерекомендуемаяВерсияКонфигурации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicFormExtension">
+    <form>Extended</form>
+  </extension>
+</mdclass:CommonForm>

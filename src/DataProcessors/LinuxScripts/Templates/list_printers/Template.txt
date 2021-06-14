@@ -1,0 +1,4 @@
+#!/bin/sh
+
+lst=$(echo `lpstat -a | sed 's/ \{1,\}/ /g' | cut -d ' ' -f1`)
+echo $lst > /tmp/list-printers.txt

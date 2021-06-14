@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d29df114-6ea3-11ea-bd82-441ea1d3e78c" extendedConfigurationObject="a4929b89-b73d-4b15-b352-496a550ea3a3">
+  <producedTypes>
+    <refType typeId="d29df10e-6ea3-11ea-bd82-441ea1d3e78c" valueTypeId="d29df10f-6ea3-11ea-bd82-441ea1d3e78c"/>
+    <listType typeId="d29df110-6ea3-11ea-bd82-441ea1d3e78c" valueTypeId="d29df111-6ea3-11ea-bd82-441ea1d3e78c"/>
+    <managerType typeId="d29df112-6ea3-11ea-bd82-441ea1d3e78c" valueTypeId="d29df113-6ea3-11ea-bd82-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВидыПрочихДоходовИРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

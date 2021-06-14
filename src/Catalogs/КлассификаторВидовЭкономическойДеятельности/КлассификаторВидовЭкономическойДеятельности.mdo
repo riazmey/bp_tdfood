@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e37fe8bc-f0ff-41fd-815a-b9ad81cbc747">
+  <producedTypes>
+    <objectType typeId="c084382d-330d-44a3-93bd-cb20ef967d10" valueTypeId="3c29bb89-cb14-4f4f-b49a-aaffa13e19a1"/>
+    <refType typeId="bae7758e-6cd5-4c2e-91c1-1cfb0c0c9db8" valueTypeId="e443456e-2d0f-4e78-8d18-eb8619aa741f"/>
+    <selectionType typeId="c0559254-401e-4f94-9c6f-9d1e76a7632e" valueTypeId="26da4566-2a27-40fb-827c-81838bbb7397"/>
+    <listType typeId="19b5a5ff-38c3-4a0e-8e2d-a0d8b657d817" valueTypeId="44f1910d-df4c-4153-a06e-8dd70c596584"/>
+    <managerType typeId="efd7f983-7636-4e83-9e37-6f9f330293e9" valueTypeId="d735c3ce-2fe1-4cb7-86ad-55f626af657e"/>
+  </producedTypes>
+  <name>КлассификаторВидовЭкономическойДеятельности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

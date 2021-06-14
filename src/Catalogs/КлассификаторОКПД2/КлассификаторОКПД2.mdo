@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c901bb53-8172-467e-bb36-65e78fbc1348">
+  <producedTypes>
+    <objectType typeId="2e624bad-5ddc-406a-b9fe-e1bbf11ffacd" valueTypeId="71446d80-379f-4c2d-b8cc-117b444c0ffa"/>
+    <refType typeId="23d5f345-c062-4faa-82a9-950f2cc77b00" valueTypeId="bd920df7-5201-4d31-bdfe-4088024caac1"/>
+    <selectionType typeId="a0267fce-91f0-4323-83ac-d968ce494368" valueTypeId="2d26c8a5-5af5-44c0-8ab1-f8021fb47896"/>
+    <listType typeId="96816d74-01d3-455b-9ec1-ef20cc0e957a" valueTypeId="937abaf5-3b8c-4528-8f4f-f7343b9707c3"/>
+    <managerType typeId="e36e5918-db05-4aed-bfd6-b2e8e55ed427" valueTypeId="c861b448-d2c0-44d1-aee1-f30ac3830e2a"/>
+  </producedTypes>
+  <name>КлассификаторОКПД2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

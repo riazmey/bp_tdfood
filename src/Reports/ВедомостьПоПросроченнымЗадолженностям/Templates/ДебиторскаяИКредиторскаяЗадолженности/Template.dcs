@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИнформационнаяБаза</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПросроченоДней</dataPath>
+			<field>ПросроченоДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просроч. дней</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОплаты</dataPath>
+			<field>ДатаОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидВзаиморасчетов</dataPath>
+			<field>ВидВзаиморасчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид взаиморасчетов</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ВидыВзаиморасчетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отсрочка</dataPath>
+			<field>Отсрочка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отсрочка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Контрагенты</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПросроченныйДолг</dataPath>
+			<field>ПросроченныйДолг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просроч. ∑</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументРасчетов</dataPath>
+			<field>ДокументРасчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ расчетов</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачОстаток</dataPath>
+			<field>НачОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нач. остаток</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
+				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОборотКт</dataPath>
+			<field>ОборотКт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьш. долга</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОборотДт</dataPath>
+			<field>ОборотДт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увел. долга</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонОстаток</dataPath>
+			<field>КонОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кон. остаток</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДоговора</dataPath>
+			<field>ВидДоговора</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид договора</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИнформационнаяБаза</dataSource>
+		<query>ВЫБРАТЬ
+	ХозрасчетныйОстаткиИОбороты.Организация КАК Организация,
+	ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Контрагент,
+	ХозрасчетныйОстаткиИОбороты.Субконто2 КАК Договор,
+	ХозрасчетныйОстаткиИОбороты.Субконто3 КАК ДокументРасчетов,
+	ВЫБОР
+		КОГДА ХозрасчетныйОстаткиИОбороты.Субконто2.УстановленСрокОплаты
+			ТОГДА ХозрасчетныйОстаткиИОбороты.Субконто2.СрокОплаты
+		ИНАЧЕ 0
+	КОНЕЦ КАК Отсрочка,
+	ХозрасчетныйОстаткиИОбороты.СуммаНачальныйОстаток КАК НачОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотДт КАК ОборотДт,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотКт КАК ОборотКт,
+	ХозрасчетныйОстаткиИОбороты.СуммаКонечныйОстаток КАК КонОстаток,
+	ХозрасчетныйОстаткиИОбороты.ПериодСекунда КАК ПериодСекунда,
+	ВЫБОР
+		КОГДА ХозрасчетныйОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
+			ТОГДА NULL
+		ИНАЧЕ ХозрасчетныйОстаткиИОбороты.Регистратор
+	КОНЕЦ КАК Регистратор,
+	ХозрасчетныйОстаткиИОбороты.Субконто2.ВидВзаиморасчетов КАК ВидВзаиморасчетов,
+	ХозрасчетныйОстаткиИОбороты.Счет КАК Счет
+ПОМЕСТИТЬ ВТ_ОСВ
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(&amp;НачалоПериода, &amp;КонецПериода, Авто, ДвиженияИГраницыПериода, Счет В (&amp;СчетаВзаиморасчетов), , ) КАК ХозрасчетныйОстаткиИОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ОСВ.Счет КАК Счет,
+	ВТ_ОСВ.Организация КАК Организация,
+	ВТ_ОСВ.Контрагент КАК Контрагент,
+	ВТ_ОСВ.Договор КАК Договор,
+	ВТ_ОСВ.ВидВзаиморасчетов КАК ВидВзаиморасчетов,
+	ВТ_ОСВ.Договор.ВидДоговора КАК ВидДоговора,
+	ВТ_ОСВ.ДокументРасчетов КАК ДокументРасчетов,
+	ВТ_ОСВ.НачОстаток КАК НачОстаток,
+	ВТ_ОСВ.ОборотДт КАК ОборотДт,
+	ВТ_ОСВ.ОборотКт КАК ОборотКт,
+	ВТ_ОСВ.КонОстаток КАК КонОстаток,
+	ВТ_ОСВ.Отсрочка КАК Отсрочка,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+				ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+			ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+		ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+	КОНЕЦ КАК ДатаОплаты,
+	ВЫБОР
+		КОГДА ВТ_ОСВ.КонОстаток = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА ВТ_ОСВ.Договор.ВидДоговора = ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровКонтрагентов.СПоставщиком)
+						И ВТ_ОСВ.КонОстаток &gt; 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА ВТ_ОСВ.Договор.ВидДоговора = ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровКонтрагентов.СПокупателем)
+								И ВТ_ОСВ.КонОстаток &lt; 0
+							ТОГДА 0
+						ИНАЧЕ ВЫБОР
+								КОГДА РАЗНОСТЬДАТ(КОНЕЦПЕРИОДА(ВЫБОР
+												КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+														ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+													ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+												ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+											КОНЕЦ, ДЕНЬ), &amp;КонецПериода, ДЕНЬ) &lt; 0
+									ТОГДА 0
+								ИНАЧЕ РАЗНОСТЬДАТ(КОНЕЦПЕРИОДА(ВЫБОР
+												КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+														ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+													ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+												ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+											КОНЕЦ, ДЕНЬ), &amp;КонецПериода, ДЕНЬ)
+							КОНЕЦ
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК ПросроченоДней,
+	ВЫБОР
+		КОГДА ВЫБОР
+				КОГДА ВТ_ОСВ.КонОстаток = 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА РАЗНОСТЬДАТ(ВЫБОР
+									КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+											ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+										ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+									ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+								КОНЕЦ, &amp;КонецПериода, ДЕНЬ) &lt; 0
+							ТОГДА 0
+						ИНАЧЕ РАЗНОСТЬДАТ(ВЫБОР
+									КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+											ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+										ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+									ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+								КОНЕЦ, &amp;КонецПериода, ДЕНЬ)
+					КОНЕЦ
+			КОНЕЦ &gt; 0
+			ТОГДА ВТ_ОСВ.КонОстаток
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПросроченныйДолг
+{ВЫБРАТЬ
+	Счет.*,
+	Организация.*,
+	Контрагент.*,
+	Договор.*,
+	ВидВзаиморасчетов.*,
+	ДокументРасчетов.*,
+	ВидДоговора.*,
+	НачОстаток,
+	ОборотДт,
+	ОборотКт,
+	КонОстаток,
+	Отсрочка,
+	ДатаОплаты,
+	ПросроченоДней,
+	ПросроченныйДолг}
+ИЗ
+	ВТ_ОСВ КАК ВТ_ОСВ
+{ГДЕ
+	ВТ_ОСВ.Счет.*,
+	ВТ_ОСВ.Организация.*,
+	ВТ_ОСВ.Контрагент.*,
+	ВТ_ОСВ.Договор.*,
+	ВТ_ОСВ.ВидВзаиморасчетов.*,
+	ВТ_ОСВ.Договор.ВидДоговора.* КАК ВидДоговора,
+	ВТ_ОСВ.ДокументРасчетов.*,
+	ВТ_ОСВ.НачОстаток,
+	ВТ_ОСВ.ОборотДт,
+	ВТ_ОСВ.ОборотКт,
+	ВТ_ОСВ.КонОстаток,
+	ВТ_ОСВ.Отсрочка,
+	(ВЫБОР
+			КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+					ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+				ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+			ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+		КОНЕЦ) КАК ДатаОплаты,
+	(ВЫБОР
+			КОГДА ВТ_ОСВ.КонОстаток = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РАЗНОСТЬДАТ(КОНЕЦПЕРИОДА(ВЫБОР
+									КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+											ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+										ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+									ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+								КОНЕЦ, ДЕНЬ), &amp;КонецПериода, ДЕНЬ) &lt; 0
+						ТОГДА 0
+					ИНАЧЕ РАЗНОСТЬДАТ(КОНЕЦПЕРИОДА(ВЫБОР
+									КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+											ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+										ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+									ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+								КОНЕЦ, ДЕНЬ), &amp;КонецПериода, ДЕНЬ)
+				КОНЕЦ
+		КОНЕЦ) КАК ПросроченоДней,
+	(ВЫБОР
+			КОГДА ВЫБОР
+					КОГДА ВТ_ОСВ.КонОстаток = 0
+						ТОГДА 0
+					ИНАЧЕ ВЫБОР
+							КОГДА РАЗНОСТЬДАТ(ВЫБОР
+										КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+												ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+											ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+										ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+									КОНЕЦ, &amp;КонецПериода, ДЕНЬ) &lt; 0
+								ТОГДА 0
+							ИНАЧЕ РАЗНОСТЬДАТ(ВЫБОР
+										КОГДА ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.РеализацияТоваровУслуг)
+												ИЛИ ТИПЗНАЧЕНИЯ(ВТ_ОСВ.ДокументРасчетов) = ТИП(Документ.ПоступлениеТоваровУслуг)
+											ТОГДА ДОБАВИТЬКДАТЕ(ВТ_ОСВ.ДокументРасчетов.Дата, ДЕНЬ, ВТ_ОСВ.Отсрочка)
+										ИНАЧЕ ВТ_ОСВ.ДокументРасчетов.Дата
+									КОНЕЦ, &amp;КонецПериода, ДЕНЬ)
+						КОНЕЦ
+				КОНЕЦ &gt; 0
+				ТОГДА ВТ_ОСВ.КонОстаток
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ПросроченныйДолг}</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<totalField>
+		<dataPath>НачОстаток</dataPath>
+		<expression>Сумма(НачОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КонОстаток</dataPath>
+		<expression>Сумма(КонОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОборотДт</dataPath>
+		<expression>Сумма(ОборотДт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОборотКт</dataPath>
+		<expression>Сумма(ОборотКт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПросроченныйДолг</dataPath>
+		<expression>Сумма(ПросроченныйДолг)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПросроченоДней</dataPath>
+		<expression>Максимум(ПросроченоДней)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СчетаВзаиморасчетов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Счета взаиморасчетов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ВедомостьПоПросроченнымЗадолженностям</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ведомость по просроченным задолженностям (объединённая)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидДоговора</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>InListByHierarchy</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидВзаиморасчетов</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СчетаВзаиморасчетов</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>НачОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КонОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотДт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотКт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПросроченныйДолг</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=' '</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ВыделятьОтрицательные</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВидВзаиморасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Договор</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДокументРасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Контрагент</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидДоговора</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Организация</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">65</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>КонОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НачОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотДт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотКт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПросроченныйДолг</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПросроченоДней</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВидВзаиморасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидДоговора</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДатаОплаты</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Договор</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДокументРасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КонОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Контрагент</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НачОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотДт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОборотКт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Организация</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Отсрочка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПросроченныйДолг</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПросроченоДней</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Счет</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПросроченныйДолг</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>НачОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидВзаиморасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидДоговора</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Договор</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДокументРасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Контрагент</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Организация</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>СтильГраницы</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Line" width="0" gap="false">
+								<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+							</dcscor:value>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>СтильГраницы.Слева</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Line" width="2" gap="false">
+									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+								</dcscor:value>
+							</dcscor:item>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПросроченоДней</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КонОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидВзаиморасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВидДоговора</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Договор</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ДокументРасчетов</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Контрагент</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Организация</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>СтильГраницы</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Line" width="0" gap="false">
+								<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+							</dcscor:value>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>СтильГраницы.Справа</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Line" width="2" gap="false">
+									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+								</dcscor:value>
+							</dcscor:item>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:ChartType">Column</dcscor:value>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ТипДиаграммы.ОтображатьТаблицуДанных</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					</dcscor:item>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</dcsset:outputParameters>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a8e09ee-020c-11ea-8394-e03f49179ada">
+  <producedTypes>
+    <refType typeId="4a8e09e2-020c-11ea-8394-e03f49179ada" valueTypeId="4a8e09e3-020c-11ea-8394-e03f49179ada"/>
+    <listType typeId="4a8e09e4-020c-11ea-8394-e03f49179ada" valueTypeId="4a8e09e5-020c-11ea-8394-e03f49179ada"/>
+    <managerType typeId="4a8e09ec-020c-11ea-8394-e03f49179ada" valueTypeId="4a8e09ed-020c-11ea-8394-e03f49179ada"/>
+  </producedTypes>
+  <name>ВариантыРасчетаНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

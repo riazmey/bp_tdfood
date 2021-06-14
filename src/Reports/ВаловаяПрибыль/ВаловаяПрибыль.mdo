@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f42e3a93-fa7c-48a3-aa6b-464bf95b1b15" extendedConfigurationObject="c660a77b-8a7c-4c1e-a88b-4097b619ef98">
+  <producedTypes>
+    <objectType typeId="6a6f4239-0dc3-482d-9ace-e19e882b7baf" valueTypeId="e80ab2e3-03a1-40d6-b19d-2c90784ca0a9"/>
+    <managerType typeId="53bba61d-e2d5-4885-a205-267dc2fc9f82" valueTypeId="66747763-7414-4268-b647-3a73f9967e52"/>
+  </producedTypes>
+  <name>ВаловаяПрибыль</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="dbe0a898-85c9-4949-91f7-40e4ebfb73d4" extendedConfigurationObject="b2be6f55-a7ab-4c8a-8a5a-8f546054565a">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="49a87c7e-467f-42dd-b7ed-3823cdee7c22">
+    <name>Базар_СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных (Базар)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

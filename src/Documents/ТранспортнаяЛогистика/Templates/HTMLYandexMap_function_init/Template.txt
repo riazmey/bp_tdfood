@@ -1,0 +1,10 @@
+
+				myMap = new ymaps.Map ("map", {
+					center: [<#LatCenter#>, <#LonCenter#>],
+					zoom: 14,
+					type: 'yandex#publicMap',
+					controls: ['zoomControl', 'typeSelector']
+				});
+				
+				DrawCluster();
+				Route();

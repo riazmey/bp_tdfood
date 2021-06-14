@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4799d6ff-1cf7-11ea-f28f-1c1b0dc48c9e">
+  <producedTypes>
+    <selectionType typeId="4799d6f5-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6f6-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <listType typeId="4799d6f7-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6f8-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <managerType typeId="4799d6f3-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6f4-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <recordSetType typeId="4799d6f9-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6fa-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <recordKeyType typeId="4799d6fb-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6fc-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <recordType typeId="4799d6e8-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6f2-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+    <recordManagerType typeId="4799d6fd-1cf7-11ea-f28f-1c1b0dc48c9e" valueTypeId="4799d6fe-1cf7-11ea-f28f-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>Базар_СтатусыНаличияБумажногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы наличия бумажного документа (расширение)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="644a0b3c-1cf7-11ea-f28f-1c1b0dc48c9e">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.АктСверкиВзаиморасчетов</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="825c52e2-1cf7-11ea-f28f-1c1b0dc48c9e">
+    <name>СтатусБумажногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус бумажного документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Базар_СтатусыНаличияБумажногоДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

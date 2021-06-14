@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8e77c1f2-d420-40ef-9eab-310cd53b6f8a">
+  <producedTypes>
+    <objectType typeId="96f38404-f4df-4abd-81ff-1beb42be6731" valueTypeId="f7222874-b364-4853-be1e-b5e1599511ea"/>
+    <refType typeId="83040558-4114-44d0-9bce-72d2c05a567f" valueTypeId="d8436b74-3869-4cae-ab54-0f17fad05eae"/>
+    <selectionType typeId="b5cf9ac0-b856-40d6-b547-eee5feed1a16" valueTypeId="369cf6ae-9f8a-413d-92fc-5a83f6c32a4b"/>
+    <listType typeId="c84a10e2-9f84-4fbd-9bc7-f387cc12b406" valueTypeId="807dd813-8876-4cae-94aa-f590d645f02f"/>
+    <managerType typeId="43d85aa3-49c9-4900-8624-a672dec25907" valueTypeId="d41beb8b-2b96-4125-8f03-ee48ff567e16"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="6f6dd204-49bc-11ea-2c87-1c1b0dc48c9e" extendedConfigurationObject="d3e86c1b-85e5-47ef-ada3-a763fdcd4537">
+    <name>ТипЦенРозничнойТорговли</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТипыЦенНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="74e5f7de-49bc-11ea-2c87-1c1b0dc48c9e" extendedConfigurationObject="7b8bba4e-d4b5-4ea2-924e-09115adcef8f">
+    <name>ТипСклада</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыСкладов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

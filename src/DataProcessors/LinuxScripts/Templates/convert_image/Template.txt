@@ -1,0 +1,49 @@
+#!/bin/bash
+
+[[ ! -f "$1" ]] && exit 1
+
+SIZE_LARGE=$(find "$1" -size +400k)
+NAME_FILE=$(echo "$1" | grep -o '[^/]*$')
+DIR_TMP="/tmp/convert_image"
+GEOMETRY_SIZE=1200
+RESOLUTION=200
+
+mkdir -p "${DIR_TMP}"
+rm -rf $(echo "${DIR_TMP}/*")
+cp "$1" "${DIR_TMP}/${NAME_FILE}"
+
+is_image=$(file -i "$1" | grep -o 'image/')
+
+[[ -z "${is_image}" ]] && exit 1
+
+if [[ -n "${SIZE_LARGE}" ]]; then
+  params_img=$(identify -verbose "$1")
+  resolution_x=$(echo "${params_img}" | grep '[ ]Resolution:'  | awk '{print$2}' | awk -F "x" '{print$1}' | grep -o '^[^.]*')
+  resolution_y=$(echo "${params_img}" | grep '[ ]Resolution:'  | awk '{print$2}' | awk -F "x" '{print$2}' | grep -o '^[^.]*')
+
+  geometry_x=$(echo "${params_img}" | grep 'Geometry:' | awk '{print$2}' | awk -F "+" '{print$1}' | awk -F "x" '{print$1}' | grep -o '^[^.]*')
+  geometry_y=$(echo "${params_img}" | grep 'Geometry:' | awk '{print$2}' | awk -F "+" '{print$1}' | awk -F "x" '{print$2}' | grep -o '^[^.]*')
+
+  resize="-resize x${GEOMETRY_SIZE}"
+  resample=""
+  if [[ "${geometry_x}" -le "${GEOMETRY_SIZE}" && "${geometry_y}" -le "${GEOMETRY_SIZE}" ]]; then
+    resize=""
+  else
+    resample="-resample ${RESOLUTION}x${RESOLUTION}"
+    if [[ -n "${resolution_x}" ]] & [[ -n "${resolution_y}" ]]; then
+      if [[ "${resolution_x}" -le "${RESOLUTION}" && "${resolution_y}" -le "${RESOLUTION}" ]]; then
+        resample=""
+      fi
+    else
+      resample=""
+    fi
+  fi
+
+  command="convert \"${DIR_TMP}/${NAME_FILE}\" -normalize ${resample} ${resize} -colorspace Gray \"$1\""
+  bash -c "${command}"
+
+else
+  convert "${DIR_TMP}/${NAME_FILE}" -normalize -colorspace Gray "$1"
+fi
+
+rm -rf $(echo "${DIR_TMP}/*")

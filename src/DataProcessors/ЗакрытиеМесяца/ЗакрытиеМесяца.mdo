@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc8f3a90-5d75-11ea-fe8b-441ea1d3e78c" extendedConfigurationObject="c6424faf-aeb8-47a4-b28f-f1aff4005270">
+  <producedTypes>
+    <objectType typeId="dc8f3a86-5d75-11ea-fe8b-441ea1d3e78c" valueTypeId="dc8f3a87-5d75-11ea-fe8b-441ea1d3e78c"/>
+    <managerType typeId="dc8f3a88-5d75-11ea-fe8b-441ea1d3e78c" valueTypeId="dc8f3a89-5d75-11ea-fe8b-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ЗакрытиеМесяца</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

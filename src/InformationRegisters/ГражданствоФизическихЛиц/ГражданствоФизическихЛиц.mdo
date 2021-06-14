@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e9bc0de-84b4-4c19-9eae-ead438bc3dfe" extendedConfigurationObject="95a893db-d129-4072-961e-4ac3ed82267b">
+  <producedTypes>
+    <selectionType typeId="773299b3-d766-4d10-9c5d-c977aa222652" valueTypeId="85fd322f-a88c-450f-844c-31202d713991"/>
+    <listType typeId="0cecc7c8-8b98-4d84-8515-4e81552e6a8a" valueTypeId="6502a809-babc-47f0-93cc-f715623736df"/>
+    <managerType typeId="2b211ee4-68a7-4cf8-a8f8-01a3d1d91c28" valueTypeId="2f808c42-019a-4813-a393-4f7cff95d235"/>
+    <recordSetType typeId="b8b7dc80-88a6-4ca9-9dac-e6587cf8e5c3" valueTypeId="94dd103b-e4ec-4c65-940c-f4010b7390a8"/>
+    <recordKeyType typeId="54759815-fc67-4fde-abe5-7f2591a6fbe1" valueTypeId="818ffa37-38d6-4e00-bbf0-451d5b718d9a"/>
+    <recordType typeId="10a141fe-a6c6-46d5-8067-78dc0a0e2f13" valueTypeId="d9b2c9e8-eaf6-457e-a31c-fcc53b15ed55"/>
+    <recordManagerType typeId="9d6df816-89aa-45d2-81b8-6e5276a9d672" valueTypeId="af8af28a-104e-419f-8d5d-303b34cb4e70"/>
+  </producedTypes>
+  <name>ГражданствоФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

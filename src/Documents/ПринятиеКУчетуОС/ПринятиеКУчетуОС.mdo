@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d55ec1d4-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="22d39da4-403d-480e-a9cb-4e595f7eb5dd">
+  <producedTypes>
+    <objectType typeId="d55ec1c2-652d-11ea-b484-441ea1d3e78c" valueTypeId="d55ec1c3-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="d55ec1cc-652d-11ea-b484-441ea1d3e78c" valueTypeId="d55ec1cd-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="d55ec1ce-652d-11ea-b484-441ea1d3e78c" valueTypeId="d55ec1cf-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="d55ec1d0-652d-11ea-b484-441ea1d3e78c" valueTypeId="d55ec1d1-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="d55ec1d2-652d-11ea-b484-441ea1d3e78c" valueTypeId="d55ec1d3-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

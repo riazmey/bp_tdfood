@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55f2ecb2-92c1-4cdc-8244-e03ad3b38553">
+  <producedTypes>
+    <objectType typeId="3a8402bc-7047-4e2e-9e6c-a27346c08c9d" valueTypeId="bd1ef50b-2a4c-472c-9468-af57d1bbf0b4"/>
+    <refType typeId="1af9f835-24dd-4408-b9a3-f8e996f8fee4" valueTypeId="64f99b6c-747f-4d64-b078-d49f57b4bdc8"/>
+    <selectionType typeId="237a6404-d026-4022-bec8-6771997d76b7" valueTypeId="1cac4a88-0713-49bc-b312-6da828a940da"/>
+    <listType typeId="fb3cd4a7-5a27-4017-a31e-9661cc1b5c30" valueTypeId="382251da-7deb-4494-a8db-aa1a2cf12162"/>
+    <managerType typeId="ac60d3d3-3780-46f5-b363-3303401bb7fa" valueTypeId="00d759eb-7aa4-49b2-bcb3-3cd8dbcb9570"/>
+  </producedTypes>
+  <name>Патенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

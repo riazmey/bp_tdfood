@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fb203e72-750c-423f-8d97-607b786ac9ac" extendedConfigurationObject="29dc7c31-3b21-4ef9-b8c6-f363ab972131">
+  <producedTypes>
+    <refType typeId="6ac1b0a6-38af-44de-99cf-dead82dc386b" valueTypeId="b6e63ee9-9076-45ab-b762-09dd1dc946a0"/>
+    <listType typeId="3e7f0214-f968-4825-beb9-d7f9a70891c8" valueTypeId="cd2e9712-a240-4a0c-b6e3-fb24561f74d0"/>
+    <managerType typeId="e991f4fb-125f-4e90-b379-b3659d9de3fa" valueTypeId="770e416b-1a9c-4f76-8697-2d427ad859ed"/>
+  </producedTypes>
+  <name>ВидСчетаФактурыВыставленного</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="430135e1-d506-4cb2-9a2d-1a5b803dc6b1" extendedConfigurationObject="b0245747-b9a2-47a8-a6fe-947f10e2a039">
+    <name>НалоговыйАгент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0583a919-764b-4bb9-9bb5-14d57ca51cd6" extendedConfigurationObject="50b7f457-9ba0-4896-b318-860ca8f80d9b">
+    <name>НаАвансКомитентаНаЗакупку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="fd00c2ad-6c00-45cf-84ec-2d5484c957c0" extendedConfigurationObject="7ff4bf4d-2353-4e78-9f61-840ee311ee6a">
+    <name>НаАвансКомитента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a086d2ac-2fce-46a1-9d25-0e5d37f5a80d" extendedConfigurationObject="7a7d21c4-2de6-48f4-aa3f-14db784debba">
+    <name>НаАванс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="26072c1f-ac29-496f-b2c0-80862b08ec68" extendedConfigurationObject="fd5b9db2-d19d-4e97-9b4a-fffbcb024202">
+    <name>НаСуммовуюРазницу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7fdbfd36-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="a17c763f-3bd6-4b69-9aaa-0e3eb550da0e">
+  <producedTypes>
+    <refType typeId="7fdbfd2c-652e-11ea-b484-441ea1d3e78c" valueTypeId="7fdbfd2d-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="7fdbfd2e-652e-11ea-b484-441ea1d3e78c" valueTypeId="7fdbfd2f-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="7fdbfd30-652e-11ea-b484-441ea1d3e78c" valueTypeId="7fdbfd31-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>УдалитьВидыСтраховыхВзносовИП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

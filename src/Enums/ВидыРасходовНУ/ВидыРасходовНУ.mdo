@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0f24e69-1591-49bf-995d-b827e5893ade">
+  <producedTypes>
+    <refType typeId="0179089f-77b3-4dc9-825e-635dd0a6b023" valueTypeId="17b7fdb5-175a-44e8-8717-fb62fffa0cb1"/>
+    <listType typeId="4756eefd-0a3f-4b53-b515-68a2a985a1e5" valueTypeId="1cc61efd-3fdc-41d3-ac4b-f342c633bd44"/>
+    <managerType typeId="8f211ecd-59e8-4895-a817-d0b815073a43" valueTypeId="302bd87f-263c-4fe3-838e-58ee5f978700"/>
+  </producedTypes>
+  <name>ВидыРасходовНУ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="b7705dc0-0987-437b-84ad-c9b217c902d9">
+    <name>МатериальныеРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

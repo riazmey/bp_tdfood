@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09e64ce9-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="37bb4c65-6d99-400b-a24f-bfd424f40b40">
+  <producedTypes>
+    <objectType typeId="09e64cd6-652d-11ea-b484-441ea1d3e78c" valueTypeId="09e64ce0-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="09e64ce1-652d-11ea-b484-441ea1d3e78c" valueTypeId="09e64ce2-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="09e64ce3-652d-11ea-b484-441ea1d3e78c" valueTypeId="09e64ce4-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="09e64ce5-652d-11ea-b484-441ea1d3e78c" valueTypeId="09e64ce6-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="09e64ce7-652d-11ea-b484-441ea1d3e78c" valueTypeId="09e64ce8-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВыкупПредметовЛизинга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

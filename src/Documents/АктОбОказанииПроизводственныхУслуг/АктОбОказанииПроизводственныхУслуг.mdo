@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d56101f7-652c-11ea-b484-441ea1d3e78c" extendedConfigurationObject="71ff2f00-0f42-47e8-ac4b-90c4046bc4ee">
+  <producedTypes>
+    <objectType typeId="d56101ea-652c-11ea-b484-441ea1d3e78c" valueTypeId="d56101eb-652c-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="d56101ec-652c-11ea-b484-441ea1d3e78c" valueTypeId="d56101ed-652c-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="d56101ee-652c-11ea-b484-441ea1d3e78c" valueTypeId="d56101ef-652c-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="d56101f0-652c-11ea-b484-441ea1d3e78c" valueTypeId="d56101f4-652c-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="d56101f5-652c-11ea-b484-441ea1d3e78c" valueTypeId="d56101f6-652c-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>АктОбОказанииПроизводственныхУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

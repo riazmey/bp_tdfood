@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c1b3820a-e127-11e9-de81-e03f49179ada">
+  <producedTypes>
+    <refType typeId="c1b38200-e127-11e9-de81-e03f49179ada" valueTypeId="c1b38201-e127-11e9-de81-e03f49179ada"/>
+    <listType typeId="c1b38202-e127-11e9-de81-e03f49179ada" valueTypeId="c1b38203-e127-11e9-de81-e03f49179ada"/>
+    <managerType typeId="c1b38204-e127-11e9-de81-e03f49179ada" valueTypeId="c1b38205-e127-11e9-de81-e03f49179ada"/>
+  </producedTypes>
+  <name>СпособыЗаполненияЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0f4722-ee5e-11e9-2289-e03f49179ada">
+  <name>УправлениеВозвратнойТарой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление возвратной тарой</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

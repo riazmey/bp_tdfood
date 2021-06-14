@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="335e7cf5-bf06-4dd8-aa3d-20d2dd1fabc4" extendedConfigurationObject="5a8c00af-1ee9-4a7d-9f67-27bac2ce2350">
+  <producedTypes>
+    <refType typeId="887f710d-f76a-4378-b93d-de633ee6b1b7" valueTypeId="b45973ca-77f9-4d2b-ae1f-10a2dad167a9"/>
+    <listType typeId="5bc56160-412f-4d1b-92af-26d52978da39" valueTypeId="8261f229-57a8-4ba2-a481-06970ca386b8"/>
+    <managerType typeId="ae320196-782e-4820-8ca4-422ae7c51a9e" valueTypeId="955d053a-1bd0-456d-a292-5801beb698fe"/>
+  </producedTypes>
+  <name>ТабличныеЧастиДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4786021f-c2e7-4e34-9806-2bb7082f51b6" extendedConfigurationObject="2c611618-e560-46da-8644-2551b0eb3872">
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e1a28212-7e4c-4981-907e-b5009653df0e" extendedConfigurationObject="d3918dd9-88cb-4b1e-b88f-402eb3b3c2eb">
+    <name>Услуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="45f75a6e-4ba1-412b-a961-0980b506f64c" extendedConfigurationObject="7d49f011-56f8-466a-a98c-3f8a3a450f34">
+    <name>АгентскиеУслуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

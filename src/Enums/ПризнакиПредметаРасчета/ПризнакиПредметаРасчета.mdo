@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="efd9df6b-70b3-4fc3-adbc-413515b42262" extendedConfigurationObject="48a2be8c-8487-4193-8b16-5a15c6f2a225">
+  <producedTypes>
+    <refType typeId="a09dbf6f-ccf1-411e-b1ee-ce35f97627f4" valueTypeId="2ddcfef6-062b-4d92-b3f3-54276fd2e580"/>
+    <listType typeId="9a3d5eb8-2fd3-4d8c-a8d7-be831dc6ecbc" valueTypeId="bb167813-a84e-4dbe-b422-4d9b70ca9365"/>
+    <managerType typeId="ba569be5-81fd-431e-93b3-fcc9f42f0ff0" valueTypeId="ad06de1d-8fc5-4b38-ad48-42072c57f581"/>
+  </producedTypes>
+  <name>ПризнакиПредметаРасчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="02b19107-b256-4b2a-92bc-fbecdd92059d" extendedConfigurationObject="6c3d351f-6f3b-4d5b-8bda-57cf73acda15">
+    <name>ПлатежВыплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

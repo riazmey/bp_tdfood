@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f81591ef-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="b09fc04b-94d8-4dea-bf6c-24370f231274">
+  <producedTypes>
+    <selectionType typeId="f81591e2-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591e3-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <listType typeId="f81591e4-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591e8-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <managerType typeId="f81591e0-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591e1-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordSetType typeId="f81591e9-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591ea-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordKeyType typeId="f81591eb-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591ec-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordType typeId="f81591de-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591df-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+    <recordManagerType typeId="f81591ed-1cf6-11ea-f28f-1c1b0dc48c9e" valueTypeId="f81591ee-1cf6-11ea-f28f-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ДокументыСОшибкамиПроверкиКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="fa696190-1cf6-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="e669a5cd-daf3-4a88-a2c0-380db496a4dd">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

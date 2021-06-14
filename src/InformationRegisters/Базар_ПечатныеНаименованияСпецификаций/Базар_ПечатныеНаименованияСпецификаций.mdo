@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb9ce00e-094a-11ea-0782-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="cb9cdffe-094a-11ea-0782-e03f49179ada" valueTypeId="cb9ce004-094a-11ea-0782-e03f49179ada"/>
+    <listType typeId="cb9ce005-094a-11ea-0782-e03f49179ada" valueTypeId="cb9ce006-094a-11ea-0782-e03f49179ada"/>
+    <managerType typeId="cb9cdffc-094a-11ea-0782-e03f49179ada" valueTypeId="cb9cdffd-094a-11ea-0782-e03f49179ada"/>
+    <recordSetType typeId="cb9ce007-094a-11ea-0782-e03f49179ada" valueTypeId="cb9ce008-094a-11ea-0782-e03f49179ada"/>
+    <recordKeyType typeId="cb9ce009-094a-11ea-0782-e03f49179ada" valueTypeId="cb9ce00a-094a-11ea-0782-e03f49179ada"/>
+    <recordType typeId="cb9cdffa-094a-11ea-0782-e03f49179ada" valueTypeId="cb9cdffb-094a-11ea-0782-e03f49179ada"/>
+    <recordManagerType typeId="cb9ce00b-094a-11ea-0782-e03f49179ada" valueTypeId="cb9ce00c-094a-11ea-0782-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ПечатныеНаименованияСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные наименования спецификаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e572d63c-094a-11ea-0782-e03f49179ada">
+    <name>НоменклатураГосЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура (гос. закупки)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураГосЗакупок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f7bb13a4-094a-11ea-0782-e03f49179ada">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d1981a7c-094b-11ea-0782-e03f49179ada">
+    <name>ПечатноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e948fa32-48e4-11ea-f59d-1c1b0dc48c9e">
+    <name>ЦенаГосЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена гос закупок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧДЦ=3</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧДЦ=3</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

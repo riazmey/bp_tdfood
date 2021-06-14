@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c3ed74c9-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="4856e8c8-5fd6-40c7-b8a9-b959f2eca6bb">
+  <producedTypes>
+    <objectType typeId="c3ed74ba-652d-11ea-b484-441ea1d3e78c" valueTypeId="c3ed74bb-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="c3ed74bc-652d-11ea-b484-441ea1d3e78c" valueTypeId="c3ed74bd-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="c3ed74be-652d-11ea-b484-441ea1d3e78c" valueTypeId="c3ed74c4-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="c3ed74c5-652d-11ea-b484-441ea1d3e78c" valueTypeId="c3ed74c6-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="c3ed74c7-652d-11ea-b484-441ea1d3e78c" valueTypeId="c3ed74c8-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ПоступлениеИзПереработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

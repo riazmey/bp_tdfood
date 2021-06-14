@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="962fbd7b-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="8616c877-1676-45b3-9c5d-47c510562d30">
+  <producedTypes>
+    <objectType typeId="962fbd70-652e-11ea-b484-441ea1d3e78c" valueTypeId="962fbd71-652e-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="962fbd72-652e-11ea-b484-441ea1d3e78c" valueTypeId="962fbd73-652e-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="962fbd74-652e-11ea-b484-441ea1d3e78c" valueTypeId="962fbd75-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="962fbd76-652e-11ea-b484-441ea1d3e78c" valueTypeId="962fbd77-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="962fbd78-652e-11ea-b484-441ea1d3e78c" valueTypeId="962fbd7a-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>Билеты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

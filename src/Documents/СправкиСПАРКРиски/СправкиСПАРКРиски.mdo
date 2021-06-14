@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e5c26872-228a-11ea-db84-1c1b0dc48c9e" extendedConfigurationObject="6516c4d5-2497-4e93-89d5-2ded45dd3ca8">
+  <producedTypes>
+    <objectType typeId="e5c26860-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e5c26861-228a-11ea-db84-1c1b0dc48c9e"/>
+    <refType typeId="e5c2686a-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e5c2686b-228a-11ea-db84-1c1b0dc48c9e"/>
+    <selectionType typeId="e5c2686c-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e5c2686d-228a-11ea-db84-1c1b0dc48c9e"/>
+    <listType typeId="e5c2686e-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e5c2686f-228a-11ea-db84-1c1b0dc48c9e"/>
+    <managerType typeId="e5c26870-228a-11ea-db84-1c1b0dc48c9e" valueTypeId="e5c26871-228a-11ea-db84-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СправкиСПАРКРиски</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <commands uuid="e5dd28e4-228a-11ea-db84-1c1b0dc48c9e" extendedConfigurationObject="6a133e89-60da-4bbc-87f1-fc7aaa493b39">
+    <name>СправкиСПАРКРиски</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+    </extension>
+    <group>NavigationPanelOrdinary</group>
+  </commands>
+</mdclass:Document>

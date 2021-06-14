@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b109bac0-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <refType typeId="b109baac-0c36-11ea-5d92-e03f49179ada" valueTypeId="b109bab6-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b109bab7-0c36-11ea-5d92-e03f49179ada" valueTypeId="b109bab8-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b109bab9-0c36-11ea-5d92-e03f49179ada" valueTypeId="b109baba-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>ВидыОперацийСписаниеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a0179a2a-0c4a-11ea-5d92-e03f49179ada">
+    <name>ОплатаПоставщику</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b5624a4c-0c4a-11ea-5d92-e03f49179ada">
+    <name>ВозвратПокупателю</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

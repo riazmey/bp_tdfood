@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="52eb2bfa-0d11-11ea-2181-e03f49179ada">
+  <producedTypes>
+    <refType typeId="52eb2bf0-0d11-11ea-2181-e03f49179ada" valueTypeId="52eb2bf1-0d11-11ea-2181-e03f49179ada"/>
+    <listType typeId="52eb2bf2-0d11-11ea-2181-e03f49179ada" valueTypeId="52eb2bf3-0d11-11ea-2181-e03f49179ada"/>
+    <managerType typeId="52eb2bf4-0d11-11ea-2181-e03f49179ada" valueTypeId="52eb2bf5-0d11-11ea-2181-e03f49179ada"/>
+  </producedTypes>
+  <name>ЮридическоеФизическоеЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="52efe6d6-0d11-11ea-2181-e03f49179ada">
+    <name>ЮридическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="73311652-0d13-11ea-2181-e03f49179ada">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

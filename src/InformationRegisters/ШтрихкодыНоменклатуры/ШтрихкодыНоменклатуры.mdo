@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e4f8c4b-20e5-4ebb-a081-f1af8cab1b84" extendedConfigurationObject="cb5510f7-8450-4c2a-8f3a-054fa612620b">
+  <producedTypes>
+    <selectionType typeId="cedac6ff-50e7-4571-9ebd-e7236af3b09b" valueTypeId="6e26ca71-7be4-49f3-a73b-65dadb76574f"/>
+    <listType typeId="5acfa23c-10d7-4f4f-8e46-552d67903a62" valueTypeId="d7739191-3dae-4334-bb2f-27209c1004af"/>
+    <managerType typeId="fd269130-a7af-4c73-9d7d-922e674bb04f" valueTypeId="7f100673-7e82-4fd5-8487-6524b879ca45"/>
+    <recordSetType typeId="430747fc-e455-40a9-bff8-be69c48a8d7e" valueTypeId="a7bfb983-5414-417e-bf20-bdafa2c9af25"/>
+    <recordKeyType typeId="de9fb4a9-c6c9-4bba-b038-427ce1236e92" valueTypeId="23501395-aa29-4686-8fb8-e87d64d27ecc"/>
+    <recordType typeId="90db593d-6300-4c99-bc33-8821d4e5d6ab" valueTypeId="36b9370e-9f0e-48a1-ae3e-4953c8b6c8c5"/>
+    <recordManagerType typeId="8b8a93bb-7720-42e6-b457-568a99854188" valueTypeId="35589fbb-a943-455e-ba51-2c40d292e707"/>
+  </producedTypes>
+  <name>ШтрихкодыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="2e8b4883-d17d-416c-808e-791f606693d2" extendedConfigurationObject="1d533675-0db3-4de1-b79d-50a56fee945c">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="0e716016-e6e4-4f8c-ae9d-db0ba81960da" extendedConfigurationObject="74092163-ce70-4153-93e5-643975342112">
+    <name>Штрихкод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

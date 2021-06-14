@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="17ebecb2-f0a3-11e9-ce9d-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="17ebecae-f0a3-11e9-ce9d-e03f49179ada" valueTypeId="17ebecaf-f0a3-11e9-ce9d-e03f49179ada"/>
+    <managerType typeId="17ebecb0-f0a3-11e9-ce9d-e03f49179ada" valueTypeId="17ebecb1-f0a3-11e9-ce9d-e03f49179ada"/>
+  </producedTypes>
+  <name>РасширенныйВводКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="17f69758-f0a3-11e9-ce9d-e03f49179ada" extendedConfigurationObject="8be29533-38de-413d-b420-7dac2e80af6c">
+    <name>ВводАдреса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="a5722fa6-f0b3-11e9-ce9d-e03f49179ada">
+    <name>HTMLYandexMap_function_init</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTMLYandex map function init</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a901d220-f0b3-11e9-ce9d-e03f49179ada">
+    <name>HTMLYandexMap_body</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTMLYandex map body</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

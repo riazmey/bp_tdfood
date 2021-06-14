@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="15fa5307-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="d261fe81-f00f-4bca-abec-b025e94780bb">
+  <producedTypes>
+    <refType typeId="15fa52fa-652e-11ea-b484-441ea1d3e78c" valueTypeId="15fa52fb-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="15fa52fc-652e-11ea-b484-441ea1d3e78c" valueTypeId="15fa5304-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="15fa5305-652e-11ea-b484-441ea1d3e78c" valueTypeId="15fa5306-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВидыАктивовИОбязательств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

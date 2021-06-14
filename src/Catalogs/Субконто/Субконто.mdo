@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="212c5ee7-652f-11ea-b484-441ea1d3e78c" extendedConfigurationObject="df76cd5c-d2b9-4f1f-bac5-c67f3735f168">
+  <producedTypes>
+    <objectType typeId="212c5ed8-652f-11ea-b484-441ea1d3e78c" valueTypeId="212c5ed9-652f-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="212c5eda-652f-11ea-b484-441ea1d3e78c" valueTypeId="212c5edb-652f-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="212c5edc-652f-11ea-b484-441ea1d3e78c" valueTypeId="212c5ee2-652f-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="212c5ee3-652f-11ea-b484-441ea1d3e78c" valueTypeId="212c5ee4-652f-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="212c5ee5-652f-11ea-b484-441ea1d3e78c" valueTypeId="212c5ee6-652f-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>Субконто</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

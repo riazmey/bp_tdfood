@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c6ac3a4-32fd-4c17-a14b-25019873c9ef">
+  <producedTypes>
+    <refType typeId="51f7667f-2d56-4dcd-80e6-6127bde1b550" valueTypeId="fb4559bc-7f03-49a0-8b13-a8deec76c63b"/>
+    <listType typeId="80a89345-049a-4dde-873d-102801ef56bf" valueTypeId="1646e727-fb33-455e-b64d-0a8f8c773010"/>
+    <managerType typeId="363e40f3-2ba2-4cbc-84aa-84ca5407dc5f" valueTypeId="1afa8f59-d532-47aa-8653-76ba1536cb0e"/>
+  </producedTypes>
+  <name>ВидыОбеспеченийОбязательствИПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

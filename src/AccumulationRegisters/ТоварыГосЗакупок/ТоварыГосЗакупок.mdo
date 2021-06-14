@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ade6528-fa2c-11e9-1594-e03f49179ada">
+  <producedTypes>
+    <selectionType typeId="4ade6515-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade6516-fa2c-11e9-1594-e03f49179ada"/>
+    <listType typeId="4ade6517-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade651e-fa2c-11e9-1594-e03f49179ada"/>
+    <managerType typeId="4ade650c-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade6514-fa2c-11e9-1594-e03f49179ada"/>
+    <recordSetType typeId="4ade651f-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade6520-fa2c-11e9-1594-e03f49179ada"/>
+    <recordKeyType typeId="4ade6521-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade6522-fa2c-11e9-1594-e03f49179ada"/>
+    <recordType typeId="4ade650a-fa2c-11e9-1594-e03f49179ada" valueTypeId="4ade650b-fa2c-11e9-1594-e03f49179ada"/>
+  </producedTypes>
+  <name>ТоварыГосЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары (гос. закупок)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="72ffb7b4-fa2c-11e9-1594-e03f49179ada">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </resources>
+  <resources uuid="7f3e6f66-fa2c-11e9-1594-e03f49179ada">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </resources>
+  <dimensions uuid="6a0576b2-fa2c-11e9-1594-e03f49179ada">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9b507d0c-fa2c-11e9-1594-e03f49179ada">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b34584f2-fa2c-11e9-1594-e03f49179ada">
+    <name>НоменклатураГосЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура (гос. закупки)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураГосЗакупок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c82fc5a8-fa2c-11e9-1594-e03f49179ada">
+    <name>ЕдиницаИзмеренияГосЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6e75fbe0-fa2c-11e9-1594-e03f49179ada">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="86d19dde-fa2c-11e9-1594-e03f49179ada">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

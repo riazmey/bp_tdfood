@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="326b9722-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="a59e17fa-bf5d-494a-a63c-56181384bb44">
+  <producedTypes>
+    <refType typeId="326b9714-652e-11ea-b484-441ea1d3e78c" valueTypeId="326b9715-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="326b971e-652e-11ea-b484-441ea1d3e78c" valueTypeId="326b971f-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="326b9720-652e-11ea-b484-441ea1d3e78c" valueTypeId="326b9721-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВидыПлатежейВГосБюджет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a3f440f-3dcf-4ccd-880a-5bdaf6413a22">
+  <producedTypes>
+    <objectType typeId="3e2c7662-08b7-420a-bcde-08e8d830c13c" valueTypeId="8904a993-c02c-4ec1-822d-0c13f3007b31"/>
+    <refType typeId="891755f6-dbe9-47fb-a989-bda4ceb7aecc" valueTypeId="9f1acdf1-d286-4408-ace6-13538087bf88"/>
+    <selectionType typeId="b106f93c-243e-433a-8433-fa0a521fbab1" valueTypeId="4610fdb4-6621-42b2-a242-7bdfe7e72221"/>
+    <listType typeId="f0f5df0f-73ff-456b-a5a6-412fe3031f07" valueTypeId="0918ca9c-a37e-4167-b309-85b5b6566eda"/>
+    <managerType typeId="3433651a-29fd-4492-8e08-0295b3422a67" valueTypeId="bcb71b5c-c642-47ed-ad3b-834613aaedd8"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="b9900fe6-3e86-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="a47afb32-fa44-48a3-af32-5a02a3b5238d">
+    <name>Фамилия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="bc2734e6-3e86-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="15e6a332-12d8-4157-bd1a-2b874ac2bb4d">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="be940402-3e86-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="ba6f516d-8474-4948-ad78-e6a4c0e4d35a">
+    <name>Отчество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7bbe8820-6ab2-11ea-a189-441ea1d3e78c" extendedConfigurationObject="f20201ce-88a2-4584-a9c7-ac67fe446cbc">
+    <name>ФИО</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="178bf15c-2314-11ea-c78a-1c1b0dc48c9e" extendedConfigurationObject="ac1c4952-72db-4535-9a8c-d8687742203c">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

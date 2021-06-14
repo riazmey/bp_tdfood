@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a93cd19-652f-11ea-b484-441ea1d3e78c" extendedConfigurationObject="8d11a6fd-b258-4c8f-a0f9-29047d7c6cf2">
+  <producedTypes>
+    <objectType typeId="3a93cd0c-652f-11ea-b484-441ea1d3e78c" valueTypeId="3a93cd0d-652f-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="3a93cd0e-652f-11ea-b484-441ea1d3e78c" valueTypeId="3a93cd0f-652f-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="3a93cd10-652f-11ea-b484-441ea1d3e78c" valueTypeId="3a93cd11-652f-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="3a93cd12-652f-11ea-b484-441ea1d3e78c" valueTypeId="3a93cd16-652f-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="3a93cd17-652f-11ea-b484-441ea1d3e78c" valueTypeId="3a93cd18-652f-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ЦенныеБумаги</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

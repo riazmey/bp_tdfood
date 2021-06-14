@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b11552b1-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <objectType typeId="b11552a4-0c36-11ea-5d92-e03f49179ada" valueTypeId="b11552a5-0c36-11ea-5d92-e03f49179ada"/>
+    <refType typeId="b11552a6-0c36-11ea-5d92-e03f49179ada" valueTypeId="b11552a7-0c36-11ea-5d92-e03f49179ada"/>
+    <selectionType typeId="b11552a8-0c36-11ea-5d92-e03f49179ada" valueTypeId="b11552a9-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b11552aa-0c36-11ea-5d92-e03f49179ada" valueTypeId="b11552ae-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b11552af-0c36-11ea-5d92-e03f49179ada" valueTypeId="b11552b0-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>ПоступлениеНаРасчетныйСчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="c433925a-4409-11ea-f998-1c1b0dc48c9e" extendedConfigurationObject="3ae9a5ab-107b-427a-a5a2-7afb5f25957d">
+    <name>ФормаДокументаОднострочная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="7b4ed13a-6f60-11ea-9e96-441ea1d3e78c" extendedConfigurationObject="a9cfbca4-de4d-4615-8060-560301a63708">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="ae77e04e-1e81-11ea-ba89-1c1b0dc48c9e" extendedConfigurationObject="26d07140-0636-4d56-b832-8e6242a2bdd6">
+    <producedTypes>
+      <objectType typeId="ae77e04a-1e81-11ea-ba89-1c1b0dc48c9e" valueTypeId="ae77e04b-1e81-11ea-ba89-1c1b0dc48c9e"/>
+      <rowType typeId="ae77e04c-1e81-11ea-ba89-1c1b0dc48c9e" valueTypeId="ae77e04d-1e81-11ea-ba89-1c1b0dc48c9e"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="aee55bb6-1e81-11ea-ba89-1c1b0dc48c9e" extendedConfigurationObject="c256c996-1337-4bf4-b3db-00b529af1525">
+      <name>ДоговорКонтрагента</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ДоговорыКонтрагентов</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="32f3b99a-6dd6-11ea-1c8f-441ea1d3e78c" extendedConfigurationObject="00d8be1d-1048-4bf2-b531-92f4006d5c07">
+      <name>СуммаПлатежа</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

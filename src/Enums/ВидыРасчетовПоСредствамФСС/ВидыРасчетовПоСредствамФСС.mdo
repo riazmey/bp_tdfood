@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39832706-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="dafb2bbb-14c4-4c37-b2c2-a4feedd750ca">
+  <producedTypes>
+    <refType typeId="398326fc-652e-11ea-b484-441ea1d3e78c" valueTypeId="398326fd-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="398326fe-652e-11ea-b484-441ea1d3e78c" valueTypeId="398326ff-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="39832700-652e-11ea-b484-441ea1d3e78c" valueTypeId="39832701-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВидыРасчетовПоСредствамФСС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

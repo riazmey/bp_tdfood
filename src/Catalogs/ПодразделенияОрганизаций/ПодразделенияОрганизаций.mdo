@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="275a7df6-2892-499f-bf14-760ebf3b4cec">
+  <producedTypes>
+    <objectType typeId="be21b3b7-8268-4984-9ea5-19845d60d897" valueTypeId="3cc08ec4-191b-4049-ab6a-8c5a89cbeec9"/>
+    <refType typeId="1cba413b-9833-412f-ab46-efb8ba98e8c6" valueTypeId="54e371dc-b310-4e77-a8e1-737757885002"/>
+    <selectionType typeId="a5d27504-aa1b-4c10-ae9c-f6ea32d6027b" valueTypeId="0e36d003-44db-4427-b79a-ec213d6bfe0d"/>
+    <listType typeId="7b04ae56-f0ec-48a8-8166-5c57510b3fe5" valueTypeId="77ceed00-2d7e-4a5d-a8e6-18b8198bacf2"/>
+    <managerType typeId="8f2dd0e8-5485-4d7c-8b8e-5a096f0bdfeb" valueTypeId="fe66cea3-b717-4e2c-969e-e03959e01179"/>
+  </producedTypes>
+  <name>ПодразделенияОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="85c9776a-49bc-11ea-2c87-1c1b0dc48c9e" extendedConfigurationObject="c89fdd02-4fd4-40fb-ab9b-47291d0f7559">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2390a764-5f5f-43ed-be52-b719a9e41d33" extendedConfigurationObject="80d10fb0-7a55-4e9e-857f-4c930703bbf0">
+    <name>ОбособленноеПодразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d445f6c3-514f-4171-9206-4f213df7ec8d" extendedConfigurationObject="a5f3ae9f-4b3a-4e67-9ecb-a4aa7873c803">
+    <name>ЦифровойИндексОбособленногоПодразделения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

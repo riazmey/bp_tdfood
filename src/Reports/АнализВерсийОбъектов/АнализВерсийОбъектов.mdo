@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c13dead-6de6-4a99-b873-d4ad185c3287" extendedConfigurationObject="b3f7f763-bea9-4f59-9450-df95e5c3d89d">
+  <producedTypes>
+    <objectType typeId="1e6aeb2f-8d97-4240-a76b-08f5f8808edc" valueTypeId="9e4baa42-7d54-49ed-b8d7-1cf1edff3d7e"/>
+    <managerType typeId="a327ea00-7776-41d1-bfa8-26bc721cedf9" valueTypeId="4d8bc400-f9fd-4a1b-aa23-451ae69b2393"/>
+  </producedTypes>
+  <name>АнализВерсийОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+</mdclass:Report>

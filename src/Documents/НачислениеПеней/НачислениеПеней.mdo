@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51952483-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="7f4680a8-3ddb-4a32-90c1-18b82dc5f4ac">
+  <producedTypes>
+    <objectType typeId="51952476-652d-11ea-b484-441ea1d3e78c" valueTypeId="51952477-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="51952478-652d-11ea-b484-441ea1d3e78c" valueTypeId="51952479-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="5195247a-652d-11ea-b484-441ea1d3e78c" valueTypeId="5195247b-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="5195247c-652d-11ea-b484-441ea1d3e78c" valueTypeId="51952480-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="51952481-652d-11ea-b484-441ea1d3e78c" valueTypeId="51952482-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>НачислениеПеней</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

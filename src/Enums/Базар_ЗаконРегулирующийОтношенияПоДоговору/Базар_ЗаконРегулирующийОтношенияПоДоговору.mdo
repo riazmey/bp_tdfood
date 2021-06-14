@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23a36e1f-f940-11e9-9287-e03f49179ada">
+  <producedTypes>
+    <refType typeId="23a36e0a-f940-11e9-9287-e03f49179ada" valueTypeId="23a36e14-f940-11e9-9287-e03f49179ada"/>
+    <listType typeId="23a36e15-f940-11e9-9287-e03f49179ada" valueTypeId="23a36e16-f940-11e9-9287-e03f49179ada"/>
+    <managerType typeId="23a36e17-f940-11e9-9287-e03f49179ada" valueTypeId="23a36e1e-f940-11e9-9287-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ЗаконРегулирующийОтношенияПоДоговору</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базар закон регулирующий отношения по договору</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f3cc540-f940-11e9-9287-e03f49179ada">
+    <name>ФЗ44</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный закон N44</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dc12f20-f940-11e9-9287-e03f49179ada">
+    <name>ФЗ223</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный закон N223</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47d5334e-f940-11e9-9287-e03f49179ada">
+    <name>ГКРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гражданский кодекс РФ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

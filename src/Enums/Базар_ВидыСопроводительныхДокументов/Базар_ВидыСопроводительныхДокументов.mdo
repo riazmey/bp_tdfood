@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba0695fe-ceed-11e9-938b-e03f49179ada">
+  <producedTypes>
+    <refType typeId="ba0695f2-ceed-11e9-938b-e03f49179ada" valueTypeId="ba0695f3-ceed-11e9-938b-e03f49179ada"/>
+    <listType typeId="ba0695f4-ceed-11e9-938b-e03f49179ada" valueTypeId="ba0695f5-ceed-11e9-938b-e03f49179ada"/>
+    <managerType typeId="ba0695fc-ceed-11e9-938b-e03f49179ada" valueTypeId="ba0695fd-ceed-11e9-938b-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ВидыСопроводительныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базар виды сопроводительных документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список видов сопроводительных документов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список видов сопроводительных документов (перечисления)</value>
+  </extendedListPresentation>
+  <enumValues uuid="dbadd062-ceed-11e9-938b-e03f49179ada">
+    <name>ДекларацияСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация соответствия (Таможенного союза)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3cec4c2-ceed-11e9-938b-e03f49179ada">
+    <name>СертификатСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат соответствия (Российская Федерация)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebd18cb8-ceed-11e9-938b-e03f49179ada">
+    <name>КачественноеУдостоверение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качественное удостоверение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1c1dd9e-ceed-11e9-938b-e03f49179ada">
+    <name>ПротоколЛабораторногоИсследования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол лабораторного исследования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fadbce08-ceed-11e9-938b-e03f49179ada">
+    <name>ИнформационноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационное письмо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

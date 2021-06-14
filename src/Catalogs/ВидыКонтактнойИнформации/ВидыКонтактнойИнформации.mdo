@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f3519115-c6f0-446e-a804-11a01db26f61">
+  <producedTypes>
+    <objectType typeId="3499a3e1-7e41-4278-b23f-6f1148d68fa6" valueTypeId="1bc54523-7a92-4199-87ca-549d62c627e5"/>
+    <refType typeId="054763fb-3012-4284-930b-cc122771de06" valueTypeId="68f2b33c-26a1-4fad-a836-badf5ebb2bba"/>
+    <selectionType typeId="21c23e8a-1e5b-448a-948a-04776294f5d7" valueTypeId="e619ebd1-2bf3-486f-9551-c2c7dcf89071"/>
+    <listType typeId="b4c1b84c-ca3d-460f-afa9-64a1b575e0fc" valueTypeId="a482c3ef-9795-422c-a32a-bd38676a0999"/>
+    <managerType typeId="f52768ce-48cb-4e8b-98ea-218ec11f2ba9" valueTypeId="3860302e-d27b-48b4-9fbb-05bd5d02c429"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="ff2c843f-7a5f-40db-9c10-338a542304b8">
+      <name>СправочникКонтрагенты</name>
+      <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2c2062b1-40d0-48bb-974e-83d349df0cd7">
+        <name>ПочтовыйАдресКонтрагента</name>
+        <description>Почтовый адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1a45cb17-44ca-4c5b-ae2a-956bb7a9345b">
+        <name>ФактАдресКонтрагента</name>
+        <description>Фактический адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="7d0e29e4-9668-4b8d-99e7-78a90a6b5bc9">
+        <name>ЮрАдресКонтрагента</name>
+        <description>Юридический адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="46d6c122-1378-11ea-cb84-e03f49179ada">
+      <name>СправочникОрганизации</name>
+      <description>Контактная информация справочника &quot;Организации&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="46dde4f2-1378-11ea-cb84-e03f49179ada">
+        <name>ПочтовыйАдресОрганизации</name>
+        <description>Почтовый адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="4c8dce30-1378-11ea-cb84-e03f49179ada">
+        <name>ФактАдресОрганизации</name>
+        <description>Фактический адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="4f12dad8-1378-11ea-cb84-e03f49179ada">
+        <name>ЮрАдресОрганизации</name>
+        <description>Юридический адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

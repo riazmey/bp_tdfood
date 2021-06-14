@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="107248ce-ef10-11e9-0381-e03f49179ada">
+  <producedTypes>
+    <refType typeId="107248c2-ef10-11e9-0381-e03f49179ada" valueTypeId="107248c3-ef10-11e9-0381-e03f49179ada"/>
+    <listType typeId="107248c4-ef10-11e9-0381-e03f49179ada" valueTypeId="107248c5-ef10-11e9-0381-e03f49179ada"/>
+    <managerType typeId="107248cc-ef10-11e9-0381-e03f49179ada" valueTypeId="107248cd-ef10-11e9-0381-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ВидыДвиженийМногооборотнойТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движений многооборотной тары</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2c9a8726-ef10-11e9-0381-e03f49179ada">
+    <name>Передача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача тары водителю/контрагенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e7ea06c-ef10-11e9-0381-e03f49179ada">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием тары от водителя/контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71b83c0e-ef10-11e9-0381-e03f49179ada">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение тары между водителями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe6a99a4-6903-11ea-9381-441ea1d3e78c">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат тары поставщику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

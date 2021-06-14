@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a2941ba-652f-11ea-b484-441ea1d3e78c" extendedConfigurationObject="4d2ce201-89ab-433b-9a7f-eae8182e1842">
+  <producedTypes>
+    <objectType typeId="0a2941b0-652f-11ea-b484-441ea1d3e78c" valueTypeId="0a2941b1-652f-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="0a2941b2-652f-11ea-b484-441ea1d3e78c" valueTypeId="0a2941b3-652f-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="0a2941b4-652f-11ea-b484-441ea1d3e78c" valueTypeId="0a2941b5-652f-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="0a2941b6-652f-11ea-b484-441ea1d3e78c" valueTypeId="0a2941b7-652f-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="0a2941b8-652f-11ea-b484-441ea1d3e78c" valueTypeId="0a2941b9-652f-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>Резервы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

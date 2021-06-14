@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63d2f0c2-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="1e057ae0-c258-4599-9816-0e609d98a3be">
+  <producedTypes>
+    <refType typeId="63d2f0b8-652e-11ea-b484-441ea1d3e78c" valueTypeId="63d2f0b9-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="63d2f0ba-652e-11ea-b484-441ea1d3e78c" valueTypeId="63d2f0bb-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="63d2f0bc-652e-11ea-b484-441ea1d3e78c" valueTypeId="63d2f0bd-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>СпособыСтроительства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

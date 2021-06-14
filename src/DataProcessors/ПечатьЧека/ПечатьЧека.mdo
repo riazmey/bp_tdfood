@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1481a4d3-3dab-11ea-6d90-1c1b0dc48c9e" extendedConfigurationObject="e9b06ccc-07b4-4b05-b3e1-c363ddadaacd">
+  <producedTypes>
+    <objectType typeId="1481a4c8-3dab-11ea-6d90-1c1b0dc48c9e" valueTypeId="1481a4c9-3dab-11ea-6d90-1c1b0dc48c9e"/>
+    <managerType typeId="1481a4ca-3dab-11ea-6d90-1c1b0dc48c9e" valueTypeId="1481a4d2-3dab-11ea-6d90-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ПечатьЧека</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="148e0ef2-3dab-11ea-6d90-1c1b0dc48c9e" extendedConfigurationObject="01c8d712-005c-474a-bf38-c95bdb66ec63">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

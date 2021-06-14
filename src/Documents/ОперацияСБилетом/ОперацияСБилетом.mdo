@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5bac3fff-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="160c6531-7778-4ba8-a181-154cf0589def">
+  <producedTypes>
+    <objectType typeId="5bac3fee-652d-11ea-b484-441ea1d3e78c" valueTypeId="5bac3fef-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="5bac3ff0-652d-11ea-b484-441ea1d3e78c" valueTypeId="5bac3ff8-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="5bac3ff9-652d-11ea-b484-441ea1d3e78c" valueTypeId="5bac3ffa-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="5bac3ffb-652d-11ea-b484-441ea1d3e78c" valueTypeId="5bac3ffc-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="5bac3ffd-652d-11ea-b484-441ea1d3e78c" valueTypeId="5bac3ffe-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ОперацияСБилетом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="18a61aae-bb0d-4d0f-ba34-a1fb85926b4b" extendedConfigurationObject="1f4c05b7-72fb-4a1f-9df1-749a097b86a2">
+  <producedTypes>
+    <selectionType typeId="08741fcf-b15b-4c51-971e-2e725ad44591" valueTypeId="fdb6bfd8-4978-47a3-bf4b-3d576ac589ee"/>
+    <listType typeId="131e9213-41f3-4a71-a2d0-6b1c81a51494" valueTypeId="b6c140ec-3d30-4117-9ff9-a5ef840c321d"/>
+    <managerType typeId="abec18e9-9193-4cff-bc19-bc8a99d33a3e" valueTypeId="6b277adc-90f9-40ff-81b2-836fc7761176"/>
+    <recordSetType typeId="9d9a8ef4-0677-4eb6-bdd0-cab217549b9e" valueTypeId="d25c4638-afc9-40df-83ca-f7645eccf7d3"/>
+    <recordKeyType typeId="da02e160-236e-415a-b49c-65f86c3babef" valueTypeId="61e66b44-a4e3-468c-8f16-87833a02436c"/>
+    <recordType typeId="b6c8870e-c4e4-45cb-ad9c-7e1aa9b1af9c" valueTypeId="3857f9be-7dc0-4241-8590-0d6e15ae3052"/>
+  </producedTypes>
+  <name>ОплатаСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <resources uuid="c3cba364-3175-4c23-92ac-e5daf8b519ad" extendedConfigurationObject="198c043e-f121-4c2e-8e8a-2c8e30e1f26e">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="7deb97f0-c792-4ed3-bf8e-73370e3ef5d7" extendedConfigurationObject="8b2aaf03-123b-42d1-8d5d-6d0db75d0ea9">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a105ff7f-5bda-413b-a8d1-fbb806f4ba68" extendedConfigurationObject="4163fbe8-80d3-486f-a2e6-888afffc0e12">
+    <name>СтавкаНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтавкиНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="f7edae57-55a7-4caa-a2e8-51bf5f2e23f2" extendedConfigurationObject="0a2312eb-08d5-41fd-b4c8-6197c5b4b6cf">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

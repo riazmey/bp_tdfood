@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8aa42e50-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="e652a09a-02a2-4f8c-b831-1f19131414a9">
+  <producedTypes>
+    <refType typeId="8aa42e46-652e-11ea-b484-441ea1d3e78c" valueTypeId="8aa42e47-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="8aa42e48-652e-11ea-b484-441ea1d3e78c" valueTypeId="8aa42e49-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="8aa42e4a-652e-11ea-b484-441ea1d3e78c" valueTypeId="8aa42e4b-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ЭлементыЗатрат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

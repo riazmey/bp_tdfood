@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="34455d01-4f87-4da1-8993-3574265782eb">
+  <producedTypes>
+    <objectType typeId="4b2c23eb-945c-4ac2-b708-e8103da6a91b" valueTypeId="566d08bd-eea9-425b-bd1a-de0f763f28d7"/>
+    <refType typeId="d85df5b4-eb4c-4714-a03c-c5273b4ad422" valueTypeId="6bedd851-dba3-4cd5-b683-680bfc0be4d0"/>
+    <selectionType typeId="b29afde2-b312-4d87-8563-505c5a87e929" valueTypeId="e5652b77-dda1-4638-aa92-963c1123a5e4"/>
+    <listType typeId="011544bd-9b5c-4615-a48c-ae76b16d68b9" valueTypeId="44bd1e48-dbbe-4f3b-8e79-bd5e2262d13e"/>
+    <managerType typeId="657bb08e-6063-4a2c-83e2-7eceaab0e9df" valueTypeId="87ed786e-49e1-4495-8b5b-64f80b51590f"/>
+  </producedTypes>
+  <name>ПрочиеДоходыИРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="d2b20e0a-6ea3-11ea-bd82-441ea1d3e78c" extendedConfigurationObject="05e67dc7-8954-43a3-8c6e-70d3137d2773">
+    <name>ВидПрочихДоходовИРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыПрочихДоходовИРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

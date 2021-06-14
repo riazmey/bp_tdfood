@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55cf83f-34dd-4ae0-88ca-e6046e0c7d42">
+  <name>СтатусБумажногоДокумента_СОшибками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус бумажного документа с ошибками</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cd715e0e-3df7-443b-9833-1682799d420c">
+  <producedTypes>
+    <objectType typeId="420df00a-f951-4855-94d2-86de86d3b15c" valueTypeId="b9ec4f86-6dc3-4112-ac3b-68256870ecd4"/>
+    <refType typeId="4b8c50ba-5e39-4618-822c-ccb87512b363" valueTypeId="290afbec-a767-4827-86b0-c17679eea41e"/>
+    <selectionType typeId="67836f70-bba7-456d-b71c-020dc5d2065c" valueTypeId="d1985250-61b3-4d4b-b35f-0450d910b0cf"/>
+    <listType typeId="e10ae30f-4351-429a-aa08-f323dafd32d3" valueTypeId="fd40a191-f069-40f3-94ad-95dd1d72f848"/>
+    <managerType typeId="1e738a04-7dfe-42ae-944a-0db1fa2f6c5a" valueTypeId="95f621e9-a9b4-42ac-8c7b-af98152b2d4b"/>
+  </producedTypes>
+  <name>ТипыЦенНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <attributes uuid="11077124-1506-11ea-da95-e03f49179ada">
+    <name>ВалютаЦены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ee85cbf4-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="e4fd191f-a843-4530-93d1-ff347baead28">
+    <name>ЦенаВключаетНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f05a45ae-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="b855de7f-bc65-49d7-8fd1-d83e59e0301b">
+    <name>ПорядокОкругления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ПорядкиОкругления</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f1693752-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="a23a8b8d-4dc7-49dc-be47-7b31eefa947f">
+    <name>ОкруглятьВБольшуюСторону</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f283b266-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="12e21300-0a6d-4159-af0d-f6c9052e1a8b">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="101de206-1cdc-11ea-d69c-1c1b0dc48c9e">
+    <name>БазовыйТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый тип цен</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e3d7886-1cdc-11ea-d69c-1c1b0dc48c9e">
+    <name>ПроцентСкидкиНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка в %</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f5df6928-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="ad12cea8-4829-4a95-adb1-a469f947a8cb">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

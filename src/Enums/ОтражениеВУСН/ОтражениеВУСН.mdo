@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c90ef166-1cf5-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="2d42b1ee-230e-4d56-9641-c679f5443bed">
+  <producedTypes>
+    <refType typeId="c90ef160-1cf5-11ea-f28f-1c1b0dc48c9e" valueTypeId="c90ef161-1cf5-11ea-f28f-1c1b0dc48c9e"/>
+    <listType typeId="c90ef162-1cf5-11ea-f28f-1c1b0dc48c9e" valueTypeId="c90ef163-1cf5-11ea-f28f-1c1b0dc48c9e"/>
+    <managerType typeId="c90ef164-1cf5-11ea-f28f-1c1b0dc48c9e" valueTypeId="c90ef165-1cf5-11ea-f28f-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ОтражениеВУСН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c918508e-1cf5-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="085aa59e-17d0-4096-aae1-06fe22efd200">
+    <name>НеПринимаются</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c935a5ee-1cf5-11ea-f28f-1c1b0dc48c9e" extendedConfigurationObject="991ef081-60e2-4f0d-9ec6-d7c8297d76e2">
+    <name>Принимаются</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

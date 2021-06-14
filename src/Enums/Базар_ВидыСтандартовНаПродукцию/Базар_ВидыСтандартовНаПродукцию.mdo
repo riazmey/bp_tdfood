@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05cce132-ceee-11e9-938b-e03f49179ada">
+  <producedTypes>
+    <refType typeId="05cce126-ceee-11e9-938b-e03f49179ada" valueTypeId="05cce127-ceee-11e9-938b-e03f49179ada"/>
+    <listType typeId="05cce128-ceee-11e9-938b-e03f49179ada" valueTypeId="05cce129-ceee-11e9-938b-e03f49179ada"/>
+    <managerType typeId="05cce130-ceee-11e9-938b-e03f49179ada" valueTypeId="05cce131-ceee-11e9-938b-e03f49179ada"/>
+  </producedTypes>
+  <name>Базар_ВидыСтандартовНаПродукцию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стандартов на выработку продукцию (ГОСТ, ТУ...)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список видов стандартов на выработку продукцию</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список видов стандартов на выработку продукцию (ГОСТ, ТУ...)</value>
+  </extendedListPresentation>
+  <enumValues uuid="28671d32-ceee-11e9-938b-e03f49179ada">
+    <name>ГОСТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТ</value>
+    </synonym>
+    <comment>ГОСТ (стандарт - межгосударственный)</comment>
+  </enumValues>
+  <enumValues uuid="3130756c-ceee-11e9-938b-e03f49179ada">
+    <name>ГОСТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТ Р</value>
+    </synonym>
+    <comment>ГОСТ Р (стандарт Российской Федерации)</comment>
+  </enumValues>
+  <enumValues uuid="3c1f3f6c-ceee-11e9-938b-e03f49179ada">
+    <name>ТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТУ</value>
+    </synonym>
+    <comment>ТУ (стандарт производителя)</comment>
+  </enumValues>
+  <enumValues uuid="42d1a214-ceee-11e9-938b-e03f49179ada">
+    <name>СТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>СТО</value>
+    </synonym>
+    <comment>СТО (стандарт отраслевой)</comment>
+  </enumValues>
+  <enumValues uuid="4fc73a92-ceee-11e9-938b-e03f49179ada">
+    <name>СТБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>СТБ</value>
+    </synonym>
+    <comment>Стандарт Беларусии</comment>
+  </enumValues>
+  <enumValues uuid="5eb4f108-b363-4918-bfa3-b9b56beadc67">
+    <name>ТРТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТР/ТС</value>
+    </synonym>
+    <comment>ТР/ТС (стандарт Таможенного союза ЕЭС)</comment>
+  </enumValues>
+  <enumValues uuid="47f86138-ceee-11e9-938b-e03f49179ada">
+    <name>Импорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импортный стандарт</value>
+    </synonym>
+    <comment>Импортный стандарт</comment>
+  </enumValues>
+</mdclass:Enum>

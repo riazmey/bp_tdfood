@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb62a292-ee4d-11e9-b69c-e03f49179ada">
+  <name>Продажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Report.ВедомостьПоТоварамДоговоровГосЗакупок</content>
+  <content>Report.ВедомостьПоПросроченнымЗадолженностям</content>
+  <content>Report.ВедомостьПоВзаиморасчетам</content>
+  <content>Report.АнализПродаж</content>
+  <subsystems>ПродажиГлавное</subsystems>
+</mdclass:Subsystem>

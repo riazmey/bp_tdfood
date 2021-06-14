@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6eceb1f0-0552-4c4b-9bdd-bc910eabfea1">
+  <producedTypes>
+    <objectType typeId="f2139205-e058-4d43-ae56-ccb31733fce3" valueTypeId="5dbbc753-f1fa-4af0-9290-4df2e6e0f31a"/>
+    <refType typeId="4e7d5fad-a627-453a-9f61-05fb71dcd2ee" valueTypeId="51ec3df6-d299-445c-bbaa-8613df85ce31"/>
+    <selectionType typeId="9effc041-5c03-43a3-b7a3-b6cc414848e9" valueTypeId="a045b8c7-741d-4b81-9ae8-6691a5e4c77c"/>
+    <listType typeId="5972b53e-f38f-49e6-9d7f-d6f773c8be40" valueTypeId="7f4ba2da-bab8-492e-9fc6-0e98385d9494"/>
+    <managerType typeId="d272f951-2a23-424a-8e2c-0facd7fda6a4" valueTypeId="025e8356-3bef-498d-aa8e-24826a148b82"/>
+  </producedTypes>
+  <name>ОснованияПраваПодписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="19faf260-3e87-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="cb2b2f94-2c7e-4947-9e7e-0ac84a94bed3">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1c6f4bd6-3e87-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="ad4f6088-3521-4a54-9de2-5b3c36551de0">
+    <name>ДатаНачала</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1e3564fa-3e87-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="26de51de-53d3-49ad-a25d-f3ad2f7f4ddf">
+    <name>ДатаОкончания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2045bb50-3e87-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="cc8f3832-fcee-4d7b-b935-eac4be7024c6">
+    <name>Должность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Должности</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="26b9628e-3e87-11ea-3693-1c1b0dc48c9e" extendedConfigurationObject="1feac406-08ce-4d83-9066-3c23a0804808">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

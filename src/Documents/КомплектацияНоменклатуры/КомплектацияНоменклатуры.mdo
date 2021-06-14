@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="28b49b68-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="2e10e5eb-ff73-4f62-ab9d-d571bb26b587">
+  <producedTypes>
+    <objectType typeId="28b49b5e-652d-11ea-b484-441ea1d3e78c" valueTypeId="28b49b5f-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="28b49b60-652d-11ea-b484-441ea1d3e78c" valueTypeId="28b49b61-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="28b49b62-652d-11ea-b484-441ea1d3e78c" valueTypeId="28b49b63-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="28b49b64-652d-11ea-b484-441ea1d3e78c" valueTypeId="28b49b65-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="28b49b66-652d-11ea-b484-441ea1d3e78c" valueTypeId="28b49b67-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>КомплектацияНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

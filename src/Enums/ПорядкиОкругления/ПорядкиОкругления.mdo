@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f04eb947-1cdb-11ea-d69c-1c1b0dc48c9e" extendedConfigurationObject="6335eb8e-c2b0-498b-bdc8-7ec57f1bbef5">
+  <producedTypes>
+    <refType typeId="f04eb93c-1cdb-11ea-d69c-1c1b0dc48c9e" valueTypeId="f04eb93d-1cdb-11ea-d69c-1c1b0dc48c9e"/>
+    <listType typeId="f04eb93e-1cdb-11ea-d69c-1c1b0dc48c9e" valueTypeId="f04eb93f-1cdb-11ea-d69c-1c1b0dc48c9e"/>
+    <managerType typeId="f04eb940-1cdb-11ea-d69c-1c1b0dc48c9e" valueTypeId="f04eb946-1cdb-11ea-d69c-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ПорядкиОкругления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

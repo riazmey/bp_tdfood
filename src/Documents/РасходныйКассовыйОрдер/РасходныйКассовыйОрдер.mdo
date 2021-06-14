@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf8894dc-3853-11ea-c093-1c1b0dc48c9e" extendedConfigurationObject="cce7e1cd-0d24-4694-8449-33549a195c25">
+  <producedTypes>
+    <objectType typeId="cf8894d2-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="cf8894d3-3853-11ea-c093-1c1b0dc48c9e"/>
+    <refType typeId="cf8894d4-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="cf8894d5-3853-11ea-c093-1c1b0dc48c9e"/>
+    <selectionType typeId="cf8894d6-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="cf8894d7-3853-11ea-c093-1c1b0dc48c9e"/>
+    <listType typeId="cf8894d8-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="cf8894d9-3853-11ea-c093-1c1b0dc48c9e"/>
+    <managerType typeId="cf8894da-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="cf8894db-3853-11ea-c093-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>РасходныйКассовыйОрдер</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

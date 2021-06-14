@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e95ae1cc-20ba-4bcc-b2ac-0ef1d5ec2caf" extendedConfigurationObject="83019ad4-fadb-4b54-b3be-21c479f3a818">
+  <producedTypes>
+    <selectionType typeId="47118d98-0dc5-4e33-8ac3-639786e7b4c0" valueTypeId="8ffae383-eccd-46d4-a40a-1293e9610261"/>
+    <listType typeId="b248c74d-7deb-4ac4-8d73-6f25ce8636b2" valueTypeId="c1e22678-03a4-4454-9847-15afcb202995"/>
+    <managerType typeId="e4223233-dc32-4176-a100-cd3e24828738" valueTypeId="763e3620-7ad3-442e-bb77-57c2b1edbbda"/>
+    <recordSetType typeId="75a29943-d678-48f5-a933-ebd58a6ca209" valueTypeId="9fb8881e-8d3f-4ecc-abef-17ad71840073"/>
+    <recordKeyType typeId="d15bfff4-b7f1-483f-8599-a4ec1d7236ca" valueTypeId="80252836-6452-4004-a2a5-1329df5ed3f1"/>
+    <recordType typeId="bedbde21-dd68-403e-a974-bafd6ce10126" valueTypeId="e85d3883-21aa-43e1-a7ec-1dd9a4e35458"/>
+    <recordManagerType typeId="dce759bd-b2bf-4c5c-b1f9-53711859838a" valueTypeId="52c5a207-41a6-44ad-8adb-5a7cd4cecb56"/>
+  </producedTypes>
+  <name>ДополнительныеНастройкиЗарплатаКадры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

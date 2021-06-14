@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc6f6818-3853-11ea-c093-1c1b0dc48c9e" extendedConfigurationObject="a948bd24-a97e-40fc-af42-74e861b4ef2d">
+  <producedTypes>
+    <objectType typeId="fc6f680e-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="fc6f680f-3853-11ea-c093-1c1b0dc48c9e"/>
+    <refType typeId="fc6f6810-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="fc6f6811-3853-11ea-c093-1c1b0dc48c9e"/>
+    <selectionType typeId="fc6f6812-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="fc6f6813-3853-11ea-c093-1c1b0dc48c9e"/>
+    <listType typeId="fc6f6814-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="fc6f6815-3853-11ea-c093-1c1b0dc48c9e"/>
+    <managerType typeId="fc6f6816-3853-11ea-c093-1c1b0dc48c9e" valueTypeId="fc6f6817-3853-11ea-c093-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ОприходованиеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="9583ae9a-5f7a-11ea-6c9d-441ea1d3e78c" extendedConfigurationObject="10d4b326-7fab-4a45-92f2-ba4304828d75">
+    <name>ИнвентаризацияТоваровНаСкладе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияТоваровНаСкладе</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

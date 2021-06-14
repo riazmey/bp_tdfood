@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74ae5ef7-be30-4c79-9ac5-2a2399f69bc1">
+  <producedTypes>
+    <objectType typeId="35e3f273-0037-42a6-9858-b52a01b57878" valueTypeId="8867dff1-9c5f-4c16-9f59-8524fcffea65"/>
+    <refType typeId="2595d604-43ff-4499-9187-41a95ad957f6" valueTypeId="2a1e7d65-3f02-477c-81b0-30313028aa9a"/>
+    <selectionType typeId="3c395854-334c-4be6-99df-93c11909344f" valueTypeId="f8dea306-7acb-46e3-a6f2-3b7c1ce7c434"/>
+    <listType typeId="53a1055f-33de-45c6-beff-0b5b986027c1" valueTypeId="866d0084-a38d-4058-8338-78e62c43490a"/>
+    <managerType typeId="2b17ab17-77ab-480f-b431-792f44d6c6dc" valueTypeId="89feae48-e522-4e25-adc2-da1a2b6e405b"/>
+    <containerType typeId="46845dcb-709e-4eab-b5c9-1519d1c31cfc" valueTypeId="dbf0b192-9b72-47d4-8e16-73ce22a35974"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <type/>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <predefined>
+    <items id="38d494c0-3d15-11ea-5096-1c1b0dc48c9e">
+      <name>Договоры</name>
+      <description>Договоры</description>
+      <code>00016</code>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+    </items>
+    <items id="4587ef0a-3d15-11ea-5096-1c1b0dc48c9e">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>00005</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="501537c8-6dc8-11ea-e08b-441ea1d3e78c">
+      <name>СтатьиДвиженияДенежныхСредств</name>
+      <description>Статьи движения денежных средств</description>
+      <code>00021</code>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+    </items>
+    <items id="7538f131-ba4d-4e79-b7cf-74e5edd1e5f4">
+      <name>НоменклатурныеГруппы</name>
+      <description>Номенклатурные группы</description>
+      <code>00012</code>
+      <type>
+        <types>CatalogRef.НоменклатурныеГруппы</types>
+      </type>
+    </items>
+  </predefined>
+  <forms uuid="1ab897cc-006e-11ea-6987-e03f49179ada">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

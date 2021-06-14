@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b883684-32d3-11ea-f392-1c1b0dc48c9e" extendedConfigurationObject="e87a1b44-e013-486f-a342-30864315ac9e">
+  <producedTypes>
+    <objectType typeId="6b88367a-32d3-11ea-f392-1c1b0dc48c9e" valueTypeId="6b88367b-32d3-11ea-f392-1c1b0dc48c9e"/>
+    <refType typeId="6b88367c-32d3-11ea-f392-1c1b0dc48c9e" valueTypeId="6b88367d-32d3-11ea-f392-1c1b0dc48c9e"/>
+    <selectionType typeId="6b88367e-32d3-11ea-f392-1c1b0dc48c9e" valueTypeId="6b88367f-32d3-11ea-f392-1c1b0dc48c9e"/>
+    <listType typeId="6b883680-32d3-11ea-f392-1c1b0dc48c9e" valueTypeId="6b883681-32d3-11ea-f392-1c1b0dc48c9e"/>
+    <managerType typeId="6b883682-32d3-11ea-f392-1c1b0dc48c9e" valueTypeId="6b883683-32d3-11ea-f392-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>ПереоценкаТоваровВРознице</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="6f10a4b2-32d3-11ea-f392-1c1b0dc48c9e" extendedConfigurationObject="2a0ebe5b-066a-49b7-9de5-93fecc00a815">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

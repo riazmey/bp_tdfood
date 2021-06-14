@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67125944-652e-11ea-b484-441ea1d3e78c" extendedConfigurationObject="29dc8324-d497-4a2a-ae55-7f396176731f">
+  <producedTypes>
+    <refType typeId="6712593a-652e-11ea-b484-441ea1d3e78c" valueTypeId="6712593b-652e-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="6712593c-652e-11ea-b484-441ea1d3e78c" valueTypeId="6712593d-652e-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="6712593e-652e-11ea-b484-441ea1d3e78c" valueTypeId="6712593f-652e-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>СпособыУчетаНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

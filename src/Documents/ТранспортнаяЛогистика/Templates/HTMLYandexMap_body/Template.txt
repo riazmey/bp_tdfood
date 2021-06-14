@@ -1,0 +1,4 @@
+<div id='map'></div>
+		<div id='RouterBox' class='RouterBox'>
+			<span id='RouteLength'></span>
+		</div>

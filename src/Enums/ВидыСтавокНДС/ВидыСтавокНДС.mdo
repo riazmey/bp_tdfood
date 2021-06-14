@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="45799332-a614-4499-9c3d-e27029256aaf">
+  <producedTypes>
+    <refType typeId="f2526a64-e80b-4cfc-97b2-1f91379e2736" valueTypeId="5900ad57-2919-4a4e-b838-c0d1f1ce6c1b"/>
+    <listType typeId="9efe1490-01c4-44e6-98d5-264f70b73004" valueTypeId="5ce23ef1-51f5-49b7-a16f-387389f2c6cd"/>
+    <managerType typeId="0180b6cf-970f-4507-a7aa-d141121fe8fc" valueTypeId="c80202bf-07ba-4243-88a6-4c1cb5d090f0"/>
+  </producedTypes>
+  <name>ВидыСтавокНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="2bb3d92a-fa55-11e9-1594-e03f49179ada">
+    <name>Общая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2e46506e-fa55-11e9-1594-e03f49179ada">
+    <name>ОбщаяРасчетная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3023119c-fa55-11e9-1594-e03f49179ada">
+    <name>Пониженная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="31c2ddc0-fa55-11e9-1594-e03f49179ada">
+    <name>ПониженнаяРасчетная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="336cd45a-fa55-11e9-1594-e03f49179ada">
+    <name>Нулевая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="351efe5e-fa55-11e9-1594-e03f49179ada">
+    <name>БезНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

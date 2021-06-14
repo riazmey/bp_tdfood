@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30a04360-72e4-48b3-a048-025d47ec6329">
+  <producedTypes>
+    <refType typeId="690dfaab-f74f-45d4-9fbb-88989137be5d" valueTypeId="3c5a0d10-94e4-405c-b695-7f4b3b8d6e79"/>
+    <listType typeId="e4ed8cf4-2b71-40d5-a4f5-ebc5a56c98ee" valueTypeId="494c21fc-ec94-4a44-b613-f4a81f4172f5"/>
+    <managerType typeId="a0f6c5f0-e0ee-40fa-b2b8-98d49269a31c" valueTypeId="b038668a-1532-4629-9cc8-bae9b365d782"/>
+  </producedTypes>
+  <name>ПризнакиАгента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="20664808-f468-45b4-8610-0680b9e0e877">
+    <name>БанковскийПлатежныйАгент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5c6c39b5-3542-429f-9627-3092aeef453e">
+    <name>БанковскийПлатежныйСубагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="493afc50-fba1-466a-b657-233d6ed09d3a">
+    <name>ПлатежныйАгент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f5abcbba-cc1a-4092-9f30-6e1368c34f7d">
+    <name>ПлатежныйСубагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

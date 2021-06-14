@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9f120410-bfad-40b1-9da9-89d1d0d73228">
+  <producedTypes>
+    <objectType typeId="9a426270-fd39-4c8c-b7ab-b914ff91f557" valueTypeId="0427f1bd-3aaf-4d06-a04b-38f3f11babe8"/>
+    <refType typeId="faed72c3-5add-42f6-953d-c9e5b584a767" valueTypeId="bf090465-ec04-4983-9860-ef7f047fd1b8"/>
+    <selectionType typeId="5114916b-76a8-48f0-8aea-2c100c818fd8" valueTypeId="a46b7dcb-6415-4d6c-b46b-92822521a3ba"/>
+    <listType typeId="e1520229-21f8-46dc-b487-94abd7a0843f" valueTypeId="f6a40247-606c-48f2-8df6-2c1f4ba1c69a"/>
+    <managerType typeId="a2073f30-968e-4f01-a73e-3024948b3565" valueTypeId="c6376cbe-4bea-4a34-ac47-183327ae3550"/>
+  </producedTypes>
+  <name>ОбщероссийскийКлассификаторПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1a56467e-d46a-11e9-d597-e03f49179ada">
+  <name>ТоварыИУслуги</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Catalog.СтандартыНаВыбработкуПродукции</content>
+  <content>39b4da7c-ee5e-11e9-2289-e03f49179ada</content>
+  <content>Catalog.НоменклатураГосЗакупок</content>
+  <content>8d669e1d-f9ac-11e9-f681-e03f49179ada</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

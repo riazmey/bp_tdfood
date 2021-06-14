@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c3bf3351-02e9-46d2-bd62-a7d4f6c32968" extendedConfigurationObject="f18fa1ac-2d89-44de-bd8f-b9a6fd6015e8">
+  <producedTypes>
+    <selectionType typeId="513d78a3-590a-487b-9ad7-82588d933c83" valueTypeId="69892cec-64c5-40a0-9bd5-c85b409e82f9"/>
+    <listType typeId="6c3dee50-62b5-479d-b58d-33989053e661" valueTypeId="8a28b715-9ffc-4da9-b512-41479b885c8f"/>
+    <managerType typeId="df9ed28a-6f72-4e06-8459-64598c206334" valueTypeId="47cce993-f5af-4f64-9363-8a386616b53b"/>
+    <recordSetType typeId="29ad3447-ea24-4e46-84cf-6b9be4e48d7f" valueTypeId="6274be56-b4e3-4d23-ae97-95e65af8c697"/>
+    <recordKeyType typeId="ffda4164-a151-4ce6-8112-e44e4cecc01b" valueTypeId="1f019017-774a-41c0-a43d-ca6a6e7e4544"/>
+    <recordType typeId="0d6b8c1a-27d8-43d3-b1d3-5d97e3752f7d" valueTypeId="7143ac36-6a9c-4aac-a8c4-7458583f4c54"/>
+    <recordManagerType typeId="d9e15c7b-11b6-4636-b2f6-7163015d5277" valueTypeId="40ab78e7-0ba4-454d-b6ce-0a8fbf2f2955"/>
+  </producedTypes>
+  <name>ДокументыИнтеграцииCRM</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="2cde2faf-d0d6-45dc-94c9-df026c510fac" extendedConfigurationObject="e88eb2aa-0ce8-4041-aaf5-7c5b975042f1">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СчетНаОплатуПокупателю</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe355778-3d04-4919-9137-79fc1b500949">
+  <producedTypes>
+    <objectType typeId="6a5a8815-ec22-44c1-8926-65575fb05ae5" valueTypeId="018a1ada-d7b8-4bf8-b057-966082754aea"/>
+    <refType typeId="8cd58a61-c76f-4ce1-904d-e737b2825cb2" valueTypeId="5351f850-c759-4f28-93ae-f8949a5315c7"/>
+    <selectionType typeId="0db60b3b-7108-40f1-95a9-8b28141c7489" valueTypeId="22057b51-214d-4120-9382-49571be86ba3"/>
+    <listType typeId="8ce877b3-e156-4f83-9d97-349274392ef1" valueTypeId="817b87c6-f85c-42cf-8671-c0fff0472d41"/>
+    <managerType typeId="1b047027-51b6-4a0b-800e-120d01df4349" valueTypeId="cc0740e2-2eee-41a6-8536-d0235ad7c045"/>
+  </producedTypes>
+  <name>ПравилаРегулярныхСчетовПокупателям</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a71570f-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="04c93c8c-868a-4af8-bb5d-86c5898d3346">
+  <producedTypes>
+    <objectType typeId="8a7156fc-652d-11ea-b484-441ea1d3e78c" valueTypeId="8a715706-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="8a715707-652d-11ea-b484-441ea1d3e78c" valueTypeId="8a715708-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="8a715709-652d-11ea-b484-441ea1d3e78c" valueTypeId="8a71570a-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="8a71570b-652d-11ea-b484-441ea1d3e78c" valueTypeId="8a71570c-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="8a71570d-652d-11ea-b484-441ea1d3e78c" valueTypeId="8a71570e-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ОтчетОператораСистемыПлатон</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

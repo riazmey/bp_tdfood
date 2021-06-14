@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c839dd6-1d88-11ea-8382-1c1b0dc48c9e" extendedConfigurationObject="110872cf-dcac-406b-929e-6b711f76ea12">
+  <producedTypes>
+    <refType typeId="6c839dcc-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c839dcd-1d88-11ea-8382-1c1b0dc48c9e"/>
+    <listType typeId="6c839dce-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c839dcf-1d88-11ea-8382-1c1b0dc48c9e"/>
+    <managerType typeId="6c839dd0-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c839dd1-1d88-11ea-8382-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СтатусыДокументовПоступления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6c85d8a8-1d88-11ea-8382-1c1b0dc48c9e" extendedConfigurationObject="99b2a150-ef3d-4643-a5c6-7c8421f85545">
+    <name>ОригиналПолучен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

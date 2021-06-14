@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9db7c416-652d-11ea-b484-441ea1d3e78c" extendedConfigurationObject="260804f8-97ee-4bb3-a1b5-767b8704ce07">
+  <producedTypes>
+    <objectType typeId="9db7c408-652d-11ea-b484-441ea1d3e78c" valueTypeId="9db7c409-652d-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="9db7c40a-652d-11ea-b484-441ea1d3e78c" valueTypeId="9db7c40b-652d-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="9db7c40c-652d-11ea-b484-441ea1d3e78c" valueTypeId="9db7c40d-652d-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="9db7c412-652d-11ea-b484-441ea1d3e78c" valueTypeId="9db7c413-652d-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="9db7c414-652d-11ea-b484-441ea1d3e78c" valueTypeId="9db7c415-652d-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ПартияМатериаловВЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

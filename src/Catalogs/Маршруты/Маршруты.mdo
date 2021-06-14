@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cad6ab0-1ffd-4a58-b861-d6db16ecad99">
+  <producedTypes>
+    <objectType typeId="2b70d378-6afa-43ac-bf01-a3236038c462" valueTypeId="143fde59-58dc-48f8-8e6f-2049e214f47a"/>
+    <refType typeId="439b0b67-1466-4fff-9c19-fb9ec7b0ecae" valueTypeId="41260cca-9b58-481b-b282-1cf4e5f0b389"/>
+    <selectionType typeId="8c5635d0-cc9f-41e9-92f5-057ac24bc61f" valueTypeId="04011d97-3488-4fab-b1cd-cb975d4ace21"/>
+    <listType typeId="180377ff-004f-4f0f-a2f5-70589b27f2d2" valueTypeId="143df756-797b-4f66-8a6b-4bcb41fb98f1"/>
+    <managerType typeId="938dbfe1-f1d3-4af7-bbdd-976efeb56cf9" valueTypeId="3b21ee90-be40-419b-b6e9-062cacc16f70"/>
+  </producedTypes>
+  <name>Маршруты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Маршруты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Маршруты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Маршруты.Form.ФормаВыбора</defaultChoiceForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <attributes uuid="bdfaab63-70e8-49cf-8f9c-c8aa190066d4">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dffdd68d-2942-42bb-9ca0-4465da29ee9f">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автомобили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a059d37e-c9cd-4a17-93dd-74b55b02c737">
+    <name>Самовывоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самовывоз</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="003d7bff-dd5a-4998-a859-623e1300cd46">
+    <producedTypes>
+      <objectType typeId="821020a5-07e1-4fa5-9f61-e22142ab7753" valueTypeId="7b6f8f61-eb8f-4289-8299-26d9ef826f64"/>
+      <rowType typeId="2b749c00-b705-49f5-9635-44109437e084" valueTypeId="dc89a025-3968-4fc5-bebe-0711c3f83682"/>
+    </producedTypes>
+    <name>ПорядокДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок движения</value>
+    </synonym>
+    <attributes uuid="e3b3d854-f4ae-4566-8a8c-956b4c9432d1">
+      <name>Грузополучатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Грузополучатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4d447115-753b-4c90-900f-4408e0618555">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a66983a-8ef7-49b5-aef0-173082a957e7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38ab1f21-562c-47e9-96eb-ad184c4bd292">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

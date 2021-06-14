@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3e11092a-2686-11ea-b78a-1c1b0dc48c9e" extendedConfigurationObject="d9cbdb19-9183-4115-ae41-14375f74c770">
+  <producedTypes>
+    <objectType typeId="3e11091e-2686-11ea-b78a-1c1b0dc48c9e" valueTypeId="3e11091f-2686-11ea-b78a-1c1b0dc48c9e"/>
+    <refType typeId="3e110920-2686-11ea-b78a-1c1b0dc48c9e" valueTypeId="3e110921-2686-11ea-b78a-1c1b0dc48c9e"/>
+    <selectionType typeId="3e110922-2686-11ea-b78a-1c1b0dc48c9e" valueTypeId="3e110923-2686-11ea-b78a-1c1b0dc48c9e"/>
+    <listType typeId="3e110924-2686-11ea-b78a-1c1b0dc48c9e" valueTypeId="3e110925-2686-11ea-b78a-1c1b0dc48c9e"/>
+    <managerType typeId="3e110928-2686-11ea-b78a-1c1b0dc48c9e" valueTypeId="3e110929-2686-11ea-b78a-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>УдалитьТерриториальныеУсловия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

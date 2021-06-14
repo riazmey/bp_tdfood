@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2582742-652c-11ea-b484-441ea1d3e78c" extendedConfigurationObject="11c771d6-8c85-4281-a846-1d0083a8fb66">
+  <producedTypes>
+    <objectType typeId="f2582738-652c-11ea-b484-441ea1d3e78c" valueTypeId="f2582739-652c-11ea-b484-441ea1d3e78c"/>
+    <refType typeId="f258273a-652c-11ea-b484-441ea1d3e78c" valueTypeId="f258273b-652c-11ea-b484-441ea1d3e78c"/>
+    <selectionType typeId="f258273c-652c-11ea-b484-441ea1d3e78c" valueTypeId="f258273d-652c-11ea-b484-441ea1d3e78c"/>
+    <listType typeId="f258273e-652c-11ea-b484-441ea1d3e78c" valueTypeId="f258273f-652c-11ea-b484-441ea1d3e78c"/>
+    <managerType typeId="f2582740-652c-11ea-b484-441ea1d3e78c" valueTypeId="f2582741-652c-11ea-b484-441ea1d3e78c"/>
+  </producedTypes>
+  <name>ВозвратМатериаловИзЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

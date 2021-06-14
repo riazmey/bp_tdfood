@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63c0b332-cc50-4ab4-b411-8282a2b45c33">
+  <producedTypes>
+    <refType typeId="6beaf961-d1a5-47f5-9ecf-7a76e42986e4" valueTypeId="710a2951-828e-4197-b336-734e09be36d2"/>
+    <listType typeId="e9887efc-ef45-4dd3-badc-c69de2257b6f" valueTypeId="d81c2c6e-144d-4552-afad-2d42730a54b2"/>
+    <managerType typeId="27320ffd-0fd6-4940-9c9e-586427a56772" valueTypeId="e62e1795-1b6d-4cb8-9b00-9118c5bb4632"/>
+  </producedTypes>
+  <name>ПорядокРегистрацииСчетовФактурНаАванс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4f2810de-847c-4560-b7a5-4c509a5798f1">
+    <name>НаВсеАвансы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e8485539-d400-4d11-9fa0-04ccc7fca8fb">
+    <name>КромеЗачтенныхВТечениеПятиДней</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3daf4587-e764-43bd-9ef8-948e2eb849d6">
+    <name>НеРегистрироватьСчетаФактурыНаАвансы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="143d7a77-171a-4005-bd9d-2b56ecb3224f">
+    <name>КромеЗачтенныхВТечениеМесяца</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="caf37f3e-ab82-4727-9de0-59543a7d8636">
+    <name>КромеЗачтенныхВТечениеНалоговогоПериода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

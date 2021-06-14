@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c6d3524-1d88-11ea-8382-1c1b0dc48c9e" extendedConfigurationObject="4bd467ec-bda2-4892-88fe-81b6bd2acdf3">
+  <producedTypes>
+    <refType typeId="6c6d351e-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c6d351f-1d88-11ea-8382-1c1b0dc48c9e"/>
+    <listType typeId="6c6d3520-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c6d3521-1d88-11ea-8382-1c1b0dc48c9e"/>
+    <managerType typeId="6c6d3522-1d88-11ea-8382-1c1b0dc48c9e" valueTypeId="6c6d3523-1d88-11ea-8382-1c1b0dc48c9e"/>
+  </producedTypes>
+  <name>СпособыЗачетаАвансов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="16b7062c-3aca-11ea-8f9e-1c1b0dc48c9e" extendedConfigurationObject="cba421a4-a65f-456a-86f3-afd16d65791b">
+    <name>Автоматически</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b0d8abd4-0c36-11ea-5d92-e03f49179ada">
+  <producedTypes>
+    <refType typeId="b0d8abce-0c36-11ea-5d92-e03f49179ada" valueTypeId="b0d8abcf-0c36-11ea-5d92-e03f49179ada"/>
+    <listType typeId="b0d8abd0-0c36-11ea-5d92-e03f49179ada" valueTypeId="b0d8abd1-0c36-11ea-5d92-e03f49179ada"/>
+    <managerType typeId="b0d8abd2-0c36-11ea-5d92-e03f49179ada" valueTypeId="b0d8abd3-0c36-11ea-5d92-e03f49179ada"/>
+  </producedTypes>
+  <name>СостоянияБанковскихДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

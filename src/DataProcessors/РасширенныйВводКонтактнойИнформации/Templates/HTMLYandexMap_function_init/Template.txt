@@ -1,0 +1,34 @@
+
+				myMap = new ymaps.Map ("map", {
+					center: [<#LatCenter#>, <#LonCenter#>],
+					zoom: 14,
+					type: 'yandex#publicMap',
+					controls: ['zoomControl', 'typeSelector']
+				});
+				
+				myMap.behaviors.disable('dblClickZoom');
+				
+				myMap.events.add('click', function (e) {
+					if (!noclick) {
+						SetCoordsToHTMLElements(e.get('coords'));
+					}else{
+						noclick = false;
+					}
+				});
+				
+				var placemark = new ymaps.Placemark([<#LatCenter#>, <#LonCenter#>], {
+					hintContent: '<#NamePartner#>',
+					balloonContentHeader: '<span style="color: <#Color#>"><#NamePartner#></span>',
+					balloonContentBody: '<b>Адрес:</b> <#Address#>'
+				}, {
+					preset: '<#TypeIcon#>',
+					iconColor: '<#Color#>'
+				});
+				
+				myMap.geoObjects.add(placemark);
+				
+				myMap.events.add('drag end', function (e) {
+					noclick = true;			
+					document.getElementById('CoordX').value = "0";
+					document.getElementById('CoordY').value = "0";
+				});
