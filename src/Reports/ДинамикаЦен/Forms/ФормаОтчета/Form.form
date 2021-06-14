@@ -1028,37 +1028,6 @@
             <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
-            <name>ФормаПоказатьКонтекстныеНовости</name>
-            <id>746</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка</name>
-              <id>747</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ПоказатьКонтекстныеНовости</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
             <name>Справка</name>
             <id>16</id>
             <visible>true</visible>
@@ -6106,31 +6075,6 @@
         <name>ПоказатьНастройки</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоказатьКонтекстныеНовости</name>
-    <title>
-      <key>ru</key>
-      <value>Новости</value>
-    </title>
-    <id>6</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Список контекстных новостей</value>
-    </toolTip>
-    <use>
-      <for>
-        <value>true</value>
-        <role>Role.ПолныеПрава</role>
-      </for>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПоказатьКонтекстныеНовости</name>
-      </handler>
-    </action>
-    <functionalOptions>FunctionalOption.РазрешенаРаботаСНовостями</functionalOptions>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>

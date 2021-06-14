@@ -57,10 +57,6 @@
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
           <handlers>
-            <event>EditTextChange</event>
-            <name>СтрокаПоискаИзменениеТекстаРедактирования</name>
-          </handlers>
-          <handlers>
             <event>AutoComplete</event>
             <name>СтрокаПоискаАвтоПодбор</name>
           </handlers>

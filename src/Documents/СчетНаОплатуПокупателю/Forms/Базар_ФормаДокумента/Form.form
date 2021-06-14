@@ -4248,10 +4248,6 @@
       <horizontalStretch>true</horizontalStretch>
       <groupHorizontalAlign>Left</groupHorizontalAlign>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <handlers>
-          <event>Click</event>
-          <name>Базар_ДоставкаНажатиеПосле</name>
-        </handlers>
         <hyperlink>true</hyperlink>
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
@@ -5259,68 +5255,6 @@
         <extInfo xsi:type="form:ButtonGroupExtInfo">
           <commandSource>FormCommandPanelGlobalCommands</commandSource>
         </extInfo>
-      </items>
-      <items xsi:type="form:Button">
-        <name>ФормаПоказатьКонтекстныеНовости</name>
-        <id>426</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка</name>
-          <id>427</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ПоказатьКонтекстныеНовости</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-      </items>
-      <items xsi:type="form:Button">
-        <name>ПроверитьКонтрагентов</name>
-        <id>533</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ПроверитьКонтрагентовРасширеннаяПодсказка</name>
-          <id>534</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -6377,24 +6311,6 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ПодборВозвратнаяТара</name>
-    <title>
-      <key>ru</key>
-      <value>Подбор</value>
-    </title>
-    <id>1</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПодборВозвратнаяТара</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ПодборТовары</name>
     <title>
       <key>ru</key>
@@ -6432,31 +6348,6 @@
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоказатьКонтекстныеНовости</name>
-    <title>
-      <key>ru</key>
-      <value>Новости</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Список контекстных новостей</value>
-    </toolTip>
-    <use>
-      <for>
-        <value>true</value>
-        <role>Role.ПолныеПрава</role>
-      </for>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПоказатьКонтекстныеНовости</name>
-      </handler>
-    </action>
-    <functionalOptions>FunctionalOption.РазрешенаРаботаСНовостями</functionalOptions>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -6508,27 +6399,6 @@
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПроверитьКонтрагентов</name>
-    <title>
-      <key>ru</key>
-      <value>Проверить контрагентов</value>
-    </title>
-    <id>8</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Проверить контрагентов</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПроверитьКонтрагентов</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -6620,94 +6490,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ВозвратнаяТараДобавитьИзПоступления</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить из поступления</value>
-    </title>
-    <id>13</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить строки из выбранного документа &quot;Поступление (акты, накладные)&quot;</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараДобавитьИзПоступления</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВозвратнаяТараДобавитьИзСчетаПоставщика</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить из счета поставщика</value>
-    </title>
-    <id>14</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить строки из выбранного документа &quot;Счет от поставщика&quot;</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараДобавитьИзСчетаПоставщика</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВозвратнаяТараЗаполнитьИзПоступления</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить из поступления</value>
-    </title>
-    <id>15</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Очистить табличные части и перезаполнить по данным выбраного документа &quot;Поступление (акты, накладные)&quot; </value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараЗаполнитьИзПоступления</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВозвратнаяТараЗаполнитьИзСчетаПоставщика</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить из счета поставщика</value>
-    </title>
-    <id>16</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Очистить табличные части и перезаполнить по данным выбраного документа &quot;Счет от поставщика&quot; </value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараЗаполнитьИзСчетаПоставщика</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ТоварыДобавитьИзРеализации</name>
     <title>
       <key>ru</key>
@@ -6746,50 +6528,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ТоварыЗаполнитьИзРеализации</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВозвратнаяТараДобавитьИзРеализации</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить из реализации</value>
-    </title>
-    <id>19</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить строки из выбранного документа &quot;Реализация (акты, накладные)&quot;</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараДобавитьИзРеализации</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВозвратнаяТараЗаполнитьИзРеализации</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить из реализации</value>
-    </title>
-    <id>20</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Очистить табличные части и перезаполнить по данным выбраного документа &quot;Реализация (акты, накладные)&quot;</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВозвратнаяТараЗаполнитьИзРеализации</name>
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>

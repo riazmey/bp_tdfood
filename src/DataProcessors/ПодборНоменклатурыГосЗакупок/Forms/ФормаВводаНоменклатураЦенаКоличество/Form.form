@@ -916,10 +916,6 @@
                   <segments>ЦенаГосЗакупок</segments>
                 </paths>
               </dataPath>
-              <handlers>
-                <event>OnChange</event>
-                <name>ЦенаПриИзменении</name>
-              </handlers>
               <extendedTooltip>
                 <name>ЦенаГосЗакупокРасширеннаяПодсказка</name>
                 <id>45</id>
@@ -1428,10 +1424,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>FillCheckProcessingAtServer</event>
-    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

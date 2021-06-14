@@ -139,6 +139,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Number</segments>
@@ -198,6 +199,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Date</segments>
@@ -252,6 +254,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>6</segments>
@@ -348,6 +351,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>Объект.СчетНаОплатуПокупателю</segments>
@@ -402,6 +406,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>Объект.Основание</segments>
@@ -460,16 +465,12 @@
           <common>true</common>
         </userVisible>
         <fromBase>false</fromBase>
+        <unchanged>false</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>Объект.Перемещение</segments>
           </paths>
         </dataPath>
-        <handlers xsi:type="form:EventHandlerExtension">
-          <event>OnChange</event>
-          <name>ОснованиеПриИзменении</name>
-          <callType>Override</callType>
-        </handlers>
         <extendedTooltip>
           <name>ПеремещениеРасширеннаяПодсказка</name>
           <id>907</id>
@@ -502,11 +503,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <handlers xsi:type="form:EventHandlerExtension">
-            <event>StartChoice</event>
-            <name>ОснованиеНачалоВыбора</name>
-            <callType>Override</callType>
-          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -565,6 +561,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>Объект.Организация</segments>
@@ -619,6 +616,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>Объект.Склад</segments>
@@ -676,6 +674,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
             <segments>40</segments>
@@ -810,6 +809,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Товары</segments>
         </dataPath>
@@ -823,6 +823,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.LineNumber</segments>
@@ -873,6 +874,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.ИндексАкцизнойМарки</segments>
@@ -933,6 +935,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Номенклатура</segments>
@@ -989,6 +992,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.АлкогольнаяПродукция</segments>
@@ -1041,6 +1045,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.ШтрихкодУпаковки</segments>
@@ -1093,6 +1098,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Справка2</segments>
@@ -1145,6 +1151,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.АкцизнаяМарка</segments>
@@ -1199,6 +1206,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.КиЗ_ГИСМ</segments>
@@ -1255,6 +1263,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Количество</segments>
@@ -1310,6 +1319,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Цена</segments>
@@ -1365,6 +1375,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Сумма</segments>
@@ -1420,6 +1431,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.СтавкаНДС</segments>
@@ -1483,6 +1495,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.СуммаНДС</segments>
@@ -1538,6 +1551,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Всего</segments>
@@ -1594,6 +1608,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Товары.Отступ</segments>
@@ -1940,6 +1955,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.АгентскиеУслуги</segments>
         </dataPath>
@@ -1953,6 +1969,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.LineNumber</segments>
@@ -2003,6 +2020,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Номенклатура</segments>
@@ -2057,6 +2075,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Содержание</segments>
@@ -2111,6 +2130,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Количество</segments>
@@ -2166,6 +2186,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Цена</segments>
@@ -2221,6 +2242,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Сумма</segments>
@@ -2276,6 +2298,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.СтавкаНДС</segments>
@@ -2344,6 +2367,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.СуммаНДС</segments>
@@ -2399,6 +2423,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Всего</segments>
@@ -2454,6 +2479,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.Контрагент</segments>
@@ -2508,6 +2534,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.АгентскиеУслуги.ДоговорКонтрагента</segments>
@@ -2562,6 +2589,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <extendedTooltip>
             <name>АгентскиеУслугиСчетРасчетовРасширеннаяПодсказка</name>
             <id>647</id>
@@ -2832,6 +2860,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ПодарочныеСертификаты</segments>
         </dataPath>
@@ -2845,6 +2874,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.ПодарочныеСертификаты.LineNumber</segments>
@@ -2895,6 +2925,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.ПодарочныеСертификаты.ВидОплаты</segments>
@@ -2949,6 +2980,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.ПодарочныеСертификаты.Сумма</segments>
@@ -3224,6 +3256,7 @@
           <common>true</common>
         </userVisible>
         <fromBase>true</fromBase>
+        <unchanged>true</unchanged>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Оплата</segments>
         </dataPath>
@@ -3237,6 +3270,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Оплата.LineNumber</segments>
@@ -3287,6 +3321,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Оплата.ВидОплаты</segments>
@@ -3341,6 +3376,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>Объект.Оплата.Сумма</segments>
@@ -3652,6 +3688,7 @@
         <common>true</common>
       </userVisible>
       <fromBase>true</fromBase>
+      <unchanged>true</unchanged>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
           <segments>42</segments>
@@ -3710,6 +3747,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
               <segments>37</segments>
@@ -3768,6 +3806,7 @@
             <common>true</common>
           </userVisible>
           <fromBase>true</fromBase>
+          <unchanged>true</unchanged>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ВалютаВсегоExtendedTooltip</name>
@@ -3939,6 +3978,7 @@
         <common>true</common>
       </userVisible>
       <fromBase>true</fromBase>
+      <unchanged>true</unchanged>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
           <segments>Объект.Комментарий</segments>
@@ -3994,6 +4034,7 @@
         <common>true</common>
       </userVisible>
       <fromBase>true</fromBase>
+      <unchanged>true</unchanged>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
           <segments>Объект.Ответственный</segments>
@@ -4589,6 +4630,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fromBase>false</fromBase>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>

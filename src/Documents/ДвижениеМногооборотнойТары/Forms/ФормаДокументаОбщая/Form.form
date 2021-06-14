@@ -1134,10 +1134,6 @@
               <segments>Объект.Грузополучатели.Документ</segments>
             </paths>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ПередачаКонтрагентамДокументПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>ГрузополучателиДокументРасширеннаяПодсказка</name>
             <id>101</id>

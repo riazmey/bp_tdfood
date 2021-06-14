@@ -2789,31 +2789,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПоказатьКонтекстныеНовости</name>
-    <title>
-      <key>ru</key>
-      <value>Новости</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Список контекстных новостей</value>
-    </toolTip>
-    <use>
-      <for>
-        <value>true</value>
-        <role>Role.ПолныеПрава</role>
-      </for>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПоказатьКонтекстныеНовости</name>
-      </handler>
-    </action>
-    <functionalOptions>FunctionalOption.РазрешенаРаботаСНовостями</functionalOptions>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ЗаполнитьРазделПеревозкаАвтотранспортом</name>
     <title>
       <key>ru</key>
